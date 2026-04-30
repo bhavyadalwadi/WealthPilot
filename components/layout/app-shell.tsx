@@ -12,7 +12,7 @@ import type {
   DecisionIntent,
   FormPayload,
 } from "@/lib/schemas/analysis";
-import type { AnalysisHistoryEntry, UserProfile } from "@/lib/schemas/persistence";
+import type { AnalysisHistoryEntry, SavedPortfolio, UserProfile } from "@/lib/schemas/persistence";
 
 const routeByMode: Record<AnalysisMode, string> = {
   ticker: "/api/analyze",
@@ -28,6 +28,8 @@ export function AppShell() {
   const [error, setError] = useState<string | null>(null);
   const [history, setHistory] = useState<AnalysisHistoryEntry[]>([]);
   const [profile, setProfile] = useState<UserProfile | null>(null);
+  const [portfolios, setPortfolios] = useState<SavedPortfolio[]>([]);
+  const [selectedPortfolioId, setSelectedPortfolioId] = useState("");
   const [isPending, startTransition] = useTransition();
 
   useEffect(() => {
@@ -92,10 +94,69 @@ export function AppShell() {
     });
   }
 
+  function handleLoadPortfolio(portfolioId: string) {
+    setSelectedPortfolioId(portfolioId);
+  }
+
+  function handleSavePortfolio(payload: FormPayload) {
+    startTransition(async () => {
+      try {
+        const response = await fetch("/api/portfolios", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            id: selectedPortfolioId || undefined,
+            name: payload.portfolioName || "Untitled portfolio",
+            positions: parsePositions(payload.positions || ""),
+            watchlist: parseTickerList(payload.watchlist || ""),
+            cash: parseNumber(payload.cash || "0"),
+            objective: payload.objective || "Balanced",
+            riskStyle: payload.riskStyle || "Balanced",
+            notes: payload.notes || "",
+          }),
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to save portfolio.");
+        }
+
+        const saved = (await response.json()) as SavedPortfolio;
+        setSelectedPortfolioId(saved.id);
+        await loadPortfolios();
+      } catch (saveError) {
+        const message = saveError instanceof Error ? saveError.message : "Failed to save portfolio.";
+        setError(message);
+      }
+    });
+  }
+
+  function handleDeletePortfolio(portfolioId: string) {
+    if (!portfolioId) return;
+
+    startTransition(async () => {
+      try {
+        const response = await fetch(`/api/portfolios/${portfolioId}`, {
+          method: "DELETE",
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to delete portfolio.");
+        }
+
+        setSelectedPortfolioId("");
+        await loadPortfolios();
+      } catch (deleteError) {
+        const message = deleteError instanceof Error ? deleteError.message : "Failed to delete portfolio.";
+        setError(message);
+      }
+    });
+  }
+
   async function loadPersistence() {
-    const [profileResponse, historyResponse] = await Promise.all([
+    const [profileResponse, historyResponse, portfolioResponse] = await Promise.all([
       fetch("/api/profile"),
       fetch("/api/history"),
+      fetch("/api/portfolios"),
     ]);
 
     if (profileResponse.ok) {
@@ -105,6 +166,10 @@ export function AppShell() {
     if (historyResponse.ok) {
       setHistory((await historyResponse.json()) as AnalysisHistoryEntry[]);
     }
+
+    if (portfolioResponse.ok) {
+      setPortfolios((await portfolioResponse.json()) as SavedPortfolio[]);
+    }
   }
 
   async function loadHistory() {
@@ -113,6 +178,16 @@ export function AppShell() {
       setHistory((await response.json()) as AnalysisHistoryEntry[]);
     }
   }
+
+  async function loadPortfolios() {
+    const response = await fetch("/api/portfolios");
+    if (response.ok) {
+      setPortfolios((await response.json()) as SavedPortfolio[]);
+    }
+  }
+
+  const selectedPortfolio =
+    selectedPortfolioId ? portfolios.find((portfolio) => portfolio.id === selectedPortfolioId) ?? null : null;
 
   return (
     <div className="app-shell">
@@ -149,8 +224,14 @@ export function AppShell() {
               intent={intent}
               pending={isPending}
               defaults={profile}
+              portfolios={portfolios}
+              selectedPortfolioId={selectedPortfolioId}
+              loadedPortfolio={selectedPortfolio}
               onSubmit={handleGenerate}
               onSaveDefaults={handleSaveDefaults}
+              onLoadPortfolio={handleLoadPortfolio}
+              onSavePortfolio={handleSavePortfolio}
+              onDeletePortfolio={handleDeletePortfolio}
             />
           </section>
 
@@ -168,4 +249,32 @@ export function AppShell() {
       </main>
     </div>
   );
+}
+
+function parsePositions(input: string) {
+  return input
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [ticker, shares, avgCost] = line.split(",").map((item) => item.trim());
+      return {
+        ticker: (ticker || "").toUpperCase(),
+        shares: parseNumber(shares || "0"),
+        avgCost: parseNumber(avgCost || "0"),
+      };
+    })
+    .filter((position) => position.ticker);
+}
+
+function parseTickerList(input: string) {
+  return input
+    .split(/[\n,]/)
+    .map((item) => item.trim().toUpperCase())
+    .filter(Boolean);
+}
+
+function parseNumber(input: string) {
+  const value = Number.parseFloat(String(input).replace(/[^0-9.-]/g, ""));
+  return Number.isFinite(value) ? value : 0;
 }

@@ -1,18 +1,25 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { PortfolioManager } from "@/components/forms/portfolio-manager";
 import { DEFAULT_LLM_MODEL, DEFAULT_LLM_PROVIDER, DEFAULT_LLM_REASONING } from "@/lib/config/llm";
 import { FIELD_CONFIG, INTENT_OPTIONS } from "@/lib/config/modes";
 import type { AnalysisMode, DecisionIntent, FormPayload, FormFieldConfig } from "@/lib/schemas/analysis";
-import type { UserProfile } from "@/lib/schemas/persistence";
+import type { SavedPortfolio, UserProfile } from "@/lib/schemas/persistence";
 
 type DynamicFormProps = {
   mode: AnalysisMode;
   intent: DecisionIntent;
   pending: boolean;
   defaults: UserProfile | null;
+  portfolios: SavedPortfolio[];
+  selectedPortfolioId: string;
+  loadedPortfolio: SavedPortfolio | null;
   onSubmit: (payload: FormPayload) => void;
   onSaveDefaults: (payload: FormPayload) => void;
+  onLoadPortfolio: (id: string) => void;
+  onSavePortfolio: (payload: FormPayload) => void;
+  onDeletePortfolio: (id: string) => void;
 };
 
 const defaults: Partial<FormPayload> = {
@@ -26,7 +33,20 @@ const defaults: Partial<FormPayload> = {
   llmReasoning: DEFAULT_LLM_REASONING,
 };
 
-export function DynamicForm({ mode, intent, pending, defaults, onSubmit, onSaveDefaults }: DynamicFormProps) {
+export function DynamicForm({
+  mode,
+  intent,
+  pending,
+  defaults,
+  portfolios,
+  selectedPortfolioId,
+  loadedPortfolio,
+  onSubmit,
+  onSaveDefaults,
+  onLoadPortfolio,
+  onSavePortfolio,
+  onDeletePortfolio,
+}: DynamicFormProps) {
   const [values, setValues] = useState<Partial<FormPayload>>({
     ...defaults,
     intent,
@@ -48,6 +68,23 @@ export function DynamicForm({ mode, intent, pending, defaults, onSubmit, onSaveD
     }));
   }, [defaults]);
 
+  useEffect(() => {
+    if (!loadedPortfolio) return;
+
+    setValues((current) => ({
+      ...current,
+      portfolioName: loadedPortfolio.name,
+      positions: loadedPortfolio.positions
+        .map((position) => `${position.ticker}, ${position.shares}, ${position.avgCost}`)
+        .join("\n"),
+      watchlist: loadedPortfolio.watchlist.join("\n"),
+      cash: String(loadedPortfolio.cash),
+      objective: loadedPortfolio.objective,
+      riskStyle: loadedPortfolio.riskStyle,
+      notes: loadedPortfolio.notes,
+    }));
+  }, [loadedPortfolio]);
+
   function updateField(name: keyof FormPayload, value: string) {
     setValues((current) => ({
       ...current,
@@ -65,6 +102,20 @@ export function DynamicForm({ mode, intent, pending, defaults, onSubmit, onSaveD
 
   return (
     <form className="form-grid" onSubmit={handleSubmit}>
+      {(mode === "portfolio" || mode === "full") && (
+        <div className="field field--wide">
+          <PortfolioManager
+            portfolios={portfolios}
+            selectedPortfolioId={selectedPortfolioId}
+            portfolioName={String(values.portfolioName ?? "")}
+            pending={pending}
+            onSelectPortfolio={onLoadPortfolio}
+            onSavePortfolio={() => onSavePortfolio(values as FormPayload)}
+            onDeletePortfolio={() => onDeletePortfolio(selectedPortfolioId)}
+          />
+        </div>
+      )}
+
       <FieldRenderer
         field={{
           name: "intent",

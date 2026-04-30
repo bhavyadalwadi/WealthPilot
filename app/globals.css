@@ -280,10 +280,36 @@ a {
   border: 1px solid rgba(31, 67, 55, 0.16);
 }
 
+.button--ghost {
+  background: transparent;
+  color: var(--danger);
+  border: 1px solid rgba(141, 63, 50, 0.18);
+}
+
 .button-row {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.portfolio-manager {
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(244, 238, 228, 0.46);
+  border: 1px solid rgba(31, 67, 55, 0.08);
+}
+
+.portfolio-manager__header {
+  margin-bottom: 12px;
+}
+
+.portfolio-manager__header h4 {
+  margin: 0;
+}
+
+.portfolio-manager__controls {
+  display: grid;
+  gap: 12px;
 }
 
 .form-grid {
