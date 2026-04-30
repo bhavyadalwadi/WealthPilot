@@ -33,9 +33,9 @@ export async function generateMockAnalysis(input: AnalysisRequest): Promise<Anal
     policy.policyFlags,
     context,
   );
+  const usingMockProviders = context.missingData.some((item) => item.includes("marketData:") || item.includes("newsData:") || item.includes("optionsData:") || item.includes("earningsData:"));
   const missingData = [
-    "Market, earnings, news, and options data are flowing through mock provider adapters.",
-    "Provider outputs are normalized now, but still not sourced from live APIs.",
+    ...(usingMockProviders ? ["One or more live provider calls failed, so a fallback adapter filled the missing snapshot fields."] : []),
     ...context.missingData,
   ];
   const memo = await generateMemo({
@@ -208,7 +208,7 @@ function buildSummary(
       ? "This response is organized around capital allocation and ranking."
       : "This response is organized around one decision on one name.";
 
-  return `${action} with ${confidence.toLowerCase()} conviction and ${urgency.toLowerCase()} urgency. ${scope} The deterministic score is ${score}/100 and now runs on normalized market/news/earnings/options snapshots so live providers can plug in cleanly.`;
+  return `${action} with ${confidence.toLowerCase()} conviction and ${urgency.toLowerCase()} urgency. ${scope} The deterministic score is ${score}/100 and now runs on normalized market/news/earnings/options snapshots.`;
 }
 
 function buildTickerSection(
@@ -220,8 +220,8 @@ function buildTickerSection(
   const snapshot = context.primaryTicker;
   return {
     ticker,
-    thesis: notes || `${snapshot?.companyName || ticker} still needs live company and narrative context before this can become a real PM read.`,
-    technicalState: `${action} is currently based on a ${snapshot?.trend || "mock"} trend state with normalized snapshot inputs.`,
+    thesis: notes || `${snapshot?.companyName || ticker} is being evaluated from the latest normalized market, news, earnings, and options snapshot available to the app.`,
+    technicalState: `${action} is currently based on a ${snapshot?.trend || "range"} trend state with normalized snapshot inputs.`,
     support: snapshot?.supportLevels.map(String) || ["Pending provider data"],
     resistance: snapshot?.resistanceLevels.map(String) || ["Pending provider data"],
     breakoutLevel: String(snapshot?.breakoutLevel ?? "Pending provider data"),

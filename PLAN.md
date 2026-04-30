@@ -114,7 +114,7 @@ Deliverables:
 - graceful fallback when providers fail or data is incomplete
 
 Status:
-- In progress via mock-backed market/news/earnings/options provider adapters
+- In progress via live-capable Alpha Vantage market/news/earnings/options adapters with mock fallback
 - Scoring and policy now consume normalized snapshot context instead of raw request text alone
 
 ### Phase 5: OpenAI Memo Generation

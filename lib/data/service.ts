@@ -1,6 +1,7 @@
 import { MemoryCache } from "@/lib/data/cache";
 import type { AnalysisDataContext, PortfolioSnapshot, PositionSnapshot } from "@/lib/data/normalize/portfolio-snapshot";
 import type { TickerSnapshot } from "@/lib/data/normalize/ticker-snapshot";
+import { createAlphaVantageProviders } from "@/lib/data/providers/alpha-vantage";
 import { MockEarningsProvider, type EarningsProvider } from "@/lib/data/providers/earnings";
 import { MockMarketProvider, type MarketProvider } from "@/lib/data/providers/market";
 import { MockNewsProvider, type NewsProvider } from "@/lib/data/providers/news";
@@ -16,16 +17,18 @@ type ProviderBundle = {
   options: OptionsProvider;
 };
 
-const defaultProviders: ProviderBundle = {
+const mockProviders: ProviderBundle = {
   market: new MockMarketProvider(),
   news: new MockNewsProvider(),
   earnings: new MockEarningsProvider(),
   options: new MockOptionsProvider(),
 };
 
+let defaultProviders: ProviderBundle | undefined;
+
 export async function buildAnalysisDataContext(
   input: AnalysisRequest,
-  providers: ProviderBundle = defaultProviders,
+  providers: ProviderBundle = getDefaultProviders(),
 ): Promise<AnalysisDataContext> {
   const tickers = uniqueTickers(input);
   const snapshots = await Promise.all(tickers.map((ticker) => getTickerSnapshot(ticker, providers)));
@@ -121,6 +124,30 @@ function uniqueTickers(input: AnalysisRequest) {
   }
 
   return [...tickers];
+}
+
+function getDefaultProviders(): ProviderBundle {
+  if (defaultProviders) return defaultProviders;
+
+  const strategy = (process.env.DATA_PROVIDER || "auto").trim().toLowerCase();
+  const alphaVantageApiKey = process.env.ALPHA_VANTAGE_API_KEY?.trim();
+  const alphaVantageBaseUrl = process.env.ALPHA_VANTAGE_BASE_URL?.trim();
+
+  if (strategy === "mock") {
+    defaultProviders = mockProviders;
+    return defaultProviders!;
+  }
+
+  if (alphaVantageApiKey) {
+    defaultProviders = createAlphaVantageProviders({
+      apiKey: alphaVantageApiKey,
+      baseUrl: alphaVantageBaseUrl,
+    });
+    return defaultProviders!;
+  }
+
+  defaultProviders = mockProviders;
+  return defaultProviders!;
 }
 
 function round(value: number) {

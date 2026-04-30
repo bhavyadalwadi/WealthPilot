@@ -146,7 +146,7 @@ function buildWhyNow(
   }
 
   if (input.intent === "Is this a breakout?") {
-    return `Technical weighting leads this decision, and the current mock structure score is ${score}/100.`;
+    return `Technical weighting leads this decision, and the current structure score is ${score}/100.`;
   }
 
   return `The recommendation is driven by deterministic scoring and passes the current hard-gate set with a ${score}/100 score.`;
