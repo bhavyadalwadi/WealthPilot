@@ -1,4 +1,4 @@
-# Northstar PM Copilot
+# WealthPilot
 
 Selector-first Next.js app for a hedge-fund-style stock, portfolio, and options decision workspace.
 
@@ -19,9 +19,10 @@ Selector-first Next.js app for a hedge-fund-style stock, portfolio, and options 
   - CSP
 - Adapts the input form, recommendation emphasis, and generated Codex prompt.
 - Serves normalized mock JSON analysis from Next.js API routes with request validation.
-- Produces a lightweight decision board and a structured prompt contract for later live-data integration.
+- Produces a lightweight decision board and a configurable PM memo layer with `mock`, `openai`, and `openai-compatible` provider options.
 
 ## Key folders
+
 - `app/` — App Router pages, global styles, and API routes
 - `components/` — layout, selectors, forms, and results UI
 - `lib/` — mode config, schemas, scoring modules, and server helpers
@@ -35,11 +36,15 @@ Selector-first Next.js app for a hedge-fund-style stock, portfolio, and options 
 1. Install dependencies: `npm install`
 2. Start dev server: `npm run dev`
 
+## Environment
+
+Copy `.env.local.example` to `.env.local` and configure the providers you want to use.
+
+- `OPENAI_API_KEY` for OpenAI
+- `LLM_API_KEY` and `LLM_BASE_URL` for OpenAI-compatible vendors or gateways
+
 ## Next build step
 
-Next steps after the current deterministic-engine pass:
-
-1. Market data ingestion
-2. Earnings/news/options data connectors
-3. Live provider swaps for the mock adapters
-4. Additional LLM vendors beyond the current OpenAI-compatible path
+1. Replace the mock market/news/earnings/options providers with live APIs.
+2. Add more LLM vendor adapters beyond the current OpenAI-compatible path.
+3. Persist saved portfolios, user defaults, and analysis history.
