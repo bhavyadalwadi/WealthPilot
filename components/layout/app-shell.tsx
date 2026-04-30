@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useEffect, useState, useTransition } from "react";
 import { SideRail } from "@/components/layout/side-rail";
 import { HeroPanel } from "@/components/layout/hero-panel";
 import { DynamicForm } from "@/components/forms/dynamic-form";
@@ -12,6 +12,7 @@ import type {
   DecisionIntent,
   FormPayload,
 } from "@/lib/schemas/analysis";
+import type { AnalysisHistoryEntry, UserProfile } from "@/lib/schemas/persistence";
 
 const routeByMode: Record<AnalysisMode, string> = {
   ticker: "/api/analyze",
@@ -25,7 +26,13 @@ export function AppShell() {
   const [intent, setIntent] = useState<DecisionIntent>(DEFAULT_INTENT);
   const [result, setResult] = useState<AnalysisResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [history, setHistory] = useState<AnalysisHistoryEntry[]>([]);
+  const [profile, setProfile] = useState<UserProfile | null>(null);
   const [isPending, startTransition] = useTransition();
+
+  useEffect(() => {
+    void loadPersistence();
+  }, []);
 
   function handleGenerate(payload: FormPayload) {
     setError(null);
@@ -48,6 +55,7 @@ export function AppShell() {
 
         const data = (await response.json()) as AnalysisResponse;
         setResult(data);
+        void loadHistory();
       } catch (requestError) {
         const message =
           requestError instanceof Error ? requestError.message : "Unknown request failure";
@@ -57,6 +65,55 @@ export function AppShell() {
     });
   }
 
+  function handleSaveDefaults(payload: FormPayload) {
+    startTransition(async () => {
+      try {
+        const response = await fetch("/api/profile", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            defaultRiskStyle: payload.riskStyle || "Balanced",
+            defaultObjective: payload.objective || "Balanced",
+            defaultTimeHorizon: payload.timeHorizon || "Position",
+            defaultLlmProvider: payload.llmProvider || "mock",
+            defaultLlmModel: payload.llmModel || "pm-memo-mock-v1",
+            defaultLlmReasoning: payload.llmReasoning || "medium",
+          }),
+        });
+        if (!response.ok) {
+          throw new Error("Failed to save defaults.");
+        }
+        const nextProfile = (await response.json()) as UserProfile;
+        setProfile(nextProfile);
+      } catch (saveError) {
+        const message = saveError instanceof Error ? saveError.message : "Failed to save defaults.";
+        setError(message);
+      }
+    });
+  }
+
+  async function loadPersistence() {
+    const [profileResponse, historyResponse] = await Promise.all([
+      fetch("/api/profile"),
+      fetch("/api/history"),
+    ]);
+
+    if (profileResponse.ok) {
+      setProfile((await profileResponse.json()) as UserProfile);
+    }
+
+    if (historyResponse.ok) {
+      setHistory((await historyResponse.json()) as AnalysisHistoryEntry[]);
+    }
+  }
+
+  async function loadHistory() {
+    const response = await fetch("/api/history");
+    if (response.ok) {
+      setHistory((await response.json()) as AnalysisHistoryEntry[]);
+    }
+  }
+
   return (
     <div className="app-shell">
       <SideRail
@@ -64,6 +121,7 @@ export function AppShell() {
         intent={intent}
         modes={MODE_CONFIG}
         intents={INTENT_OPTIONS}
+        history={history}
         onModeChange={(nextMode) => {
           setMode(nextMode);
           setResult(null);
@@ -86,7 +144,14 @@ export function AppShell() {
               </div>
             </div>
 
-            <DynamicForm mode={mode} intent={intent} pending={isPending} onSubmit={handleGenerate} />
+            <DynamicForm
+              mode={mode}
+              intent={intent}
+              pending={isPending}
+              defaults={profile}
+              onSubmit={handleGenerate}
+              onSaveDefaults={handleSaveDefaults}
+            />
           </section>
 
           <section className="panel">

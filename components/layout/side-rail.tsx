@@ -1,12 +1,15 @@
 import { SelectorList } from "@/components/selectors/selector-list";
+import { RecentHistory } from "@/components/layout/recent-history";
 import type { AnalysisMode, DecisionIntent } from "@/lib/schemas/analysis";
 import type { ModeDefinition } from "@/lib/config/modes";
+import type { AnalysisHistoryEntry } from "@/lib/schemas/persistence";
 
 type SideRailProps = {
   mode: AnalysisMode;
   intent: DecisionIntent;
   modes: Record<AnalysisMode, ModeDefinition>;
   intents: DecisionIntent[];
+  history: AnalysisHistoryEntry[];
   onModeChange: (mode: AnalysisMode) => void;
   onIntentChange: (intent: DecisionIntent) => void;
 };
@@ -16,6 +19,7 @@ export function SideRail({
   intent,
   modes,
   intents,
+  history,
   onModeChange,
   onIntentChange,
 }: SideRailProps) {
@@ -62,6 +66,8 @@ export function SideRail({
           data and OpenAI memo generation are the next phases.
         </p>
       </div>
+
+      <RecentHistory history={history} />
     </aside>
   );
 }

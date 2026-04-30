@@ -50,6 +50,7 @@ export type FormPayload = {
   constraints?: string;
   incomeGoal?: string;
   priorityTickers?: string;
+  portfolioName?: string;
   llmProvider?: LlmProvider;
   llmModel?: string;
   llmReasoning?: ReasoningEffort;

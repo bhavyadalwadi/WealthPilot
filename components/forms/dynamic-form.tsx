@@ -1,15 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { DEFAULT_LLM_MODEL, DEFAULT_LLM_PROVIDER, DEFAULT_LLM_REASONING } from "@/lib/config/llm";
 import { FIELD_CONFIG, INTENT_OPTIONS } from "@/lib/config/modes";
 import type { AnalysisMode, DecisionIntent, FormPayload, FormFieldConfig } from "@/lib/schemas/analysis";
+import type { UserProfile } from "@/lib/schemas/persistence";
 
 type DynamicFormProps = {
   mode: AnalysisMode;
   intent: DecisionIntent;
   pending: boolean;
+  defaults: UserProfile | null;
   onSubmit: (payload: FormPayload) => void;
+  onSaveDefaults: (payload: FormPayload) => void;
 };
 
 const defaults: Partial<FormPayload> = {
@@ -23,13 +26,27 @@ const defaults: Partial<FormPayload> = {
   llmReasoning: DEFAULT_LLM_REASONING,
 };
 
-export function DynamicForm({ mode, intent, pending, onSubmit }: DynamicFormProps) {
+export function DynamicForm({ mode, intent, pending, defaults, onSubmit, onSaveDefaults }: DynamicFormProps) {
   const [values, setValues] = useState<Partial<FormPayload>>({
     ...defaults,
     intent,
   });
 
   const fields = FIELD_CONFIG[mode];
+
+  useEffect(() => {
+    if (!defaults) return;
+
+    setValues((current) => ({
+      ...current,
+      riskStyle: current.riskStyle || defaults.defaultRiskStyle,
+      objective: current.objective || defaults.defaultObjective,
+      timeHorizon: current.timeHorizon || defaults.defaultTimeHorizon,
+      llmProvider: current.llmProvider || defaults.defaultLlmProvider,
+      llmModel: current.llmModel || defaults.defaultLlmModel,
+      llmReasoning: current.llmReasoning || defaults.defaultLlmReasoning,
+    }));
+  }, [defaults]);
 
   function updateField(name: keyof FormPayload, value: string) {
     setValues((current) => ({
@@ -70,9 +87,19 @@ export function DynamicForm({ mode, intent, pending, onSubmit }: DynamicFormProp
       ))}
 
       <div className="field field--wide">
-        <button className="button button--primary" type="submit" disabled={pending}>
-          {pending ? "Generating..." : "Generate View"}
-        </button>
+        <div className="button-row">
+          <button className="button button--primary" type="submit" disabled={pending}>
+            {pending ? "Generating..." : "Generate View"}
+          </button>
+          <button
+            className="button button--secondary"
+            type="button"
+            disabled={pending}
+            onClick={() => onSaveDefaults(values as FormPayload)}
+          >
+            Save Defaults
+          </button>
+        </div>
         <p className="inline-note">
           This phase uses mock APIs and deterministic demo scoring. Live data and model-written PM
           memos are next.

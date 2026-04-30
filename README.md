@@ -29,6 +29,7 @@ Selector-first Next.js app for a hedge-fund-style stock, portfolio, and options 
 - `lib/data/` — normalized snapshot types, provider adapters, cache, and composed data service
 - `lib/ai/` — provider-agnostic memo generation, prompt building, and LLM adapters
 - `lib/server/` — shared request validation and route response helpers
+- `db/` — local file-backed persistence for profile, portfolios, and history
 - `PLAN.md` — implementation roadmap
 
 ## Run
@@ -42,6 +43,16 @@ Copy `.env.local.example` to `.env.local` and configure the providers you want t
 
 - `OPENAI_API_KEY` for OpenAI
 - `LLM_API_KEY` and `LLM_BASE_URL` for OpenAI-compatible vendors or gateways
+
+## Persistence
+
+The app now stores local state under `db/storage/`:
+
+- profile defaults
+- saved portfolios
+- recent analysis history
+
+Portfolio and full-review runs can be saved by providing a portfolio name. Analysis runs are saved automatically.
 
 ## Next build step
 

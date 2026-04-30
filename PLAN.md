@@ -146,6 +146,10 @@ Deliverables:
 - CRUD APIs
 - saved workflow state
 
+Status:
+- Implemented as pragmatic file-backed persistence under `db/storage/`
+- Added profile defaults, saved portfolio CRUD, and automatic analysis history capture
+
 ## Recommended Folder Structure
 
 ```text

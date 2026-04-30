@@ -75,6 +75,12 @@ export const FIELD_CONFIG: Record<AnalysisMode, FormFieldConfig[]> = {
   ]),
   portfolio: withLlmFields([
     {
+      name: "portfolioName",
+      label: "Portfolio name",
+      type: "text",
+      placeholder: "Core growth book",
+    },
+    {
       name: "positions",
       label: "Portfolio positions",
       type: "textarea",
@@ -132,6 +138,12 @@ export const FIELD_CONFIG: Record<AnalysisMode, FormFieldConfig[]> = {
     },
   ]),
   full: withLlmFields([
+    {
+      name: "portfolioName",
+      label: "Portfolio name",
+      type: "text",
+      placeholder: "Full PM review book",
+    },
     {
       name: "positions",
       label: "Portfolio positions",
