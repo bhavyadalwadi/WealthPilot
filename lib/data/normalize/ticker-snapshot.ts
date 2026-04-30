@@ -1,0 +1,32 @@
+export type PriceTrend = "uptrend" | "range" | "downtrend";
+export type SentimentState = "bullish" | "neutral" | "bearish";
+export type IvRegime = "low" | "normal" | "elevated";
+
+export type TickerSnapshot = {
+  ticker: string;
+  companyName: string;
+  lastPrice: number;
+  changePercent: number;
+  trend: PriceTrend;
+  relativeStrength: number;
+  momentumScore: number;
+  supportLevels: number[];
+  resistanceLevels: number[];
+  breakoutLevel: number;
+  breakdownLevel: number;
+  averageVolume: number;
+  earningsDate: string;
+  earningsTiming: "upcoming" | "recent" | "none";
+  catalystSummary: string[];
+  newsSummary: string[];
+  sentiment: SentimentState;
+  sentimentScore: number;
+  ivRegime: IvRegime;
+  ivPercentile: number;
+  unusualOptionsFlow: "bullish" | "neutral" | "bearish";
+  optionsLiquidityScore: number;
+  coveredCallReady: boolean;
+  cashSecuredPutReady: boolean;
+  pmccReady: boolean;
+  missingFields: string[];
+};
