@@ -33,6 +33,39 @@ const defaults: Partial<FormPayload> = {
   llmReasoning: DEFAULT_LLM_REASONING,
 };
 
+const modeSeeds: Record<AnalysisMode, Partial<FormPayload>> = {
+  ticker: {
+    ticker: "NVDA",
+    shares: "100",
+    avgCost: "118.50",
+    cash: "5000",
+    notes: "Worried about chasing after a strong run.",
+  },
+  portfolio: {
+    portfolioName: "Core growth book",
+    positions: "AAPL, 100, 174.20\nAMD, 75, 162.50",
+    watchlist: "AMZN\nMETA\nNFLX",
+    cash: "20000",
+    constraints: "Max 10% per position. Prefer income overlays.",
+  },
+  income: {
+    ticker: "PLTR",
+    shares: "100",
+    avgCost: "19.30",
+    cash: "3000",
+    incomeGoal: "Monthly yield",
+    notes: "Comfortable with assignment but do not want to cap too much upside.",
+  },
+  full: {
+    portfolioName: "Full PM review book",
+    positions: "AAPL, 100, 174.20\nAMD, 75, 162.50",
+    watchlist: "AMZN\nMETA\nNFLX",
+    priorityTickers: "AMD, NVDA",
+    cash: "20000",
+    notes: "Need to reduce concentration and find better income overlays.",
+  },
+};
+
 export function DynamicForm({
   mode,
   intent,
@@ -49,10 +82,19 @@ export function DynamicForm({
 }: DynamicFormProps) {
   const [values, setValues] = useState<Partial<FormPayload>>({
     ...defaults,
+    ...modeSeeds[mode],
     intent,
   });
 
   const fields = FIELD_CONFIG[mode];
+
+  useEffect(() => {
+    setValues((current) => ({
+      ...modeSeeds[mode],
+      ...current,
+      intent,
+    }));
+  }, [mode, intent]);
 
   useEffect(() => {
     if (!defaults) return;

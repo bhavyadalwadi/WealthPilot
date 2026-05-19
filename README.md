@@ -21,6 +21,12 @@ Selector-first Next.js app for a hedge-fund-style stock, portfolio, and options 
 - Serves normalized analysis JSON from Next.js API routes with request validation.
 - Produces a lightweight decision board and a configurable PM memo layer with `mock`, `openai`, and `openai-compatible` provider options.
 
+## Screenshots
+
+![Selector-first landing view](./screenshots/hero.png)
+![Portfolio workflow selection](./screenshots/feature-1.png)
+![Mock analysis result state](./screenshots/feature-2.png)
+
 ## Key folders
 
 - `app/` — App Router pages, global styles, and API routes
@@ -62,3 +68,21 @@ Portfolio and full-review runs can be saved by providing a portfolio name. Analy
 1. Add an additional live provider path beyond Alpha Vantage so options data is not dependent on a premium-only endpoint.
 2. Add more LLM vendor adapters beyond the current OpenAI-compatible path.
 3. Persist saved portfolios, user defaults, and analysis history.
+
+## Quick Repo Summary
+
+- Purpose: Selector-first Next.js app for a hedge-fund-style stock, portfolio, and options decision workspace.
+- Stack: Node.js, Next.js, React, TypeScript, CSS, JavaScript
+- Status confidence: high
+- Pending: unknown from current repo docs
+
+## LLM Start Here
+- `README.md`
+- `graphify-out/GRAPH_REPORT.md`
+- `Plan.md`
+- `PLAN.md`
+- `graphify-out/repo-semantic-summary.md`
+
+## License
+
+This repository is proprietary and released under [All Rights Reserved](LICENSE).

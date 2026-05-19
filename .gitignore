@@ -1,5 +1,11 @@
+.DS_Store
+Thumbs.db
 node_modules/
 .next/
 .env.local
 tsconfig.tsbuildinfo
 npm-debug.log*
+graphify-out/cache/
+graphify-out/manifest.json
+graphify-out/cost.json
+db/storage/

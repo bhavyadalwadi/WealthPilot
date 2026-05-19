@@ -1,0 +1,82 @@
+{
+  "repo": "ticker-pm-copilot",
+  "title": "WealthPilot",
+  "purpose": "Selector-first Next.js app for stock, portfolio, and options analysis that combines deterministic scoring with PM-style memo generation.",
+  "domains": [
+    "finance",
+    "ai",
+    "web app"
+  ],
+  "tech_stack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "OpenAI-compatible APIs",
+    "Alpha Vantage"
+  ],
+  "features": [
+    "Selector-driven workflows for ticker research, portfolio scan, income ideas, and full PM review",
+    "Intent-aware forms and API routes with typed validation and normalized analysis payloads",
+    "Deterministic factor scoring, policy gates, ranking, and action mapping behind the UI",
+    "Configurable PM memo generation through mock, OpenAI, and OpenAI-compatible provider paths",
+    "Live-capable Alpha Vantage adapters for market, news, earnings, and options context with local persistence support"
+  ],
+  "pending_state": "documented",
+  "pending_items": [
+    "Add an additional live provider path beyond Alpha Vantage so options data is not dependent on a premium-only endpoint",
+    "Add more LLM vendor adapters beyond the current OpenAI-compatible path",
+    "Persist saved portfolios, user defaults, and analysis history more fully"
+  ],
+  "status_confidence": "high",
+  "main_modules": [
+    "app",
+    "components",
+    "lib",
+    "db",
+    "node_modules"
+  ],
+  "key_flows": [
+    "graphify-out/GRAPH_REPORT.md",
+    "Plan.md",
+    "PLAN.md"
+  ],
+  "known_outputs": [
+    "graphify-out/graph.json",
+    "graphify-out/graph.html",
+    "graphify-out/GRAPH_REPORT.md"
+  ],
+  "current_work_guess": "The current product direction is better data-provider breadth plus stronger persistence and memo-provider flexibility.",
+  "likely_entrypoints": [
+    "README.md",
+    "PLAN.md",
+    "app",
+    "lib/data/service.ts"
+  ],
+  "notable_docs": [
+    "README.md",
+    "PLAN.md"
+  ],
+  "graph_stats": "384 nodes \u00b7 759 edges \u00b7 15 communities (13 shown, 2 thin omitted)",
+  "god_nodes": [
+    "compilerOptions",
+    "generateMockAnalysis()",
+    "validateRequest()",
+    "handleAnalysisRequest()",
+    "Northstar PM Copilot Build Plan"
+  ],
+  "llm_start_here": [
+    "README.md",
+    "PLAN.md",
+    "lib/data/service.ts",
+    "lib/ai"
+  ],
+  "suggested_next_steps": [
+    "Add another live market/options provider path",
+    "Expand LLM vendor support beyond the current provider set",
+    "Deepen persistence for saved portfolio and analysis workflows"
+  ],
+  "evidence_files": [
+    "README.md",
+    "PLAN.md"
+  ]
+}
