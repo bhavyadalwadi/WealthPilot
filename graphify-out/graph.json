@@ -4,6 +4,51 @@
   "graph": {},
   "nodes": [
     {
+      "label": "middleware.ts",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L1",
+      "id": "middleware_ts",
+      "community": 40,
+      "norm_label": "middleware.ts"
+    },
+    {
+      "label": "username",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L4",
+      "id": "ticker_pm_copilot_middleware_username",
+      "community": 40,
+      "norm_label": "username"
+    },
+    {
+      "label": "password",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L5",
+      "id": "ticker_pm_copilot_middleware_password",
+      "community": 40,
+      "norm_label": "password"
+    },
+    {
+      "label": "middleware()",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L7",
+      "id": "ticker_pm_copilot_middleware_middleware",
+      "community": 40,
+      "norm_label": "middleware()"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L31",
+      "id": "ticker_pm_copilot_middleware_config",
+      "community": 40,
+      "norm_label": "config"
+    },
+    {
       "label": "next-env.d.ts",
       "file_type": "code",
       "source_file": "next-env.d.ts",
@@ -828,7 +873,7 @@
       "source_file": "components/results/summary-bar.tsx",
       "source_location": "L1",
       "id": "components_results_summary_bar_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "summary-bar.tsx"
     },
     {
@@ -837,7 +882,7 @@
       "source_file": "components/results/summary-bar.tsx",
       "source_location": "L3",
       "id": "results_summary_bar_summarybar",
-      "community": 0,
+      "community": 2,
       "norm_label": "summarybar()"
     },
     {
@@ -846,7 +891,7 @@
       "source_file": "components/results/decision-card.tsx",
       "source_location": "L1",
       "id": "components_results_decision_card_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "decision-card.tsx"
     },
     {
@@ -855,7 +900,7 @@
       "source_file": "components/results/decision-card.tsx",
       "source_location": "L3",
       "id": "results_decision_card_decisioncard",
-      "community": 0,
+      "community": 2,
       "norm_label": "decisioncard()"
     },
     {
@@ -864,7 +909,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L1",
       "id": "components_results_results_board_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "results-board.tsx"
     },
     {
@@ -873,7 +918,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L8",
       "id": "results_results_board_resultsboardprops",
-      "community": 0,
+      "community": 2,
       "norm_label": "resultsboardprops"
     },
     {
@@ -891,7 +936,7 @@
       "source_file": "components/results/prompt-card.tsx",
       "source_location": "L1",
       "id": "components_results_prompt_card_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "prompt-card.tsx"
     },
     {
@@ -900,7 +945,7 @@
       "source_file": "components/results/prompt-card.tsx",
       "source_location": "L3",
       "id": "results_prompt_card_promptcard",
-      "community": 0,
+      "community": 2,
       "norm_label": "promptcard()"
     },
     {
@@ -909,7 +954,7 @@
       "source_file": "components/results/signal-card.tsx",
       "source_location": "L1",
       "id": "components_results_signal_card_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "signal-card.tsx"
     },
     {
@@ -918,7 +963,7 @@
       "source_file": "components/results/signal-card.tsx",
       "source_location": "L3",
       "id": "results_signal_card_signalcard",
-      "community": 0,
+      "community": 2,
       "norm_label": "signalcard()"
     },
     {
@@ -927,7 +972,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L1",
       "id": "components_results_action_queue_tsx",
-      "community": 0,
+      "community": 2,
       "norm_label": "action-queue.tsx"
     },
     {
@@ -936,7 +981,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L3",
       "id": "results_action_queue_actionqueueprops",
-      "community": 0,
+      "community": 2,
       "norm_label": "actionqueueprops"
     },
     {
@@ -945,7 +990,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L8",
       "id": "results_action_queue_actionqueue",
-      "community": 0,
+      "community": 2,
       "norm_label": "actionqueue()"
     },
     {
@@ -990,7 +1035,7 @@
       "source_file": "lib/config/action-labels.ts",
       "source_location": "L1",
       "id": "lib_config_action_labels_ts",
-      "community": 2,
+      "community": 0,
       "norm_label": "action-labels.ts"
     },
     {
@@ -999,7 +1044,7 @@
       "source_file": "lib/config/action-labels.ts",
       "source_location": "L1",
       "id": "config_action_labels_action_labels",
-      "community": 2,
+      "community": 0,
       "norm_label": "action_labels"
     },
     {
@@ -1008,7 +1053,7 @@
       "source_file": "lib/config/action-labels.ts",
       "source_location": "L18",
       "id": "config_action_labels_actionlabel",
-      "community": 2,
+      "community": 0,
       "norm_label": "actionlabel"
     },
     {
@@ -1107,7 +1152,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L1",
       "id": "lib_server_validation_ts",
-      "community": 2,
+      "community": 0,
       "norm_label": "validation.ts"
     },
     {
@@ -1116,7 +1161,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L21",
       "id": "server_validation_riskstyles",
-      "community": 2,
+      "community": 0,
       "norm_label": "riskstyles"
     },
     {
@@ -1125,7 +1170,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L22",
       "id": "server_validation_timehorizons",
-      "community": 2,
+      "community": 0,
       "norm_label": "timehorizons"
     },
     {
@@ -1134,7 +1179,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L23",
       "id": "server_validation_objectives",
-      "community": 2,
+      "community": 0,
       "norm_label": "objectives"
     },
     {
@@ -1143,7 +1188,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L24",
       "id": "server_validation_ownershipstates",
-      "community": 2,
+      "community": 0,
       "norm_label": "ownershipstates"
     },
     {
@@ -1152,7 +1197,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L26",
       "id": "server_validation_validationresult",
-      "community": 2,
+      "community": 0,
       "norm_label": "validationresult"
     },
     {
@@ -1161,7 +1206,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L30",
       "id": "server_validation_validaterequest",
-      "community": 2,
+      "community": 0,
       "norm_label": "validaterequest()"
     },
     {
@@ -1170,7 +1215,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L178",
       "id": "server_validation_normalizeintent",
-      "community": 2,
+      "community": 0,
       "norm_label": "normalizeintent()"
     },
     {
@@ -1179,7 +1224,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L195",
       "id": "server_validation_parseticker",
-      "community": 2,
+      "community": 0,
       "norm_label": "parseticker()"
     },
     {
@@ -1188,7 +1233,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L207",
       "id": "server_validation_parsetickerlist",
-      "community": 2,
+      "community": 0,
       "norm_label": "parsetickerlist()"
     },
     {
@@ -1197,7 +1242,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L215",
       "id": "server_validation_parsepositions",
-      "community": 2,
+      "community": 0,
       "norm_label": "parsepositions()"
     },
     {
@@ -1206,7 +1251,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L239",
       "id": "server_validation_parsemoney",
-      "community": 2,
+      "community": 0,
       "norm_label": "parsemoney()"
     },
     {
@@ -1215,7 +1260,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L260",
       "id": "server_validation_enumvalue",
-      "community": 2,
+      "community": 0,
       "norm_label": "enumvalue()"
     },
     {
@@ -1224,7 +1269,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L277",
       "id": "server_validation_safenumber",
-      "community": 2,
+      "community": 0,
       "norm_label": "safenumber()"
     },
     {
@@ -1233,7 +1278,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L281",
       "id": "server_validation_textvalue",
-      "community": 2,
+      "community": 0,
       "norm_label": "textvalue()"
     },
     {
@@ -1242,7 +1287,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L285",
       "id": "server_validation_invalid",
-      "community": 2,
+      "community": 0,
       "norm_label": "invalid()"
     },
     {
@@ -1251,7 +1296,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L296",
       "id": "server_validation_isrecord",
-      "community": 2,
+      "community": 0,
       "norm_label": "isrecord()"
     },
     {
@@ -1260,7 +1305,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L300",
       "id": "server_validation_isactionlabel",
-      "community": 2,
+      "community": 0,
       "norm_label": "isactionlabel()"
     },
     {
@@ -1269,7 +1314,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L304",
       "id": "server_validation_defaultmodelforprovider",
-      "community": 2,
+      "community": 0,
       "norm_label": "defaultmodelforprovider()"
     },
     {
@@ -1296,7 +1341,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L1",
       "id": "lib_schemas_analysis_ts",
-      "community": 2,
+      "community": 6,
       "norm_label": "analysis.ts"
     },
     {
@@ -1305,7 +1350,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L3",
       "id": "schemas_analysis_analysismode",
-      "community": 0,
+      "community": 2,
       "norm_label": "analysismode"
     },
     {
@@ -1323,7 +1368,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L14",
       "id": "schemas_analysis_riskstyle",
-      "community": 2,
+      "community": 4,
       "norm_label": "riskstyle"
     },
     {
@@ -1332,7 +1377,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L15",
       "id": "schemas_analysis_timehorizon",
-      "community": 2,
+      "community": 4,
       "norm_label": "timehorizon"
     },
     {
@@ -1341,7 +1386,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L16",
       "id": "schemas_analysis_objective",
-      "community": 2,
+      "community": 4,
       "norm_label": "objective"
     },
     {
@@ -1350,7 +1395,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L17",
       "id": "schemas_analysis_ownershipstate",
-      "community": 2,
+      "community": 0,
       "norm_label": "ownershipstate"
     },
     {
@@ -1359,7 +1404,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L18",
       "id": "schemas_analysis_confidence",
-      "community": 2,
+      "community": 6,
       "norm_label": "confidence"
     },
     {
@@ -1368,7 +1413,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L19",
       "id": "schemas_analysis_urgency",
-      "community": 2,
+      "community": 6,
       "norm_label": "urgency"
     },
     {
@@ -1386,7 +1431,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L21",
       "id": "schemas_analysis_reasoningeffort",
-      "community": 2,
+      "community": 4,
       "norm_label": "reasoningeffort"
     },
     {
@@ -1404,7 +1449,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L31",
       "id": "schemas_analysis_portfolioposition",
-      "community": 2,
+      "community": 4,
       "norm_label": "portfolioposition"
     },
     {
@@ -1422,7 +1467,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L59",
       "id": "schemas_analysis_baseanalysisrequest",
-      "community": 2,
+      "community": 6,
       "norm_label": "baseanalysisrequest"
     },
     {
@@ -1431,7 +1476,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L70",
       "id": "schemas_analysis_tickerrequest",
-      "community": 2,
+      "community": 0,
       "norm_label": "tickerrequest"
     },
     {
@@ -1440,7 +1485,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L79",
       "id": "schemas_analysis_portfoliorequest",
-      "community": 2,
+      "community": 0,
       "norm_label": "portfoliorequest"
     },
     {
@@ -1449,7 +1494,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L87",
       "id": "schemas_analysis_incomerequest",
-      "community": 2,
+      "community": 0,
       "norm_label": "incomerequest"
     },
     {
@@ -1458,7 +1503,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L96",
       "id": "schemas_analysis_fullreviewrequest",
-      "community": 2,
+      "community": 0,
       "norm_label": "fullreviewrequest"
     },
     {
@@ -1494,7 +1539,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L119",
       "id": "schemas_analysis_queueitem",
-      "community": 9,
+      "community": 6,
       "norm_label": "queueitem"
     },
     {
@@ -1548,7 +1593,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L167",
       "id": "schemas_analysis_baseanalysisresponse",
-      "community": 2,
+      "community": 6,
       "norm_label": "baseanalysisresponse"
     },
     {
@@ -1593,7 +1638,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L226",
       "id": "schemas_analysis_analysisresponse",
-      "community": 0,
+      "community": 2,
       "norm_label": "analysisresponse"
     },
     {
@@ -1602,7 +1647,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L232",
       "id": "schemas_analysis_validationerrorresponse",
-      "community": 2,
+      "community": 0,
       "norm_label": "validationerrorresponse"
     },
     {
@@ -1611,7 +1656,7 @@
       "source_file": "lib/schemas/persistence.ts",
       "source_location": "L1",
       "id": "lib_schemas_persistence_ts",
-      "community": 2,
+      "community": 4,
       "norm_label": "persistence.ts"
     },
     {
@@ -1620,7 +1665,7 @@
       "source_file": "lib/schemas/persistence.ts",
       "source_location": "L12",
       "id": "schemas_persistence_userprofile",
-      "community": 2,
+      "community": 4,
       "norm_label": "userprofile"
     },
     {
@@ -1638,7 +1683,7 @@
       "source_file": "lib/schemas/persistence.ts",
       "source_location": "L35",
       "id": "schemas_persistence_analysishistoryentry",
-      "community": 2,
+      "community": 4,
       "norm_label": "analysishistoryentry"
     },
     {
@@ -1719,7 +1764,7 @@
       "source_file": "lib/ai/memo-generator.ts",
       "source_location": "L6",
       "id": "ai_memo_generator_generatememo",
-      "community": 9,
+      "community": 6,
       "norm_label": "generatememo()"
     },
     {
@@ -2232,7 +2277,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L1",
       "id": "lib_data_providers_alpha_vantage_ts",
-      "community": 1,
+      "community": 32,
       "norm_label": "alpha-vantage.ts"
     },
     {
@@ -2241,7 +2286,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L13",
       "id": "providers_alpha_vantage_dailybar",
-      "community": 1,
+      "community": 32,
       "norm_label": "dailybar"
     },
     {
@@ -2250,7 +2295,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L22",
       "id": "providers_alpha_vantage_newsarticle",
-      "community": 1,
+      "community": 32,
       "norm_label": "newsarticle"
     },
     {
@@ -2259,7 +2304,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L36",
       "id": "providers_alpha_vantage_optionscontract",
-      "community": 1,
+      "community": 32,
       "norm_label": "optionscontract"
     },
     {
@@ -2268,7 +2313,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L59",
       "id": "providers_alpha_vantage_alphavantageconfig",
-      "community": 1,
+      "community": 32,
       "norm_label": "alphavantageconfig"
     },
     {
@@ -2277,7 +2322,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L64",
       "id": "providers_alpha_vantage_providererror",
-      "community": 1,
+      "community": 32,
       "norm_label": "providererror"
     },
     {
@@ -2286,7 +2331,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L65",
       "id": "providers_alpha_vantage_providererror_constructor",
-      "community": 1,
+      "community": 32,
       "norm_label": ".constructor()"
     },
     {
@@ -2295,7 +2340,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L70",
       "id": "providers_alpha_vantage_alphavantageclient",
-      "community": 1,
+      "community": 38,
       "norm_label": "alphavantageclient"
     },
     {
@@ -2304,7 +2349,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L74",
       "id": "providers_alpha_vantage_alphavantageclient_constructor",
-      "community": 1,
+      "community": 38,
       "norm_label": ".constructor()"
     },
     {
@@ -2313,7 +2358,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L79",
       "id": "providers_alpha_vantage_alphavantageclient_fetchjson",
-      "community": 1,
+      "community": 38,
       "norm_label": ".fetchjson()"
     },
     {
@@ -2322,7 +2367,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L92",
       "id": "providers_alpha_vantage_alphavantageclient_fetchtext",
-      "community": 1,
+      "community": 38,
       "norm_label": ".fetchtext()"
     },
     {
@@ -2331,7 +2376,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L113",
       "id": "providers_alpha_vantage_alphavantageclient_buildurl",
-      "community": 1,
+      "community": 38,
       "norm_label": ".buildurl()"
     },
     {
@@ -2340,7 +2385,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L118",
       "id": "providers_alpha_vantage_alphavantageclient_assertpayload",
-      "community": 1,
+      "community": 38,
       "norm_label": ".assertpayload()"
     },
     {
@@ -2349,7 +2394,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L129",
       "id": "providers_alpha_vantage_alphavantagemarketprovider",
-      "community": 1,
+      "community": 35,
       "norm_label": "alphavantagemarketprovider"
     },
     {
@@ -2358,7 +2403,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L132",
       "id": "providers_alpha_vantage_alphavantagemarketprovider_constructor",
-      "community": 1,
+      "community": 35,
       "norm_label": ".constructor()"
     },
     {
@@ -2367,7 +2412,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L134",
       "id": "providers_alpha_vantage_alphavantagemarketprovider_getmarketdata",
-      "community": 1,
+      "community": 34,
       "norm_label": ".getmarketdata()"
     },
     {
@@ -2376,7 +2421,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L209",
       "id": "providers_alpha_vantage_alphavantagemarketprovider_withfallback",
-      "community": 1,
+      "community": 35,
       "norm_label": ".withfallback()"
     },
     {
@@ -2385,7 +2430,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L223",
       "id": "providers_alpha_vantage_alphavantagenewsprovider",
-      "community": 1,
+      "community": 35,
       "norm_label": "alphavantagenewsprovider"
     },
     {
@@ -2394,7 +2439,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L226",
       "id": "providers_alpha_vantage_alphavantagenewsprovider_constructor",
-      "community": 1,
+      "community": 35,
       "norm_label": ".constructor()"
     },
     {
@@ -2403,7 +2448,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L228",
       "id": "providers_alpha_vantage_alphavantagenewsprovider_getnewsdata",
-      "community": 1,
+      "community": 34,
       "norm_label": ".getnewsdata()"
     },
     {
@@ -2412,7 +2457,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L280",
       "id": "providers_alpha_vantage_alphavantagenewsprovider_withfallback",
-      "community": 1,
+      "community": 35,
       "norm_label": ".withfallback()"
     },
     {
@@ -2421,7 +2466,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L294",
       "id": "providers_alpha_vantage_alphavantageearningsprovider",
-      "community": 1,
+      "community": 35,
       "norm_label": "alphavantageearningsprovider"
     },
     {
@@ -2430,7 +2475,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L297",
       "id": "providers_alpha_vantage_alphavantageearningsprovider_constructor",
-      "community": 1,
+      "community": 35,
       "norm_label": ".constructor()"
     },
     {
@@ -2439,7 +2484,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L299",
       "id": "providers_alpha_vantage_alphavantageearningsprovider_getearningsdata",
-      "community": 1,
+      "community": 35,
       "norm_label": ".getearningsdata()"
     },
     {
@@ -2448,7 +2493,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L329",
       "id": "providers_alpha_vantage_alphavantageearningsprovider_withfallback",
-      "community": 1,
+      "community": 35,
       "norm_label": ".withfallback()"
     },
     {
@@ -2457,7 +2502,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L343",
       "id": "providers_alpha_vantage_alphavantageoptionsprovider",
-      "community": 1,
+      "community": 34,
       "norm_label": "alphavantageoptionsprovider"
     },
     {
@@ -2466,7 +2511,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L346",
       "id": "providers_alpha_vantage_alphavantageoptionsprovider_constructor",
-      "community": 1,
+      "community": 34,
       "norm_label": ".constructor()"
     },
     {
@@ -2475,7 +2520,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L348",
       "id": "providers_alpha_vantage_alphavantageoptionsprovider_getoptionsdata",
-      "community": 1,
+      "community": 34,
       "norm_label": ".getoptionsdata()"
     },
     {
@@ -2484,7 +2529,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L422",
       "id": "providers_alpha_vantage_alphavantageoptionsprovider_withfallback",
-      "community": 1,
+      "community": 34,
       "norm_label": ".withfallback()"
     },
     {
@@ -2502,7 +2547,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L446",
       "id": "providers_alpha_vantage_readglobalquote",
-      "community": 1,
+      "community": 32,
       "norm_label": "readglobalquote()"
     },
     {
@@ -2511,7 +2556,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L461",
       "id": "providers_alpha_vantage_parsedailybars",
-      "community": 1,
+      "community": 34,
       "norm_label": "parsedailybars()"
     },
     {
@@ -2520,7 +2565,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L480",
       "id": "providers_alpha_vantage_parsecsv",
-      "community": 1,
+      "community": 32,
       "norm_label": "parsecsv()"
     },
     {
@@ -2529,7 +2574,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L494",
       "id": "providers_alpha_vantage_splitcsvline",
-      "community": 1,
+      "community": 32,
       "norm_label": "splitcsvline()"
     },
     {
@@ -2538,7 +2583,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L524",
       "id": "providers_alpha_vantage_extracttickersentiment",
-      "community": 1,
+      "community": 32,
       "norm_label": "extracttickersentiment()"
     },
     {
@@ -2547,7 +2592,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L532",
       "id": "providers_alpha_vantage_summarizecatalyst",
-      "community": 1,
+      "community": 32,
       "norm_label": "summarizecatalyst()"
     },
     {
@@ -2556,7 +2601,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L541",
       "id": "providers_alpha_vantage_classifyearningstiming",
-      "community": 1,
+      "community": 34,
       "norm_label": "classifyearningstiming()"
     },
     {
@@ -2565,7 +2610,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L550",
       "id": "providers_alpha_vantage_extractoptionscontracts",
-      "community": 1,
+      "community": 34,
       "norm_label": "extractoptionscontracts()"
     },
     {
@@ -2574,7 +2619,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L557",
       "id": "providers_alpha_vantage_selectnearestcontracts",
-      "community": 1,
+      "community": 34,
       "norm_label": "selectnearestcontracts()"
     },
     {
@@ -2583,7 +2628,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L595",
       "id": "providers_alpha_vantage_readexpiration",
-      "community": 1,
+      "community": 32,
       "norm_label": "readexpiration()"
     },
     {
@@ -2592,7 +2637,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L599",
       "id": "providers_alpha_vantage_readoptiontype",
-      "community": 1,
+      "community": 32,
       "norm_label": "readoptiontype()"
     },
     {
@@ -2601,7 +2646,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L608",
       "id": "providers_alpha_vantage_normalizeiv",
-      "community": 1,
+      "community": 32,
       "norm_label": "normalizeiv()"
     },
     {
@@ -2610,7 +2655,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L613",
       "id": "providers_alpha_vantage_estimateivpercentile",
-      "community": 1,
+      "community": 34,
       "norm_label": "estimateivpercentile()"
     },
     {
@@ -2619,7 +2664,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L622",
       "id": "providers_alpha_vantage_formatproviderfailure",
-      "community": 1,
+      "community": 35,
       "norm_label": "formatproviderfailure()"
     },
     {
@@ -2628,7 +2673,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L627",
       "id": "providers_alpha_vantage_average",
-      "community": 1,
+      "community": 34,
       "norm_label": "average()"
     },
     {
@@ -2637,7 +2682,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L632",
       "id": "providers_alpha_vantage_sum",
-      "community": 1,
+      "community": 34,
       "norm_label": "sum()"
     },
     {
@@ -2646,7 +2691,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L636",
       "id": "providers_alpha_vantage_percentchange",
-      "community": 1,
+      "community": 34,
       "norm_label": "percentchange()"
     },
     {
@@ -2655,7 +2700,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L641",
       "id": "providers_alpha_vantage_round",
-      "community": 1,
+      "community": 34,
       "norm_label": "round()"
     },
     {
@@ -2664,7 +2709,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L645",
       "id": "providers_alpha_vantage_clamp",
-      "community": 1,
+      "community": 34,
       "norm_label": "clamp()"
     },
     {
@@ -2673,7 +2718,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L649",
       "id": "providers_alpha_vantage_readstring",
-      "community": 1,
+      "community": 32,
       "norm_label": "readstring()"
     },
     {
@@ -2682,7 +2727,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L653",
       "id": "providers_alpha_vantage_readnumber",
-      "community": 1,
+      "community": 32,
       "norm_label": "readnumber()"
     },
     {
@@ -2727,7 +2772,7 @@
       "source_file": "lib/data/providers/market.ts",
       "source_location": "L1",
       "id": "lib_data_providers_market_ts",
-      "community": 1,
+      "community": 37,
       "norm_label": "market.ts"
     },
     {
@@ -2736,7 +2781,7 @@
       "source_file": "lib/data/providers/market.ts",
       "source_location": "L3",
       "id": "providers_market_marketprovider",
-      "community": 1,
+      "community": 37,
       "norm_label": "marketprovider"
     },
     {
@@ -2745,7 +2790,7 @@
       "source_file": "lib/data/providers/market.ts",
       "source_location": "L24",
       "id": "providers_market_mockmarketprovider",
-      "community": 1,
+      "community": 37,
       "norm_label": "mockmarketprovider"
     },
     {
@@ -2754,7 +2799,7 @@
       "source_file": "lib/data/providers/market.ts",
       "source_location": "L25",
       "id": "providers_market_mockmarketprovider_getmarketdata",
-      "community": 1,
+      "community": 37,
       "norm_label": ".getmarketdata()"
     },
     {
@@ -2763,7 +2808,7 @@
       "source_file": "lib/data/providers/market.ts",
       "source_location": "L53",
       "id": "providers_market_seedednumber",
-      "community": 1,
+      "community": 37,
       "norm_label": "seedednumber()"
     },
     {
@@ -2772,7 +2817,7 @@
       "source_file": "lib/data/providers/market.ts",
       "source_location": "L57",
       "id": "providers_market_round",
-      "community": 1,
+      "community": 37,
       "norm_label": "round()"
     },
     {
@@ -2898,7 +2943,7 @@
       "source_file": "lib/data/normalize/ticker-snapshot.ts",
       "source_location": "L1",
       "id": "normalize_ticker_snapshot_pricetrend",
-      "community": 1,
+      "community": 37,
       "norm_label": "pricetrend"
     },
     {
@@ -3037,10 +3082,19 @@
       "norm_label": "storagedir"
     },
     {
+      "label": "StorageBackend",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L7",
+      "id": "db_store_storagebackend",
+      "community": 4,
+      "norm_label": "storagebackend"
+    },
+    {
       "label": "readJsonFile()",
       "file_type": "code",
       "source_file": "db/store.ts",
-      "source_location": "L6",
+      "source_location": "L9",
       "id": "db_store_readjsonfile",
       "community": 4,
       "norm_label": "readjsonfile()"
@@ -3049,7 +3103,7 @@
       "label": "writeJsonFile()",
       "file_type": "code",
       "source_file": "db/store.ts",
-      "source_location": "L17",
+      "source_location": "L32",
       "id": "db_store_writejsonfile",
       "community": 4,
       "norm_label": "writejsonfile()"
@@ -3058,10 +3112,280 @@
       "label": "ensureStorageDir()",
       "file_type": "code",
       "source_file": "db/store.ts",
-      "source_location": "L22",
+      "source_location": "L45",
       "id": "db_store_ensurestoragedir",
       "community": 4,
       "norm_label": "ensurestoragedir()"
+    },
+    {
+      "label": "getStorageBackend()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L49",
+      "id": "db_store_getstoragebackend",
+      "community": 4,
+      "norm_label": "getstoragebackend()"
+    },
+    {
+      "label": "readKvValue()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L59",
+      "id": "db_store_readkvvalue",
+      "community": 4,
+      "norm_label": "readkvvalue()"
+    },
+    {
+      "label": "writeKvValue()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L64",
+      "id": "db_store_writekvvalue",
+      "community": 4,
+      "norm_label": "writekvvalue()"
+    },
+    {
+      "label": "runKvCommand()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L68",
+      "id": "db_store_runkvcommand",
+      "community": 4,
+      "norm_label": "runkvcommand()"
+    },
+    {
+      "label": "storageKey()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L99",
+      "id": "db_store_storagekey",
+      "community": 4,
+      "norm_label": "storagekey()"
+    },
+    {
+      "label": "PROJECT_STATUS.md",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L1",
+      "id": "project_status_md",
+      "community": 33,
+      "norm_label": "project_status.md"
+    },
+    {
+      "label": "Project Status",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L1",
+      "id": "ticker_pm_copilot_project_status_project_status",
+      "community": 33,
+      "norm_label": "project status"
+    },
+    {
+      "label": "What This Repo Is For",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L8",
+      "id": "ticker_pm_copilot_project_status_what_this_repo_is_for",
+      "community": 33,
+      "norm_label": "what this repo is for"
+    },
+    {
+      "label": "Category",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L11",
+      "id": "ticker_pm_copilot_project_status_category",
+      "community": 33,
+      "norm_label": "category"
+    },
+    {
+      "label": "Benefit",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L14",
+      "id": "ticker_pm_copilot_project_status_benefit",
+      "community": 33,
+      "norm_label": "benefit"
+    },
+    {
+      "label": "Current Status",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L17",
+      "id": "ticker_pm_copilot_project_status_current_status",
+      "community": 33,
+      "norm_label": "current status"
+    },
+    {
+      "label": "Current Plan",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L20",
+      "id": "ticker_pm_copilot_project_status_current_plan",
+      "community": 33,
+      "norm_label": "current plan"
+    },
+    {
+      "label": "Phase 1: Framework Migration Move the static MVP into a Next.js app with: - App Router - TypeScript - modular components - server-side API handlers - reusable design tokens and layout system Deliverables: - working Next.js app shell - selector-driven home page - mode-aware forms - results surface migrated from the static prototype ### Phase 2: API Contracts Add internal API routes for: - ticker analysis requests - portfolio analysis requests - options-income analysis requests - full PM review requests Deliverables: - typed request/response schemas - mock service layer behind the routes - deterministic validation for malformed inputs ### Phase 3: Deterministic Analysis Engine Replace local UI heuristics with backend analysis services: - factor scoring - policy gates - action label mapping - recommendation ranking Deliverables: - score engine module - action policy module - ranking utilities - structured recommendation payloads Status: - Completed with dedicated `factor-scores`, `policy-engine`, and `ranking` modules - API response shape preserved while business logic was separated internally ### Phase 4: Data Layer Add provider adapters for: - market price/history data - earnings calendar - company/news data - options chain / IV / flow context Deliverables: - provider abstraction layer - normalized ticker snapshot object - caching strategy - graceful fallback when providers fail or data is incomplete Status: - In progress via live-capable Alpha Vantage market/news/earnings/options adapters with mock fallback - Scoring and policy now consume normalized snapshot context instead of raw request text alone ### Phase 5: OpenAI Memo Generation Use OpenAI to convert structured analysis into a PM-style investment brief. Deliverables: - prompt builder - structured analysis-to-memo transformer - response guardrails so the model only uses approved action labels - clear missing-data caveat handling Status: - Implemented as a configurable LLM layer rather than an OpenAI-only hardcode - Current providers: `mock`, `openai`, and `openai-compatible` - Deterministic scoring and policy remain authoritative; the LLM only writes the memo ### Phase 6: Portfolio Persistence Add local persistence for: - user profile defaults - saved portfolios - watchlists - recent analyses Deliverables: - database schema - CRUD APIs - saved workflow state Status: - Implemented as pragmatic file-backed persistence under `db/storage/` - Added profile defaults, saved portfolio CRUD, and automatic analysis history capture",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L21",
+      "id": "ticker_pm_copilot_project_status_phase_1_framework_migration_move_the_static_mvp_into_a_next_js_app_with_app_router_typescript_modular_components_server_side_api_handlers_reusable_design_tokens_and_layout_system_deliverables_working_next_js_app_shell_selector_driven_home_page_mode_aware_forms_results_surface_migrated_from_the_static_prototype_phase_2_api_contracts_add_internal_api_routes_for_ticker_analysis_requests_portfolio_analysis_requests_options_income_analysis_requests_full_pm_review_requests_deliverables_typed_request_response_schemas_mock_service_layer_behind_the_routes_deterministic_validation_for_malformed_inputs_phase_3_deterministic_analysis_engine_replace_local_ui_heuristics_with_backend_analysis_services_factor_scoring_policy_gates_action_label_mapping_recommendation_ranking_deliverables_score_engine_module_action_policy_module_ranking_utilities_structured_recommendation_payloads_status_completed_with_dedicated_factor_scores_policy_engine_and_ranking_modules_api_response_shape_preserved_while_business_logic_was_separated_internally_phase_4_data_layer_add_provider_adapters_for_market_price_history_data_earnings_calendar_company_news_data_options_chain_iv_flow_context_deliverables_provider_abstraction_layer_normalized_ticker_snapshot_object_caching_strategy_graceful_fallback_when_providers_fail_or_data_is_incomplete_status_in_progress_via_live_capable_alpha_vantage_market_news_earnings_options_adapters_with_mock_fallback_scoring_and_policy_now_consume_normalized_snapshot_context_instead_of_raw_request_text_alone_phase_5_openai_memo_generation_use_openai_to_convert_structured_analysis_into_a_pm_style_investment_brief_deliverables_prompt_builder_structured_analysis_to_memo_transformer_response_guardrails_so_the_model_only_uses_approved_action_labels_clear_missing_data_caveat_handling_status_implemented_as_a_configurable_llm_layer_rather_than_an_openai_only_hardcode_current_providers_mock_openai_and_openai_compatible_deterministic_scoring_and_policy_remain_authoritative_the_llm_only_writes_the_memo_phase_6_portfolio_persistence_add_local_persistence_for_user_profile_defaults_saved_portfolios_watchlists_recent_analyses_deliverables_database_schema_crud_apis_saved_workflow_state_status_implemented_as_pragmatic_file_backed_persistence_under_db_storage_added_profile_defaults_saved_portfolio_crud_and_automatic_analysis_history_capture",
+      "community": 33,
+      "norm_label": "phase 1: framework migration move the static mvp into a next.js app with: - app router - typescript - modular components - server-side api handlers - reusable design tokens and layout system deliverables: - working next.js app shell - selector-driven home page - mode-aware forms - results surface migrated from the static prototype ### phase 2: api contracts add internal api routes for: - ticker analysis requests - portfolio analysis requests - options-income analysis requests - full pm review requests deliverables: - typed request/response schemas - mock service layer behind the routes - deterministic validation for malformed inputs ### phase 3: deterministic analysis engine replace local ui heuristics with backend analysis services: - factor scoring - policy gates - action label mapping - recommendation ranking deliverables: - score engine module - action policy module - ranking utilities - structured recommendation payloads status: - completed with dedicated `factor-scores`, `policy-engine`, and `ranking` modules - api response shape preserved while business logic was separated internally ### phase 4: data layer add provider adapters for: - market price/history data - earnings calendar - company/news data - options chain / iv / flow context deliverables: - provider abstraction layer - normalized ticker snapshot object - caching strategy - graceful fallback when providers fail or data is incomplete status: - in progress via live-capable alpha vantage market/news/earnings/options adapters with mock fallback - scoring and policy now consume normalized snapshot context instead of raw request text alone ### phase 5: openai memo generation use openai to convert structured analysis into a pm-style investment brief. deliverables: - prompt builder - structured analysis-to-memo transformer - response guardrails so the model only uses approved action labels - clear missing-data caveat handling status: - implemented as a configurable llm layer rather than an openai-only hardcode - current providers: `mock`, `openai`, and `openai-compatible` - deterministic scoring and policy remain authoritative; the llm only writes the memo ### phase 6: portfolio persistence add local persistence for: - user profile defaults - saved portfolios - watchlists - recent analyses deliverables: - database schema - crud apis - saved workflow state status: - implemented as pragmatic file-backed persistence under `db/storage/` - added profile defaults, saved portfolio crud, and automatic analysis history capture"
+    },
+    {
+      "label": "Done",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L23",
+      "id": "ticker_pm_copilot_project_status_done",
+      "community": 33,
+      "norm_label": "done"
+    },
+    {
+      "label": "Next Step",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L26",
+      "id": "ticker_pm_copilot_project_status_next_step",
+      "community": 33,
+      "norm_label": "next step"
+    },
+    {
+      "label": "Working Status",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L29",
+      "id": "ticker_pm_copilot_project_status_working_status",
+      "community": 33,
+      "norm_label": "working status"
+    },
+    {
+      "label": "Completion",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L33",
+      "id": "ticker_pm_copilot_project_status_completion",
+      "community": 33,
+      "norm_label": "completion"
+    },
+    {
+      "label": "Attention Now",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L37",
+      "id": "ticker_pm_copilot_project_status_attention_now",
+      "community": 33,
+      "norm_label": "attention now"
+    },
+    {
+      "label": "Main Blocker",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L41",
+      "id": "ticker_pm_copilot_project_status_main_blocker",
+      "community": 33,
+      "norm_label": "main blocker"
+    },
+    {
+      "label": "Ecosystem",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L44",
+      "id": "ticker_pm_copilot_project_status_ecosystem",
+      "community": 33,
+      "norm_label": "ecosystem"
+    },
+    {
+      "label": "Merge Candidate",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L47",
+      "id": "ticker_pm_copilot_project_status_merge_candidate",
+      "community": 33,
+      "norm_label": "merge candidate"
+    },
+    {
+      "label": "Evidence",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L51",
+      "id": "ticker_pm_copilot_project_status_evidence",
+      "community": 33,
+      "norm_label": "evidence"
+    },
+    {
+      "label": "STATUS.md",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L1",
+      "id": "status_md",
+      "community": 36,
+      "norm_label": "status.md"
+    },
+    {
+      "label": "Project Status",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L1",
+      "id": "ticker_pm_copilot_status_project_status",
+      "community": 36,
+      "norm_label": "project status"
+    },
+    {
+      "label": "Current Phase",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L3",
+      "id": "ticker_pm_copilot_status_current_phase",
+      "community": 36,
+      "norm_label": "current phase"
+    },
+    {
+      "label": "Key Metrics",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L7",
+      "id": "ticker_pm_copilot_status_key_metrics",
+      "community": 36,
+      "norm_label": "key metrics"
+    },
+    {
+      "label": "Recent Changes",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L13",
+      "id": "ticker_pm_copilot_status_recent_changes",
+      "community": 36,
+      "norm_label": "recent changes"
+    },
+    {
+      "label": "Known Issues",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L17",
+      "id": "ticker_pm_copilot_status_known_issues",
+      "community": 36,
+      "norm_label": "known issues"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L21",
+      "id": "ticker_pm_copilot_status_next_steps",
+      "community": 36,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "Questions or Feedback",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L25",
+      "id": "ticker_pm_copilot_status_questions_or_feedback",
+      "community": 36,
+      "norm_label": "questions or feedback"
     },
     {
       "label": "README.md",
@@ -3073,102 +3397,111 @@
       "norm_label": "readme.md"
     },
     {
-      "label": "WealthPilot",
+      "label": "Ticker PM Copilot",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "ticker_pm_copilot_readme_wealthpilot",
+      "id": "ticker_pm_copilot_readme_ticker_pm_copilot",
       "community": 11,
-      "norm_label": "wealthpilot"
+      "norm_label": "ticker pm copilot"
     },
     {
-      "label": "What this build does",
+      "label": "Features",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
-      "id": "ticker_pm_copilot_readme_what_this_build_does",
+      "id": "ticker_pm_copilot_readme_features",
       "community": 11,
-      "norm_label": "what this build does"
+      "norm_label": "features"
     },
     {
-      "label": "Screenshots",
+      "label": "Tech Stack",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L24",
-      "id": "ticker_pm_copilot_readme_screenshots",
+      "source_location": "L11",
+      "id": "ticker_pm_copilot_readme_tech_stack",
       "community": 11,
-      "norm_label": "screenshots"
+      "norm_label": "tech stack"
     },
     {
-      "label": "Key folders",
+      "label": "DEPLOY.md",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L30",
-      "id": "ticker_pm_copilot_readme_key_folders",
-      "community": 11,
-      "norm_label": "key folders"
+      "source_file": "DEPLOY.md",
+      "source_location": "L1",
+      "id": "deploy_md",
+      "community": 41,
+      "norm_label": "deploy.md"
     },
     {
-      "label": "Run",
+      "label": "Private Vercel Deploy",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L41",
-      "id": "ticker_pm_copilot_readme_run",
-      "community": 11,
-      "norm_label": "run"
+      "source_file": "DEPLOY.md",
+      "source_location": "L1",
+      "id": "ticker_pm_copilot_deploy_private_vercel_deploy",
+      "community": 41,
+      "norm_label": "private vercel deploy"
     },
     {
-      "label": "Environment",
+      "label": "Local",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L46",
-      "id": "ticker_pm_copilot_readme_environment",
-      "community": 11,
-      "norm_label": "environment"
+      "source_file": "DEPLOY.md",
+      "source_location": "L3",
+      "id": "ticker_pm_copilot_deploy_local",
+      "community": 41,
+      "norm_label": "local"
     },
     {
-      "label": "Persistence",
+      "label": "Vercel",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L56",
-      "id": "ticker_pm_copilot_readme_persistence",
-      "community": 11,
-      "norm_label": "persistence"
+      "source_file": "DEPLOY.md",
+      "source_location": "L11",
+      "id": "ticker_pm_copilot_deploy_vercel",
+      "community": 41,
+      "norm_label": "vercel"
     },
     {
-      "label": "Next build step",
+      "label": "CONTRIBUTING.md",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L66",
-      "id": "ticker_pm_copilot_readme_next_build_step",
-      "community": 11,
-      "norm_label": "next build step"
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "id": "contributing_md",
+      "community": 39,
+      "norm_label": "contributing.md"
     },
     {
-      "label": "Quick Repo Summary",
+      "label": "Contributing",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L72",
-      "id": "ticker_pm_copilot_readme_quick_repo_summary",
-      "community": 11,
-      "norm_label": "quick repo summary"
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "id": "ticker_pm_copilot_contributing_contributing",
+      "community": 39,
+      "norm_label": "contributing"
     },
     {
-      "label": "LLM Start Here",
+      "label": "Reporting Issues",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L79",
-      "id": "ticker_pm_copilot_readme_llm_start_here",
-      "community": 11,
-      "norm_label": "llm start here"
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "id": "ticker_pm_copilot_contributing_reporting_issues",
+      "community": 39,
+      "norm_label": "reporting issues"
+    },
+    {
+      "label": "Code Changes",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L12",
+      "id": "ticker_pm_copilot_contributing_code_changes",
+      "community": 39,
+      "norm_label": "code changes"
     },
     {
       "label": "License",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L86",
-      "id": "ticker_pm_copilot_readme_license",
-      "community": 11,
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L16",
+      "id": "ticker_pm_copilot_contributing_license",
+      "community": 39,
       "norm_label": "license"
     },
     {
@@ -4565,9 +4898,148 @@
       "id": "services_provider_layer_known_technical_debt",
       "community": 16,
       "norm_label": "known technical debt"
+    },
+    {
+      "label": "WealthPilot",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "wealthpilot",
+      "id": "ticker_pm_copilot_readme_wealthpilot"
+    },
+    {
+      "label": "What this build does",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "community": 11,
+      "norm_label": "what this build does",
+      "id": "ticker_pm_copilot_readme_what_this_build_does"
+    },
+    {
+      "label": "Screenshots",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "community": 11,
+      "norm_label": "screenshots",
+      "id": "ticker_pm_copilot_readme_screenshots"
+    },
+    {
+      "label": "Key folders",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "community": 11,
+      "norm_label": "key folders",
+      "id": "ticker_pm_copilot_readme_key_folders"
+    },
+    {
+      "label": "Run",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "community": 11,
+      "norm_label": "run",
+      "id": "ticker_pm_copilot_readme_run"
+    },
+    {
+      "label": "Environment",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "community": 11,
+      "norm_label": "environment",
+      "id": "ticker_pm_copilot_readme_environment"
+    },
+    {
+      "label": "Persistence",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "community": 11,
+      "norm_label": "persistence",
+      "id": "ticker_pm_copilot_readme_persistence"
+    },
+    {
+      "label": "Next build step",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "community": 11,
+      "norm_label": "next build step",
+      "id": "ticker_pm_copilot_readme_next_build_step"
+    },
+    {
+      "label": "Quick Repo Summary",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "community": 11,
+      "norm_label": "quick repo summary",
+      "id": "ticker_pm_copilot_readme_quick_repo_summary"
+    },
+    {
+      "label": "LLM Start Here",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L79",
+      "community": 11,
+      "norm_label": "llm start here",
+      "id": "ticker_pm_copilot_readme_llm_start_here"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "community": 11,
+      "norm_label": "license",
+      "id": "ticker_pm_copilot_readme_license"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "ticker_pm_copilot_middleware_username",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "ticker_pm_copilot_middleware_password",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "ticker_pm_copilot_middleware_middleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "ticker_pm_copilot_middleware_config",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -5783,9 +6255,9 @@
       "source_file": "components/forms/dynamic-form.tsx",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_forms_dynamic_form_tsx",
-      "target": "forms_dynamic_form_modeseeds",
-      "confidence_score": 1.0
+      "target": "forms_dynamic_form_modeseeds"
     },
     {
       "relation": "contains",
@@ -12121,6 +12593,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "db/store.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_storagebackend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -12148,6 +12630,78 @@
       "target": "db_store_ensurestoragedir"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_getstoragebackend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_readkvvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_writekvvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_runkvcommand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "db_store_readjsonfile",
+      "target": "db_store_getstoragebackend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "db_store_readjsonfile",
+      "target": "db_store_readkvvalue",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -12163,11 +12717,306 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "db/store.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "db_store_writejsonfile",
+      "target": "db_store_getstoragebackend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "db_store_writejsonfile",
+      "target": "db_store_writekvvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
       "source_location": "L18",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "db_store_writejsonfile",
       "target": "db_store_ensurestoragedir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "db_store_readkvvalue",
+      "target": "db_store_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "db_store_writekvvalue",
+      "target": "db_store_runkvcommand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "db_store_writekvvalue",
+      "target": "db_store_storagekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "project_status_md",
+      "target": "ticker_pm_copilot_project_status_project_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_what_this_repo_is_for",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_category",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_benefit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_current_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_current_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_next_step",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_working_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_completion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_attention_now",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_main_blocker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_ecosystem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_merge_candidate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_evidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_project_status_current_plan",
+      "target": "ticker_pm_copilot_project_status_phase_1_framework_migration_move_the_static_mvp_into_a_next_js_app_with_app_router_typescript_modular_components_server_side_api_handlers_reusable_design_tokens_and_layout_system_deliverables_working_next_js_app_shell_selector_driven_home_page_mode_aware_forms_results_surface_migrated_from_the_static_prototype_phase_2_api_contracts_add_internal_api_routes_for_ticker_analysis_requests_portfolio_analysis_requests_options_income_analysis_requests_full_pm_review_requests_deliverables_typed_request_response_schemas_mock_service_layer_behind_the_routes_deterministic_validation_for_malformed_inputs_phase_3_deterministic_analysis_engine_replace_local_ui_heuristics_with_backend_analysis_services_factor_scoring_policy_gates_action_label_mapping_recommendation_ranking_deliverables_score_engine_module_action_policy_module_ranking_utilities_structured_recommendation_payloads_status_completed_with_dedicated_factor_scores_policy_engine_and_ranking_modules_api_response_shape_preserved_while_business_logic_was_separated_internally_phase_4_data_layer_add_provider_adapters_for_market_price_history_data_earnings_calendar_company_news_data_options_chain_iv_flow_context_deliverables_provider_abstraction_layer_normalized_ticker_snapshot_object_caching_strategy_graceful_fallback_when_providers_fail_or_data_is_incomplete_status_in_progress_via_live_capable_alpha_vantage_market_news_earnings_options_adapters_with_mock_fallback_scoring_and_policy_now_consume_normalized_snapshot_context_instead_of_raw_request_text_alone_phase_5_openai_memo_generation_use_openai_to_convert_structured_analysis_into_a_pm_style_investment_brief_deliverables_prompt_builder_structured_analysis_to_memo_transformer_response_guardrails_so_the_model_only_uses_approved_action_labels_clear_missing_data_caveat_handling_status_implemented_as_a_configurable_llm_layer_rather_than_an_openai_only_hardcode_current_providers_mock_openai_and_openai_compatible_deterministic_scoring_and_policy_remain_authoritative_the_llm_only_writes_the_memo_phase_6_portfolio_persistence_add_local_persistence_for_user_profile_defaults_saved_portfolios_watchlists_recent_analyses_deliverables_database_schema_crud_apis_saved_workflow_state_status_implemented_as_pragmatic_file_backed_persistence_under_db_storage_added_profile_defaults_saved_portfolio_crud_and_automatic_analysis_history_capture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "status_md",
+      "target": "ticker_pm_copilot_status_project_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_current_phase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_key_metrics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_recent_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_known_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_questions_or_feedback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "ticker_pm_copilot_readme_ticker_pm_copilot",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12185,98 +13034,88 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_what_this_build_does"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_screenshots",
+      "source": "ticker_pm_copilot_readme_ticker_pm_copilot",
+      "target": "ticker_pm_copilot_readme_features",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L24",
+      "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_key_folders"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_run"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_environment"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_persistence"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_next_build_step"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L72",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_quick_repo_summary",
+      "source": "ticker_pm_copilot_readme_ticker_pm_copilot",
+      "target": "ticker_pm_copilot_readme_tech_stack",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L79",
+      "source_file": "DEPLOY.md",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_llm_start_here",
+      "source": "deploy_md",
+      "target": "ticker_pm_copilot_deploy_private_vercel_deploy",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L86",
+      "source_file": "DEPLOY.md",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_license",
+      "source": "ticker_pm_copilot_deploy_private_vercel_deploy",
+      "target": "ticker_pm_copilot_deploy_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOY.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_deploy_private_vercel_deploy",
+      "target": "ticker_pm_copilot_deploy_vercel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "contributing_md",
+      "target": "ticker_pm_copilot_contributing_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_contributing_contributing",
+      "target": "ticker_pm_copilot_contributing_reporting_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_contributing_contributing",
+      "target": "ticker_pm_copilot_contributing_code_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_contributing_contributing",
+      "target": "ticker_pm_copilot_contributing_license",
       "confidence_score": 1.0
     },
     {
@@ -12645,9 +13484,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_md",
-      "target": "claude_project_context_ticker_pm_copilot_project_context",
-      "confidence_score": 1.0
+      "target": "claude_project_context_ticker_pm_copilot_project_context"
     },
     {
       "relation": "contains",
@@ -12655,9 +13494,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_business_purpose",
-      "confidence_score": 1.0
+      "target": "claude_project_context_business_purpose"
     },
     {
       "relation": "contains",
@@ -12665,9 +13504,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_system_overview",
-      "confidence_score": 1.0
+      "target": "claude_project_context_system_overview"
     },
     {
       "relation": "contains",
@@ -12675,9 +13514,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_major_applications",
-      "confidence_score": 1.0
+      "target": "claude_project_context_major_applications"
     },
     {
       "relation": "contains",
@@ -12685,9 +13524,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_environments",
-      "confidence_score": 1.0
+      "target": "claude_project_context_environments"
     },
     {
       "relation": "contains",
@@ -12695,9 +13534,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_tech_stack",
-      "confidence_score": 1.0
+      "target": "claude_project_context_tech_stack"
     },
     {
       "relation": "contains",
@@ -12705,9 +13544,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_critical_dependencies",
-      "confidence_score": 1.0
+      "target": "claude_project_context_critical_dependencies"
     },
     {
       "relation": "contains",
@@ -12715,9 +13554,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_major_workflows",
-      "confidence_score": 1.0
+      "target": "claude_project_context_major_workflows"
     },
     {
       "relation": "contains",
@@ -12725,9 +13564,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_operational_constraints",
-      "confidence_score": 1.0
+      "target": "claude_project_context_operational_constraints"
     },
     {
       "relation": "contains",
@@ -12735,9 +13574,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_scaling_constraints",
-      "confidence_score": 1.0
+      "target": "claude_project_context_scaling_constraints"
     },
     {
       "relation": "contains",
@@ -12745,9 +13584,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_deployment_model",
-      "confidence_score": 1.0
+      "target": "claude_project_context_deployment_model"
     },
     {
       "relation": "contains",
@@ -12755,9 +13594,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_important_apis",
-      "confidence_score": 1.0
+      "target": "claude_project_context_important_apis"
     },
     {
       "relation": "contains",
@@ -12765,9 +13604,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_important_databases",
-      "confidence_score": 1.0
+      "target": "claude_project_context_important_databases"
     },
     {
       "relation": "contains",
@@ -12775,9 +13614,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_important_queues_events",
-      "confidence_score": 1.0
+      "target": "claude_project_context_important_queues_events"
     },
     {
       "relation": "contains",
@@ -12785,9 +13624,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_known_technical_debt",
-      "confidence_score": 1.0
+      "target": "claude_project_context_known_technical_debt"
     },
     {
       "relation": "contains",
@@ -12795,9 +13634,9 @@
       "source_file": ".claude/project_context.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_context_ticker_pm_copilot_project_context",
-      "target": "claude_project_context_current_architecture_themes",
-      "confidence_score": 1.0
+      "target": "claude_project_context_current_architecture_themes"
     },
     {
       "relation": "contains",
@@ -12805,9 +13644,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_md",
-      "target": "claude_workflows_ticker_pm_copilot_workflows",
-      "confidence_score": 1.0
+      "target": "claude_workflows_ticker_pm_copilot_workflows"
     },
     {
       "relation": "contains",
@@ -12815,9 +13654,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_local_development",
-      "confidence_score": 1.0
+      "target": "claude_workflows_local_development"
     },
     {
       "relation": "contains",
@@ -12825,9 +13664,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_testing",
-      "confidence_score": 1.0
+      "target": "claude_workflows_testing"
     },
     {
       "relation": "contains",
@@ -12835,9 +13674,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_deployment",
-      "confidence_score": 1.0
+      "target": "claude_workflows_deployment"
     },
     {
       "relation": "contains",
@@ -12845,9 +13684,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_migrations",
-      "confidence_score": 1.0
+      "target": "claude_workflows_migrations"
     },
     {
       "relation": "contains",
@@ -12855,9 +13694,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_feature_rollout",
-      "confidence_score": 1.0
+      "target": "claude_workflows_feature_rollout"
     },
     {
       "relation": "contains",
@@ -12865,9 +13704,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_incident_response",
-      "confidence_score": 1.0
+      "target": "claude_workflows_incident_response"
     },
     {
       "relation": "contains",
@@ -12875,9 +13714,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_debugging",
-      "confidence_score": 1.0
+      "target": "claude_workflows_debugging"
     },
     {
       "relation": "contains",
@@ -12885,9 +13724,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_rollback",
-      "confidence_score": 1.0
+      "target": "claude_workflows_rollback"
     },
     {
       "relation": "contains",
@@ -12895,9 +13734,9 @@
       "source_file": ".claude/workflows.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_workflows_ticker_pm_copilot_workflows",
-      "target": "claude_workflows_observability_investigation",
-      "confidence_score": 1.0
+      "target": "claude_workflows_observability_investigation"
     },
     {
       "relation": "contains",
@@ -12905,9 +13744,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_md",
-      "target": "claude_architecture_ticker_pm_copilot_architecture",
-      "confidence_score": 1.0
+      "target": "claude_architecture_ticker_pm_copilot_architecture"
     },
     {
       "relation": "contains",
@@ -12915,9 +13754,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_end_to_end_request_flows",
-      "confidence_score": 1.0
+      "target": "claude_architecture_end_to_end_request_flows"
     },
     {
       "relation": "contains",
@@ -12925,9 +13764,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_frontend_backend_interaction",
-      "confidence_score": 1.0
+      "target": "claude_architecture_frontend_backend_interaction"
     },
     {
       "relation": "contains",
@@ -12935,9 +13774,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_service_boundaries",
-      "confidence_score": 1.0
+      "target": "claude_architecture_service_boundaries"
     },
     {
       "relation": "contains",
@@ -12945,9 +13784,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_sync_vs_async_flows",
-      "confidence_score": 1.0
+      "target": "claude_architecture_sync_vs_async_flows"
     },
     {
       "relation": "contains",
@@ -12955,9 +13794,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_event_driven_architecture",
-      "confidence_score": 1.0
+      "target": "claude_architecture_event_driven_architecture"
     },
     {
       "relation": "contains",
@@ -12965,9 +13804,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_caching_layers",
-      "confidence_score": 1.0
+      "target": "claude_architecture_caching_layers"
     },
     {
       "relation": "contains",
@@ -12975,9 +13814,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_auth_flow",
-      "confidence_score": 1.0
+      "target": "claude_architecture_auth_flow"
     },
     {
       "relation": "contains",
@@ -12985,9 +13824,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_deployment_topology",
-      "confidence_score": 1.0
+      "target": "claude_architecture_deployment_topology"
     },
     {
       "relation": "contains",
@@ -12995,9 +13834,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_scaling_behavior",
-      "confidence_score": 1.0
+      "target": "claude_architecture_scaling_behavior"
     },
     {
       "relation": "contains",
@@ -13005,9 +13844,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_resilience_mechanisms",
-      "confidence_score": 1.0
+      "target": "claude_architecture_resilience_mechanisms"
     },
     {
       "relation": "contains",
@@ -13015,9 +13854,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_failover_behavior",
-      "confidence_score": 1.0
+      "target": "claude_architecture_failover_behavior"
     },
     {
       "relation": "contains",
@@ -13025,9 +13864,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_observability_architecture",
-      "confidence_score": 1.0
+      "target": "claude_architecture_observability_architecture"
     },
     {
       "relation": "contains",
@@ -13035,9 +13874,9 @@
       "source_file": ".claude/architecture.md",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_architecture_ticker_pm_copilot_architecture",
-      "target": "claude_architecture_retry_idempotency_patterns",
-      "confidence_score": 1.0
+      "target": "claude_architecture_retry_idempotency_patterns"
     },
     {
       "relation": "contains",
@@ -13045,9 +13884,9 @@
       "source_file": ".claude/repository_navigation.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_repository_navigation_md",
-      "target": "claude_repository_navigation_top_level_modules",
-      "confidence_score": 1.0
+      "target": "claude_repository_navigation_top_level_modules"
     },
     {
       "relation": "contains",
@@ -13055,9 +13894,9 @@
       "source_file": ".claude/repository_navigation.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_repository_navigation_md",
-      "target": "claude_repository_navigation_read_first",
-      "confidence_score": 1.0
+      "target": "claude_repository_navigation_read_first"
     },
     {
       "relation": "contains",
@@ -13065,9 +13904,9 @@
       "source_file": ".claude/repository_navigation.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_repository_navigation_md",
-      "target": "claude_repository_navigation_critical_entrypoints",
-      "confidence_score": 1.0
+      "target": "claude_repository_navigation_critical_entrypoints"
     },
     {
       "relation": "contains",
@@ -13075,9 +13914,9 @@
       "source_file": ".claude/graph_relationships.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_graph_relationships_md",
-      "target": "claude_graph_relationships_ticker_pm_copilot_graph_relationships",
-      "confidence_score": 1.0
+      "target": "claude_graph_relationships_ticker_pm_copilot_graph_relationships"
     },
     {
       "relation": "contains",
@@ -13085,9 +13924,9 @@
       "source_file": ".claude/decision_log.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_decision_log_md",
-      "target": "claude_decision_log_ticker_pm_copilot_decision_log",
-      "confidence_score": 1.0
+      "target": "claude_decision_log_ticker_pm_copilot_decision_log"
     },
     {
       "relation": "contains",
@@ -13095,9 +13934,9 @@
       "source_file": ".claude/decision_log.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_decision_log_ticker_pm_copilot_decision_log",
-      "target": "claude_decision_log_graphify_first_repo_discovery",
-      "confidence_score": 1.0
+      "target": "claude_decision_log_graphify_first_repo_discovery"
     },
     {
       "relation": "contains",
@@ -13105,9 +13944,9 @@
       "source_file": ".claude/decision_log.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_decision_log_ticker_pm_copilot_decision_log",
-      "target": "claude_decision_log_preserve_repo_separation",
-      "confidence_score": 1.0
+      "target": "claude_decision_log_preserve_repo_separation"
     },
     {
       "relation": "contains",
@@ -13115,9 +13954,9 @@
       "source_file": ".claude/known_pitfalls.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_known_pitfalls_md",
-      "target": "claude_known_pitfalls_ticker_pm_copilot_known_pitfalls",
-      "confidence_score": 1.0
+      "target": "claude_known_pitfalls_ticker_pm_copilot_known_pitfalls"
     },
     {
       "relation": "contains",
@@ -13125,9 +13964,9 @@
       "source_file": ".claude/onboarding.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_onboarding_md",
-      "target": "claude_onboarding_ticker_pm_copilot_onboarding",
-      "confidence_score": 1.0
+      "target": "claude_onboarding_ticker_pm_copilot_onboarding"
     },
     {
       "relation": "contains",
@@ -13135,9 +13974,9 @@
       "source_file": ".claude/onboarding.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_onboarding_ticker_pm_copilot_onboarding",
-      "target": "claude_onboarding_first_read",
-      "confidence_score": 1.0
+      "target": "claude_onboarding_first_read"
     },
     {
       "relation": "contains",
@@ -13145,9 +13984,9 @@
       "source_file": ".claude/onboarding.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_onboarding_ticker_pm_copilot_onboarding",
-      "target": "claude_onboarding_critical_entrypoints",
-      "confidence_score": 1.0
+      "target": "claude_onboarding_critical_entrypoints"
     },
     {
       "relation": "contains",
@@ -13155,9 +13994,9 @@
       "source_file": ".claude/onboarding.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_onboarding_ticker_pm_copilot_onboarding",
-      "target": "claude_onboarding_module_map",
-      "confidence_score": 1.0
+      "target": "claude_onboarding_module_map"
     },
     {
       "relation": "contains",
@@ -13165,9 +14004,9 @@
       "source_file": ".claude/onboarding.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_onboarding_ticker_pm_copilot_onboarding",
-      "target": "claude_onboarding_how_to_start_reasoning",
-      "confidence_score": 1.0
+      "target": "claude_onboarding_how_to_start_reasoning"
     },
     {
       "relation": "contains",
@@ -13175,9 +14014,9 @@
       "source_file": ".claude/onboarding.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_onboarding_ticker_pm_copilot_onboarding",
-      "target": "claude_onboarding_local_run_baseline",
-      "confidence_score": 1.0
+      "target": "claude_onboarding_local_run_baseline"
     },
     {
       "relation": "contains",
@@ -13185,9 +14024,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_md",
-      "target": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_ticker_pm_copilot_coding_rules"
     },
     {
       "relation": "contains",
@@ -13195,9 +14034,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_naming_structure",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_naming_structure"
     },
     {
       "relation": "contains",
@@ -13205,9 +14044,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_architecture_patterns",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_architecture_patterns"
     },
     {
       "relation": "contains",
@@ -13215,9 +14054,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_state_management",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_state_management"
     },
     {
       "relation": "contains",
@@ -13225,9 +14064,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_error_handling_logging",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_error_handling_logging"
     },
     {
       "relation": "contains",
@@ -13235,9 +14074,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_api_conventions",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_api_conventions"
     },
     {
       "relation": "contains",
@@ -13245,9 +14084,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_testing_conventions",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_testing_conventions"
     },
     {
       "relation": "contains",
@@ -13255,9 +14094,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_typing_abstractions",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_typing_abstractions"
     },
     {
       "relation": "contains",
@@ -13265,9 +14104,9 @@
       "source_file": ".claude/coding_rules.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_coding_rules_ticker_pm_copilot_coding_rules",
-      "target": "claude_coding_rules_database_migration_patterns",
-      "confidence_score": 1.0
+      "target": "claude_coding_rules_database_migration_patterns"
     },
     {
       "relation": "contains",
@@ -13275,9 +14114,9 @@
       "source_file": ".claude/system_prompt.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_system_prompt_md",
-      "target": "claude_system_prompt_ticker_pm_copilot_claude_system_prompt",
-      "confidence_score": 1.0
+      "target": "claude_system_prompt_ticker_pm_copilot_claude_system_prompt"
     },
     {
       "relation": "contains",
@@ -13285,9 +14124,9 @@
       "source_file": ".claude/prompts/debug.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_debug_md",
-      "target": "prompts_debug_debug_prompt",
-      "confidence_score": 1.0
+      "target": "prompts_debug_debug_prompt"
     },
     {
       "relation": "contains",
@@ -13295,9 +14134,9 @@
       "source_file": ".claude/prompts/incident_response.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_incident_response_md",
-      "target": "prompts_incident_response_incident_response_prompt",
-      "confidence_score": 1.0
+      "target": "prompts_incident_response_incident_response_prompt"
     },
     {
       "relation": "contains",
@@ -13305,9 +14144,9 @@
       "source_file": ".claude/prompts/architecture_review.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_architecture_review_md",
-      "target": "prompts_architecture_review_architecture_review_prompt",
-      "confidence_score": 1.0
+      "target": "prompts_architecture_review_architecture_review_prompt"
     },
     {
       "relation": "contains",
@@ -13315,9 +14154,9 @@
       "source_file": ".claude/prompts/refactor.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_refactor_md",
-      "target": "prompts_refactor_refactor_prompt",
-      "confidence_score": 1.0
+      "target": "prompts_refactor_refactor_prompt"
     },
     {
       "relation": "contains",
@@ -13325,9 +14164,9 @@
       "source_file": ".claude/prompts/feature.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_feature_md",
-      "target": "prompts_feature_feature_prompt",
-      "confidence_score": 1.0
+      "target": "prompts_feature_feature_prompt"
     },
     {
       "relation": "contains",
@@ -13335,9 +14174,9 @@
       "source_file": ".claude/prompts/performance_analysis.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts_performance_analysis_md",
-      "target": "prompts_performance_analysis_performance_analysis_prompt",
-      "confidence_score": 1.0
+      "target": "prompts_performance_analysis_performance_analysis_prompt"
     },
     {
       "relation": "contains",
@@ -13345,9 +14184,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_services_analysis_ui_md",
-      "target": "services_analysis_ui_analysis_ui",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_analysis_ui"
     },
     {
       "relation": "contains",
@@ -13355,9 +14194,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_responsibility",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_responsibility"
     },
     {
       "relation": "contains",
@@ -13365,9 +14204,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_dependencies",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_dependencies"
     },
     {
       "relation": "contains",
@@ -13375,9 +14214,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_inbound_apis",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_inbound_apis"
     },
     {
       "relation": "contains",
@@ -13385,9 +14224,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_outbound_apis",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_outbound_apis"
     },
     {
       "relation": "contains",
@@ -13395,9 +14234,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_databases_used",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_databases_used"
     },
     {
       "relation": "contains",
@@ -13405,9 +14244,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_queues_topics",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_queues_topics"
     },
     {
       "relation": "contains",
@@ -13415,9 +14254,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_critical_workflows",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_critical_workflows"
     },
     {
       "relation": "contains",
@@ -13425,9 +14264,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_failure_modes",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_failure_modes"
     },
     {
       "relation": "contains",
@@ -13435,9 +14274,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_scaling_concerns",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_scaling_concerns"
     },
     {
       "relation": "contains",
@@ -13445,9 +14284,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_operational_concerns",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_operational_concerns"
     },
     {
       "relation": "contains",
@@ -13455,9 +14294,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_important_source_files",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_important_source_files"
     },
     {
       "relation": "contains",
@@ -13465,9 +14304,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_dangerous_code_paths",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_dangerous_code_paths"
     },
     {
       "relation": "contains",
@@ -13475,9 +14314,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_testing_strategy",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_testing_strategy"
     },
     {
       "relation": "contains",
@@ -13485,9 +14324,9 @@
       "source_file": ".claude/services/analysis-ui.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_analysis_ui_analysis_ui",
-      "target": "services_analysis_ui_known_technical_debt",
-      "confidence_score": 1.0
+      "target": "services_analysis_ui_known_technical_debt"
     },
     {
       "relation": "contains",
@@ -13495,9 +14334,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_services_provider_layer_md",
-      "target": "services_provider_layer_provider_layer",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_provider_layer"
     },
     {
       "relation": "contains",
@@ -13505,9 +14344,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_responsibility",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_responsibility"
     },
     {
       "relation": "contains",
@@ -13515,9 +14354,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_dependencies",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_dependencies"
     },
     {
       "relation": "contains",
@@ -13525,9 +14364,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_inbound_apis",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_inbound_apis"
     },
     {
       "relation": "contains",
@@ -13535,9 +14374,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_outbound_apis",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_outbound_apis"
     },
     {
       "relation": "contains",
@@ -13545,9 +14384,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_databases_used",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_databases_used"
     },
     {
       "relation": "contains",
@@ -13555,9 +14394,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_queues_topics",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_queues_topics"
     },
     {
       "relation": "contains",
@@ -13565,9 +14404,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_critical_workflows",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_critical_workflows"
     },
     {
       "relation": "contains",
@@ -13575,9 +14414,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_failure_modes",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_failure_modes"
     },
     {
       "relation": "contains",
@@ -13585,9 +14424,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_scaling_concerns",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_scaling_concerns"
     },
     {
       "relation": "contains",
@@ -13595,9 +14434,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_operational_concerns",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_operational_concerns"
     },
     {
       "relation": "contains",
@@ -13605,9 +14444,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_important_source_files",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_important_source_files"
     },
     {
       "relation": "contains",
@@ -13615,9 +14454,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_dangerous_code_paths",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_dangerous_code_paths"
     },
     {
       "relation": "contains",
@@ -13625,9 +14464,9 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_testing_strategy",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_testing_strategy"
     },
     {
       "relation": "contains",
@@ -13635,11 +14474,111 @@
       "source_file": ".claude/services/provider-layer.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_provider_layer_provider_layer",
-      "target": "services_provider_layer_known_technical_debt",
-      "confidence_score": 1.0
+      "target": "services_provider_layer_known_technical_debt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_what_this_build_does"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_screenshots"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_key_folders"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_run"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_environment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_persistence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_next_build_step"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_quick_repo_summary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_llm_start_here"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_license"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4678f010cd37de69106ba97c49a79be23db35684"
+  "built_at_commit": "1997381987f2af3abfc09cd0b226c54a4f5a4943"
 }
