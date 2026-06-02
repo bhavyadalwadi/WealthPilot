@@ -147,8 +147,24 @@ Deliverables:
 - saved workflow state
 
 Status:
-- Implemented as pragmatic file-backed persistence under `db/storage/`
+- Implemented as pragmatic persistence with environment-based storage mode selection
+- Local development uses file-backed persistence under `db/storage/`
+- Vercel uses KV-backed persistence via REST env vars
 - Added profile defaults, saved portfolio CRUD, and automatic analysis history capture
+
+### Phase 7: Private Deployment Baseline
+
+Add a simple private-access layer and close deployment blockers for Vercel.
+
+Deliverables:
+- site-wide username/password gate
+- production-safe persistence path
+- minimal deploy documentation
+
+Status:
+- Completed with middleware-based HTTP Basic Auth
+- Completed with Vercel-ready KV persistence fallback
+- Completed with local/Vercel setup notes in `DEPLOY.md`
 
 ## Recommended Folder Structure
 
