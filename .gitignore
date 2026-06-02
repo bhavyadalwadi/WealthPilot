@@ -5,6 +5,8 @@ node_modules/
 .env.local
 tsconfig.tsbuildinfo
 npm-debug.log*
+/src/generated/prisma
+/.codex/
 graphify-out/cache/
 graphify-out/manifest.json
 graphify-out/cost.json
