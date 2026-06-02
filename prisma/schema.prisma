@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model UserProfile {
+  id                  String   @id
+  defaultRiskStyle    String
+  defaultObjective    String
+  defaultTimeHorizon  String
+  defaultLlmProvider  String
+  defaultLlmModel     String
+  defaultLlmReasoning String
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
+
+model SavedPortfolio {
+  id            String   @id
+  name          String
+  positionsJson String
+  watchlistJson String
+  cash          Float
+  objective     String
+  riskStyle     String
+  notes         String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([updatedAt])
+}
+
+model AnalysisHistoryEntry {
+  id          String   @id
+  createdAt   DateTime @default(now())
+  mode        String
+  intent      String
+  focusLabel  String
+  action      String
+  confidence  String
+  summary     String
+  llmProvider String
+  llmModel    String
+
+  @@index([createdAt])
+}

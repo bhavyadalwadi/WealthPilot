@@ -7,15 +7,22 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prisma:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
     "next": "15.2.4",
+    "pg": "^8.21.0",
+    "prisma": "^6.19.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@types/node": "22.13.14",
+    "@types/pg": "^8.20.0",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
     "typescript": "5.8.2"

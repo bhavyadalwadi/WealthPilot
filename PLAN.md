@@ -148,8 +148,8 @@ Deliverables:
 
 Status:
 - Implemented as pragmatic persistence with environment-based storage mode selection
-- Local development uses file-backed persistence under `db/storage/`
-- Vercel uses KV-backed persistence via REST env vars
+- Local development uses Prisma + SQLite at `prisma/dev.db`
+- Vercel prod uses Neon/Postgres via `DATABASE_URL`
 - Added profile defaults, saved portfolio CRUD, and automatic analysis history capture
 
 ### Phase 7: Private Deployment Baseline
@@ -162,8 +162,8 @@ Deliverables:
 - minimal deploy documentation
 
 Status:
-- Completed with middleware-based HTTP Basic Auth
-- Completed with Vercel-ready KV persistence fallback
+- Completed with custom sign-in page and cookie session auth
+- Completed with Vercel-ready Neon/Postgres persistence path
 - Completed with local/Vercel setup notes in `DEPLOY.md`
 
 ## Recommended Folder Structure

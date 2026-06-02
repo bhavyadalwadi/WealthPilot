@@ -15,10 +15,10 @@ The app is now deployable to Vercel without relying on local disk durability and
 
 ## Recently Completed
 
-- Added site-wide HTTP Basic Auth through middleware
+- Added custom sign-in page with cookie session auth
 - Added environment-driven storage mode selection
-- Kept local file-backed persistence for dev
-- Added Vercel-ready KV persistence path for production
+- Kept local Prisma + SQLite persistence for dev
+- Added Vercel-ready Neon/Postgres persistence path for production
 - Added minimal deploy documentation for local and Vercel
 
 ## Working Status
@@ -43,8 +43,7 @@ Deploy to Vercel with:
 
 - `PRIVATE_ACCESS_USERNAME`
 - `PRIVATE_ACCESS_PASSWORD`
-- `KV_REST_API_URL`
-- `KV_REST_API_TOKEN`
+- `DATABASE_URL`
 
 ## Evidence
 

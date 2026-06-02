@@ -208,6 +208,12 @@ export function AppShell() {
       />
 
       <main className="workspace">
+        <div className="workspace__topbar">
+          <a className="button button--ghost" href="/signout">
+            Sign Out
+          </a>
+        </div>
+
         <HeroPanel mode={mode} intent={intent} />
 
         <section className="main-grid">

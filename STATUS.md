@@ -11,10 +11,10 @@ Vercel-ready private MVP.
 - Deterministic scoring, policy, and ranking modules
 - Optional memo generation through `mock`, `openai`, and `openai-compatible`
 - Saved profile, portfolios, and recent history persistence
-- Site-wide HTTP Basic Auth gate
+- Custom sign-in page with cookie session auth
 - Storage split:
-  - local uses `db/storage/`
-  - Vercel uses KV via REST env vars
+  - local uses Prisma + SQLite
+  - Vercel prod uses Neon/Postgres via `DATABASE_URL`
 
 ## Verified In This Pass
 
@@ -24,7 +24,7 @@ Vercel-ready private MVP.
 ## Vercel Blockers Closed
 
 - Removed dependence on durable local filesystem writes in production
-- Added deploy-time env contract for private access and KV-backed persistence
+- Added deploy-time env contract for private access and Neon/Postgres persistence
 
 ## Remaining Work
 
@@ -35,8 +35,8 @@ Vercel-ready private MVP.
 ## Operational Notes
 
 - The app now fails closed if private-access env vars are missing
-- Vercel persistence requires `KV_REST_API_URL` and `KV_REST_API_TOKEN`
-- Local development does not require KV unless `STORAGE_DRIVER=kv`
+- Vercel prod persistence requires `DATABASE_URL`
+- Local development uses SQLite unless `STORAGE_DRIVER=postgres`
 
 ## Last Updated
 

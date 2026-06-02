@@ -1,31 +1,46 @@
-import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
+import { getSessionCookieName, isValidSessionToken } from "@/lib/auth";
 
-const username = process.env.PRIVATE_ACCESS_USERNAME?.trim();
-const password = process.env.PRIVATE_ACCESS_PASSWORD?.trim();
+function isPublicPath(pathname: string) {
+  return pathname === "/signin" || pathname.startsWith("/api/auth/signin");
+}
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
+  const username = process.env.PRIVATE_ACCESS_USERNAME;
+  const password = process.env.PRIVATE_ACCESS_PASSWORD;
+
   if (!username || !password) {
-    return new NextResponse("Private access credentials are not configured.", {
-      status: 503,
-      headers: { "content-type": "text/plain; charset=utf-8" },
+    return new NextResponse("Missing PRIVATE_ACCESS_USERNAME or PRIVATE_ACCESS_PASSWORD", {
+      status: 500,
+      headers: {
+        "Cache-Control": "private, no-store",
+      },
     });
   }
 
-  const authorization = request.headers.get("authorization");
-  const expected = `Basic ${btoa(`${username}:${password}`)}`;
+  const { pathname, search } = request.nextUrl;
+  const isAuthed = await isValidSessionToken(
+    request.cookies.get(getSessionCookieName())?.value,
+  );
 
-  if (authorization === expected) {
+  if (isPublicPath(pathname)) {
+    if (pathname === "/signin" && isAuthed) {
+      const nextParam = request.nextUrl.searchParams.get("next");
+      const destination = nextParam?.startsWith("/") ? nextParam : "/";
+      return NextResponse.redirect(new URL(destination, request.url));
+    }
+
     return NextResponse.next();
   }
 
-  return new NextResponse("Authentication required.", {
-    status: 401,
-    headers: {
-      "content-type": "text/plain; charset=utf-8",
-      "www-authenticate": 'Basic realm="Private WealthPilot", charset="UTF-8"',
-    },
-  });
+  if (!isAuthed) {
+    const signInUrl = new URL("/signin", request.url);
+    signInUrl.searchParams.set("next", `${pathname}${search}`);
+    return NextResponse.redirect(signInUrl);
+  }
+
+  return NextResponse.next();
 }
 
 export const config = {

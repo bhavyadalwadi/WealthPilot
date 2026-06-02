@@ -4,9 +4,9 @@ Selector-first Next.js app for stock, portfolio, and options analysis.
 
 ## Current State
 
-- Runs locally with file-backed persistence.
-- Deploys to Vercel with KV-backed persistence.
-- Protected by site-wide HTTP Basic Auth in both local and Vercel.
+- Runs locally with Prisma + SQLite persistence.
+- Deploys to Vercel prod with Neon/Postgres persistence.
+- Protected by a custom sign-in screen with cookie session auth.
 - Uses deterministic scoring first, with optional LLM memo generation on top.
 
 ## Core Workflows
@@ -27,11 +27,13 @@ Selector-first Next.js app for stock, portfolio, and options analysis.
 ## Local Setup
 
 1. Run `npm install`
-2. Copy `.env.local.example` to `.env.local`
+2. Copy `.env.example` to `.env`
 3. Set `PRIVATE_ACCESS_USERNAME` and `PRIVATE_ACCESS_PASSWORD`
-4. Run `npm run dev`
+4. Run `npm run prisma:generate`
+5. Run `npm run db:push`
+6. Run `npm run dev`
 
-By default, local persistence writes to `db/storage/`.
+By default, local persistence writes to `prisma/dev.db`.
 
 ## Vercel Setup
 
@@ -48,14 +50,13 @@ See [DEPLOY.md](./DEPLOY.md).
 - `ALPHA_VANTAGE_API_KEY`
 - `ALPHA_VANTAGE_BASE_URL`
 - `STORAGE_DRIVER`
-- `KV_REST_API_URL`
-- `KV_REST_API_TOKEN`
+- `DATABASE_URL`
 
 ## Persistence Mode
 
-- Local default: file storage under `db/storage/`
-- Vercel default: KV storage through REST env vars
-- Override manually with `STORAGE_DRIVER=file` or `STORAGE_DRIVER=kv`
+- Local default: Prisma + SQLite at `prisma/dev.db`
+- Vercel prod default: Postgres via `DATABASE_URL`
+- Override manually with `STORAGE_DRIVER=sqlite` or `STORAGE_DRIVER=postgres`
 
 ## Status
 
