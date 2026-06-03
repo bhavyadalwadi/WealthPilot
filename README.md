@@ -6,7 +6,7 @@ Selector-first Next.js app for stock, portfolio, and options analysis.
 
 - Runs locally with Prisma + SQLite persistence.
 - Deploys to Vercel prod with Neon/Postgres persistence.
-- Protected by a custom sign-in screen with cookie session auth.
+- Protected by a custom sign-in screen with middleware-gated cookie session auth.
 - Uses deterministic scoring first, with optional LLM memo generation on top.
 
 ## Core Workflows

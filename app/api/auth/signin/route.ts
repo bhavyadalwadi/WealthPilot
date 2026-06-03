@@ -1,36 +1,42 @@
 import { NextResponse } from "next/server";
-import { createSessionToken, getSessionCookieName, isValidLogin } from "@/lib/auth";
+import {
+  createSessionToken,
+  getSessionCookieName,
+  getSessionCookieOptions,
+  isValidLogin,
+  normalizeNextPath,
+} from "@/lib/auth";
 
 export async function POST(request: Request) {
   try {
-    const body = (await request.json()) as {
-      username?: string;
-      password?: string;
-      next?: string;
-    };
-
-    const username = body.username?.trim() ?? "";
-    const password = body.password ?? "";
-    const next = typeof body.next === "string" && body.next.startsWith("/") ? body.next : "/";
+    const formData = await request.formData();
+    const username = String(formData.get("username") ?? "").trim();
+    const password = String(formData.get("password") ?? "");
+    const next = normalizeNextPath(String(formData.get("next") ?? ""));
 
     if (!(await isValidLogin(username, password))) {
-      return NextResponse.json({ error: "Incorrect username or password." }, { status: 401 });
+      const signInUrl = new URL("/signin", request.url);
+      signInUrl.searchParams.set("next", next);
+      signInUrl.searchParams.set("error", "invalid");
+      return NextResponse.redirect(signInUrl, { status: 303 });
     }
 
-    const response = NextResponse.json({ ok: true, next });
-    response.cookies.set({
-      name: getSessionCookieName(),
-      value: await createSessionToken(),
-      httpOnly: true,
-      sameSite: "lax",
-      secure: process.env.NODE_ENV === "production",
-      path: "/",
-      maxAge: 60 * 60 * 24 * 30,
-    });
+    const response = NextResponse.redirect(new URL(next, request.url), { status: 303 });
+    response.cookies.set(getSessionCookieName(), await createSessionToken(), getSessionCookieOptions());
 
     return response;
   } catch (error) {
     const message = error instanceof Error ? error.message : "Sign-in failed.";
-    return NextResponse.json({ error: message }, { status: 500 });
+    const signInUrl = new URL("/signin", request.url);
+    signInUrl.searchParams.set("error", "server");
+    return NextResponse.redirect(
+      new URL(`${signInUrl.pathname}?${signInUrl.searchParams.toString()}`, request.url),
+      {
+        status: 303,
+        headers: {
+          "x-auth-error": message,
+        },
+      },
+    );
   }
 }

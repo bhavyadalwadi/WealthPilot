@@ -209,9 +209,12 @@ export function AppShell() {
 
       <main className="workspace">
         <div className="workspace__topbar">
-          <a className="button button--ghost" href="/signout">
-            Sign Out
-          </a>
+          <form action="/signout" method="post">
+            <input name="next" type="hidden" value="/signin" />
+            <button className="button button--ghost" type="submit">
+              Sign Out
+            </button>
+          </form>
         </div>
 
         <HeroPanel mode={mode} intent={intent} />

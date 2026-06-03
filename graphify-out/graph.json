@@ -13,28 +13,19 @@
       "norm_label": "middleware.ts"
     },
     {
-      "label": "username",
+      "label": "isPublicPath()",
       "file_type": "code",
       "source_file": "middleware.ts",
-      "source_location": "L4",
-      "id": "ticker_pm_copilot_middleware_username",
+      "source_location": "L10",
+      "id": "ticker_pm_copilot_middleware_ispublicpath",
       "community": 40,
-      "norm_label": "username"
-    },
-    {
-      "label": "password",
-      "file_type": "code",
-      "source_file": "middleware.ts",
-      "source_location": "L5",
-      "id": "ticker_pm_copilot_middleware_password",
-      "community": 40,
-      "norm_label": "password"
+      "norm_label": "ispublicpath()"
     },
     {
       "label": "middleware()",
       "file_type": "code",
       "source_file": "middleware.ts",
-      "source_location": "L7",
+      "source_location": "L14",
       "id": "ticker_pm_copilot_middleware_middleware",
       "community": 40,
       "norm_label": "middleware()"
@@ -43,7 +34,7 @@
       "label": "config",
       "file_type": "code",
       "source_file": "middleware.ts",
-      "source_location": "L31",
+      "source_location": "L49",
       "id": "ticker_pm_copilot_middleware_config",
       "community": 40,
       "norm_label": "config"
@@ -148,28 +139,82 @@
       "norm_label": "typecheck"
     },
     {
-      "label": "dependencies",
+      "label": "prisma:generate",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "ticker_pm_copilot_package_scripts_prisma_generate",
+      "community": 8,
+      "norm_label": "prisma:generate"
+    },
+    {
+      "label": "db:push",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
+      "id": "ticker_pm_copilot_package_scripts_db_push",
+      "community": 8,
+      "norm_label": "db:push"
+    },
+    {
+      "label": "postinstall",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "ticker_pm_copilot_package_scripts_postinstall",
+      "community": 8,
+      "norm_label": "postinstall"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
       "id": "ticker_pm_copilot_package_dependencies",
       "community": 8,
       "norm_label": "dependencies"
     },
     {
+      "label": "@prisma/client",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "ticker_pm_copilot_package_dependencies_prisma_client",
+      "community": 8,
+      "norm_label": "@prisma/client"
+    },
+    {
       "label": "next",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L17",
       "id": "ticker_pm_copilot_package_dependencies_next",
       "community": 8,
       "norm_label": "next"
     },
     {
+      "label": "pg",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "ticker_pm_copilot_package_dependencies_pg",
+      "community": 8,
+      "norm_label": "pg"
+    },
+    {
+      "label": "prisma",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "ticker_pm_copilot_package_dependencies_prisma",
+      "community": 8,
+      "norm_label": "prisma"
+    },
+    {
       "label": "react",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L20",
       "id": "ticker_pm_copilot_package_dependencies_react",
       "community": 8,
       "norm_label": "react"
@@ -178,7 +223,7 @@
       "label": "react-dom",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L21",
       "id": "ticker_pm_copilot_package_dependencies_react_dom",
       "community": 8,
       "norm_label": "react-dom"
@@ -187,7 +232,7 @@
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L23",
       "id": "ticker_pm_copilot_package_devdependencies",
       "community": 8,
       "norm_label": "devdependencies"
@@ -196,16 +241,25 @@
       "label": "@types/node",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L18",
+      "source_location": "L24",
       "id": "ticker_pm_copilot_package_devdependencies_types_node",
       "community": 8,
       "norm_label": "@types/node"
     },
     {
+      "label": "@types/pg",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "ticker_pm_copilot_package_devdependencies_types_pg",
+      "community": 8,
+      "norm_label": "@types/pg"
+    },
+    {
       "label": "@types/react",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L26",
       "id": "ticker_pm_copilot_package_devdependencies_types_react",
       "community": 8,
       "norm_label": "@types/react"
@@ -214,7 +268,7 @@
       "label": "@types/react-dom",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L27",
       "id": "ticker_pm_copilot_package_devdependencies_types_react_dom",
       "community": 8,
       "norm_label": "@types/react-dom"
@@ -223,7 +277,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L21",
+      "source_location": "L28",
       "id": "ticker_pm_copilot_package_devdependencies_typescript",
       "community": 8,
       "norm_label": "typescript"
@@ -474,6 +528,60 @@
     {
       "label": "route.ts",
       "file_type": "code",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L1",
+      "id": "app_signout_route_ts",
+      "community": 40,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L4",
+      "id": "signout_route_post",
+      "community": 40,
+      "norm_label": "post()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L1",
+      "id": "app_signin_page_tsx",
+      "community": 40,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "SignInPage()",
+      "file_type": "code",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L4",
+      "id": "signin_page_signinpage",
+      "community": 40,
+      "norm_label": "signinpage()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L1",
+      "id": "app_api_auth_signin_route_ts",
+      "community": 40,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L10",
+      "id": "signin_route_post",
+      "community": 40,
+      "norm_label": "post()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
       "source_file": "app/api/portfolios/route.ts",
       "source_location": "L1",
       "id": "app_api_portfolios_route_ts",
@@ -531,7 +639,7 @@
       "source_file": "app/api/income/route.ts",
       "source_location": "L1",
       "id": "app_api_income_route_ts",
-      "community": 4,
+      "community": 0,
       "norm_label": "route.ts"
     },
     {
@@ -540,7 +648,7 @@
       "source_file": "app/api/income/route.ts",
       "source_location": "L3",
       "id": "income_route_post",
-      "community": 4,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -576,7 +684,7 @@
       "source_file": "app/api/review/route.ts",
       "source_location": "L1",
       "id": "app_api_review_route_ts",
-      "community": 4,
+      "community": 0,
       "norm_label": "route.ts"
     },
     {
@@ -585,7 +693,7 @@
       "source_file": "app/api/review/route.ts",
       "source_location": "L3",
       "id": "review_route_post",
-      "community": 4,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -612,7 +720,7 @@
       "source_file": "app/api/portfolio/route.ts",
       "source_location": "L1",
       "id": "app_api_portfolio_route_ts",
-      "community": 4,
+      "community": 0,
       "norm_label": "route.ts"
     },
     {
@@ -621,7 +729,7 @@
       "source_file": "app/api/portfolio/route.ts",
       "source_location": "L3",
       "id": "portfolio_route_post",
-      "community": 4,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -630,7 +738,7 @@
       "source_file": "app/api/analyze/route.ts",
       "source_location": "L1",
       "id": "app_api_analyze_route_ts",
-      "community": 4,
+      "community": 0,
       "norm_label": "route.ts"
     },
     {
@@ -639,8 +747,26 @@
       "source_file": "app/api/analyze/route.ts",
       "source_location": "L3",
       "id": "analyze_route_post",
-      "community": 4,
+      "community": 0,
       "norm_label": "post()"
+    },
+    {
+      "label": "signin-form.tsx",
+      "file_type": "code",
+      "source_file": "components/signin-form.tsx",
+      "source_location": "L1",
+      "id": "components_signin_form_tsx",
+      "community": 40,
+      "norm_label": "signin-form.tsx"
+    },
+    {
+      "label": "SignInForm()",
+      "file_type": "code",
+      "source_file": "components/signin-form.tsx",
+      "source_location": "L1",
+      "id": "components_signin_form_signinform",
+      "community": 40,
+      "norm_label": "signinform()"
     },
     {
       "label": "portfolio-manager.tsx",
@@ -817,7 +943,7 @@
       "label": "parsePositions()",
       "file_type": "code",
       "source_file": "components/layout/app-shell.tsx",
-      "source_location": "L254",
+      "source_location": "L263",
       "id": "layout_app_shell_parsepositions",
       "community": 2,
       "norm_label": "parsepositions()"
@@ -826,7 +952,7 @@
       "label": "parseTickerList()",
       "file_type": "code",
       "source_file": "components/layout/app-shell.tsx",
-      "source_location": "L270",
+      "source_location": "L279",
       "id": "layout_app_shell_parsetickerlist",
       "community": 2,
       "norm_label": "parsetickerlist()"
@@ -835,7 +961,7 @@
       "label": "parseNumber()",
       "file_type": "code",
       "source_file": "components/layout/app-shell.tsx",
-      "source_location": "L277",
+      "source_location": "L286",
       "id": "layout_app_shell_parsenumber",
       "community": 2,
       "norm_label": "parsenumber()"
@@ -873,7 +999,7 @@
       "source_file": "components/results/summary-bar.tsx",
       "source_location": "L1",
       "id": "components_results_summary_bar_tsx",
-      "community": 2,
+      "community": 6,
       "norm_label": "summary-bar.tsx"
     },
     {
@@ -882,7 +1008,7 @@
       "source_file": "components/results/summary-bar.tsx",
       "source_location": "L3",
       "id": "results_summary_bar_summarybar",
-      "community": 2,
+      "community": 6,
       "norm_label": "summarybar()"
     },
     {
@@ -891,7 +1017,7 @@
       "source_file": "components/results/decision-card.tsx",
       "source_location": "L1",
       "id": "components_results_decision_card_tsx",
-      "community": 2,
+      "community": 6,
       "norm_label": "decision-card.tsx"
     },
     {
@@ -900,7 +1026,7 @@
       "source_file": "components/results/decision-card.tsx",
       "source_location": "L3",
       "id": "results_decision_card_decisioncard",
-      "community": 2,
+      "community": 6,
       "norm_label": "decisioncard()"
     },
     {
@@ -909,7 +1035,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L1",
       "id": "components_results_results_board_tsx",
-      "community": 2,
+      "community": 6,
       "norm_label": "results-board.tsx"
     },
     {
@@ -918,7 +1044,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L8",
       "id": "results_results_board_resultsboardprops",
-      "community": 2,
+      "community": 6,
       "norm_label": "resultsboardprops"
     },
     {
@@ -927,7 +1053,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L15",
       "id": "results_results_board_resultsboard",
-      "community": 2,
+      "community": 6,
       "norm_label": "resultsboard()"
     },
     {
@@ -936,7 +1062,7 @@
       "source_file": "components/results/prompt-card.tsx",
       "source_location": "L1",
       "id": "components_results_prompt_card_tsx",
-      "community": 2,
+      "community": 6,
       "norm_label": "prompt-card.tsx"
     },
     {
@@ -945,7 +1071,7 @@
       "source_file": "components/results/prompt-card.tsx",
       "source_location": "L3",
       "id": "results_prompt_card_promptcard",
-      "community": 2,
+      "community": 6,
       "norm_label": "promptcard()"
     },
     {
@@ -954,7 +1080,7 @@
       "source_file": "components/results/signal-card.tsx",
       "source_location": "L1",
       "id": "components_results_signal_card_tsx",
-      "community": 2,
+      "community": 6,
       "norm_label": "signal-card.tsx"
     },
     {
@@ -963,7 +1089,7 @@
       "source_file": "components/results/signal-card.tsx",
       "source_location": "L3",
       "id": "results_signal_card_signalcard",
-      "community": 2,
+      "community": 6,
       "norm_label": "signalcard()"
     },
     {
@@ -972,7 +1098,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L1",
       "id": "components_results_action_queue_tsx",
-      "community": 2,
+      "community": 6,
       "norm_label": "action-queue.tsx"
     },
     {
@@ -981,7 +1107,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L3",
       "id": "results_action_queue_actionqueueprops",
-      "community": 2,
+      "community": 6,
       "norm_label": "actionqueueprops"
     },
     {
@@ -990,7 +1116,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L8",
       "id": "results_action_queue_actionqueue",
-      "community": 2,
+      "community": 6,
       "norm_label": "actionqueue()"
     },
     {
@@ -1028,6 +1154,168 @@
       "id": "selectors_selector_list_selectorlist",
       "community": 2,
       "norm_label": "selectorlist()"
+    },
+    {
+      "label": "prisma.ts",
+      "file_type": "code",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L1",
+      "id": "lib_prisma_ts",
+      "community": 4,
+      "norm_label": "prisma.ts"
+    },
+    {
+      "label": "globalForPrisma",
+      "file_type": "code",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L3",
+      "id": "lib_prisma_globalforprisma",
+      "community": 4,
+      "norm_label": "globalforprisma"
+    },
+    {
+      "label": "getPrisma()",
+      "file_type": "code",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L7",
+      "id": "lib_prisma_getprisma",
+      "community": 4,
+      "norm_label": "getprisma()"
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L1",
+      "id": "lib_auth_ts",
+      "community": 40,
+      "norm_label": "auth.ts"
+    },
+    {
+      "label": "PRIVATE_ACCESS_ENV_NAMES",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L4",
+      "id": "lib_auth_private_access_env_names",
+      "community": 40,
+      "norm_label": "private_access_env_names"
+    },
+    {
+      "label": "PrivateAccessEnvName",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L9",
+      "id": "lib_auth_privateaccessenvname",
+      "community": 40,
+      "norm_label": "privateaccessenvname"
+    },
+    {
+      "label": "requiredEnv()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L11",
+      "id": "lib_auth_requiredenv",
+      "community": 40,
+      "norm_label": "requiredenv()"
+    },
+    {
+      "label": "timingSafeEqualString()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L19",
+      "id": "lib_auth_timingsafeequalstring",
+      "community": 40,
+      "norm_label": "timingsafeequalstring()"
+    },
+    {
+      "label": "sha256Hex()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L31",
+      "id": "lib_auth_sha256hex",
+      "community": 40,
+      "norm_label": "sha256hex()"
+    },
+    {
+      "label": "getSessionSignature()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L39",
+      "id": "lib_auth_getsessionsignature",
+      "community": 40,
+      "norm_label": "getsessionsignature()"
+    },
+    {
+      "label": "getSessionCookieName()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L45",
+      "id": "lib_auth_getsessioncookiename",
+      "community": 40,
+      "norm_label": "getsessioncookiename()"
+    },
+    {
+      "label": "getSessionMaxAgeSeconds()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L49",
+      "id": "lib_auth_getsessionmaxageseconds",
+      "community": 40,
+      "norm_label": "getsessionmaxageseconds()"
+    },
+    {
+      "label": "getSessionCookieOptions()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L53",
+      "id": "lib_auth_getsessioncookieoptions",
+      "community": 40,
+      "norm_label": "getsessioncookieoptions()"
+    },
+    {
+      "label": "getPrivateAccessConfig()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L63",
+      "id": "lib_auth_getprivateaccessconfig",
+      "community": 40,
+      "norm_label": "getprivateaccessconfig()"
+    },
+    {
+      "label": "normalizeNextPath()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L70",
+      "id": "lib_auth_normalizenextpath",
+      "community": 40,
+      "norm_label": "normalizenextpath()"
+    },
+    {
+      "label": "createSessionToken()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L77",
+      "id": "lib_auth_createsessiontoken",
+      "community": 40,
+      "norm_label": "createsessiontoken()"
+    },
+    {
+      "label": "isValidLogin()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L83",
+      "id": "lib_auth_isvalidlogin",
+      "community": 40,
+      "norm_label": "isvalidlogin()"
+    },
+    {
+      "label": "isValidSessionToken()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L91",
+      "id": "lib_auth_isvalidsessiontoken",
+      "community": 40,
+      "norm_label": "isvalidsessiontoken()"
     },
     {
       "label": "action-labels.ts",
@@ -1323,7 +1611,7 @@
       "source_file": "lib/server/respond.ts",
       "source_location": "L1",
       "id": "lib_server_respond_ts",
-      "community": 4,
+      "community": 0,
       "norm_label": "respond.ts"
     },
     {
@@ -1332,7 +1620,7 @@
       "source_file": "lib/server/respond.ts",
       "source_location": "L7",
       "id": "server_respond_handleanalysisrequest",
-      "community": 4,
+      "community": 0,
       "norm_label": "handleanalysisrequest()"
     },
     {
@@ -1404,7 +1692,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L18",
       "id": "schemas_analysis_confidence",
-      "community": 6,
+      "community": 9,
       "norm_label": "confidence"
     },
     {
@@ -1512,7 +1800,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L104",
       "id": "schemas_analysis_analysisrequest",
-      "community": 1,
+      "community": 6,
       "norm_label": "analysisrequest"
     },
     {
@@ -1638,7 +1926,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L226",
       "id": "schemas_analysis_analysisresponse",
-      "community": 2,
+      "community": 6,
       "norm_label": "analysisresponse"
     },
     {
@@ -1674,7 +1962,7 @@
       "source_file": "lib/schemas/persistence.ts",
       "source_location": "L23",
       "id": "schemas_persistence_savedportfolio",
-      "community": 2,
+      "community": 4,
       "norm_label": "savedportfolio"
     },
     {
@@ -1764,7 +2052,7 @@
       "source_file": "lib/ai/memo-generator.ts",
       "source_location": "L6",
       "id": "ai_memo_generator_generatememo",
-      "community": 6,
+      "community": 9,
       "norm_label": "generatememo()"
     },
     {
@@ -2466,7 +2754,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L294",
       "id": "providers_alpha_vantage_alphavantageearningsprovider",
-      "community": 35,
+      "community": 38,
       "norm_label": "alphavantageearningsprovider"
     },
     {
@@ -2475,7 +2763,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L297",
       "id": "providers_alpha_vantage_alphavantageearningsprovider_constructor",
-      "community": 35,
+      "community": 38,
       "norm_label": ".constructor()"
     },
     {
@@ -2484,7 +2772,7 @@
       "source_file": "lib/data/providers/alpha-vantage.ts",
       "source_location": "L299",
       "id": "providers_alpha_vantage_alphavantageearningsprovider_getearningsdata",
-      "community": 35,
+      "community": 38,
       "norm_label": ".getearningsdata()"
     },
     {
@@ -2983,10 +3271,19 @@
       "norm_label": "queries.ts"
     },
     {
+      "label": "defaultProfile",
+      "file_type": "code",
+      "source_file": "db/queries.ts",
+      "source_location": "L18",
+      "id": "db_queries_defaultprofile",
+      "community": 4,
+      "norm_label": "defaultprofile"
+    },
+    {
       "label": "getUserProfile()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L11",
+      "source_location": "L29",
       "id": "db_queries_getuserprofile",
       "community": 4,
       "norm_label": "getuserprofile()"
@@ -2995,7 +3292,7 @@
       "label": "saveUserProfile()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L24",
+      "source_location": "L54",
       "id": "db_queries_saveuserprofile",
       "community": 4,
       "norm_label": "saveuserprofile()"
@@ -3004,7 +3301,7 @@
       "label": "listSavedPortfolios()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L34",
+      "source_location": "L92",
       "id": "db_queries_listsavedportfolios",
       "community": 4,
       "norm_label": "listsavedportfolios()"
@@ -3013,7 +3310,7 @@
       "label": "getSavedPortfolio()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L38",
+      "source_location": "L116",
       "id": "db_queries_getsavedportfolio",
       "community": 4,
       "norm_label": "getsavedportfolio()"
@@ -3022,7 +3319,7 @@
       "label": "upsertSavedPortfolio()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L43",
+      "source_location": "L121",
       "id": "db_queries_upsertsavedportfolio",
       "community": 4,
       "norm_label": "upsertsavedportfolio()"
@@ -3031,7 +3328,7 @@
       "label": "deleteSavedPortfolio()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L67",
+      "source_location": "L171",
       "id": "db_queries_deletesavedportfolio",
       "community": 4,
       "norm_label": "deletesavedportfolio()"
@@ -3040,7 +3337,7 @@
       "label": "listAnalysisHistory()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L74",
+      "source_location": "L185",
       "id": "db_queries_listanalysishistory",
       "community": 4,
       "norm_label": "listanalysishistory()"
@@ -3049,19 +3346,190 @@
       "label": "appendAnalysisHistory()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L79",
+      "source_location": "L211",
       "id": "db_queries_appendanalysishistory",
       "community": 4,
       "norm_label": "appendanalysishistory()"
     },
     {
+      "label": "parseJson()",
+      "file_type": "code",
+      "source_file": "db/queries.ts",
+      "source_location": "L258",
+      "id": "db_queries_parsejson",
+      "community": 4,
+      "norm_label": "parsejson()"
+    },
+    {
       "label": "slugify()",
       "file_type": "code",
       "source_file": "db/queries.ts",
-      "source_location": "L90",
+      "source_location": "L266",
       "id": "db_queries_slugify",
       "community": 4,
       "norm_label": "slugify()"
+    },
+    {
+      "label": "postgres.ts",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L1",
+      "id": "db_postgres_ts",
+      "community": 4,
+      "norm_label": "postgres.ts"
+    },
+    {
+      "label": "globalForPg",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L4",
+      "id": "db_postgres_globalforpg",
+      "community": 4,
+      "norm_label": "globalforpg"
+    },
+    {
+      "label": "getPool()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L9",
+      "id": "db_postgres_getpool",
+      "community": 4,
+      "norm_label": "getpool()"
+    },
+    {
+      "label": "ensureSchema()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L25",
+      "id": "db_postgres_ensureschema",
+      "community": 4,
+      "norm_label": "ensureschema()"
+    },
+    {
+      "label": "getPostgresUserProfile()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L88",
+      "id": "db_postgres_getpostgresuserprofile",
+      "community": 4,
+      "norm_label": "getpostgresuserprofile()"
+    },
+    {
+      "label": "savePostgresUserProfile()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L106",
+      "id": "db_postgres_savepostgresuserprofile",
+      "community": 4,
+      "norm_label": "savepostgresuserprofile()"
+    },
+    {
+      "label": "listPostgresPortfolios()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L135",
+      "id": "db_postgres_listpostgresportfolios",
+      "community": 4,
+      "norm_label": "listpostgresportfolios()"
+    },
+    {
+      "label": "savePostgresPortfolio()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L151",
+      "id": "db_postgres_savepostgresportfolio",
+      "community": 4,
+      "norm_label": "savepostgresportfolio()"
+    },
+    {
+      "label": "deletePostgresPortfolio()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L181",
+      "id": "db_postgres_deletepostgresportfolio",
+      "community": 4,
+      "norm_label": "deletepostgresportfolio()"
+    },
+    {
+      "label": "listPostgresHistory()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L187",
+      "id": "db_postgres_listpostgreshistory",
+      "community": 4,
+      "norm_label": "listpostgreshistory()"
+    },
+    {
+      "label": "appendPostgresHistory()",
+      "file_type": "code",
+      "source_file": "db/postgres.ts",
+      "source_location": "L207",
+      "id": "db_postgres_appendpostgreshistory",
+      "community": 4,
+      "norm_label": "appendpostgreshistory()"
+    },
+    {
+      "label": "legacy-migration.ts",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L1",
+      "id": "db_legacy_migration_ts",
+      "community": 4,
+      "norm_label": "legacy-migration.ts"
+    },
+    {
+      "label": "globalForMigration",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L6",
+      "id": "db_legacy_migration_globalformigration",
+      "community": 4,
+      "norm_label": "globalformigration"
+    },
+    {
+      "label": "storageDir",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L10",
+      "id": "db_legacy_migration_storagedir",
+      "community": 4,
+      "norm_label": "storagedir"
+    },
+    {
+      "label": "ensureLegacyJsonMigration()",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L12",
+      "id": "db_legacy_migration_ensurelegacyjsonmigration",
+      "community": 4,
+      "norm_label": "ensurelegacyjsonmigration()"
+    },
+    {
+      "label": "migrateLegacyJsonIfNeeded()",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L20",
+      "id": "db_legacy_migration_migratelegacyjsonifneeded",
+      "community": 4,
+      "norm_label": "migratelegacyjsonifneeded()"
+    },
+    {
+      "label": "hasLegacyStorageDir()",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L87",
+      "id": "db_legacy_migration_haslegacystoragedir",
+      "community": 4,
+      "norm_label": "haslegacystoragedir()"
+    },
+    {
+      "label": "readLegacyJson()",
+      "file_type": "code",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L96",
+      "id": "db_legacy_migration_readlegacyjson",
+      "community": 4,
+      "norm_label": "readlegacyjson()"
     },
     {
       "label": "store.ts",
@@ -3073,94 +3541,22 @@
       "norm_label": "store.ts"
     },
     {
-      "label": "storageDir",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L4",
-      "id": "db_store_storagedir",
-      "community": 4,
-      "norm_label": "storagedir"
-    },
-    {
       "label": "StorageBackend",
       "file_type": "code",
       "source_file": "db/store.ts",
-      "source_location": "L7",
+      "source_location": "L3",
       "id": "db_store_storagebackend",
       "community": 4,
       "norm_label": "storagebackend"
     },
     {
-      "label": "readJsonFile()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L9",
-      "id": "db_store_readjsonfile",
-      "community": 4,
-      "norm_label": "readjsonfile()"
-    },
-    {
-      "label": "writeJsonFile()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L32",
-      "id": "db_store_writejsonfile",
-      "community": 4,
-      "norm_label": "writejsonfile()"
-    },
-    {
-      "label": "ensureStorageDir()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L45",
-      "id": "db_store_ensurestoragedir",
-      "community": 4,
-      "norm_label": "ensurestoragedir()"
-    },
-    {
       "label": "getStorageBackend()",
       "file_type": "code",
       "source_file": "db/store.ts",
-      "source_location": "L49",
+      "source_location": "L5",
       "id": "db_store_getstoragebackend",
       "community": 4,
       "norm_label": "getstoragebackend()"
-    },
-    {
-      "label": "readKvValue()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L59",
-      "id": "db_store_readkvvalue",
-      "community": 4,
-      "norm_label": "readkvvalue()"
-    },
-    {
-      "label": "writeKvValue()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L64",
-      "id": "db_store_writekvvalue",
-      "community": 4,
-      "norm_label": "writekvvalue()"
-    },
-    {
-      "label": "runKvCommand()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L68",
-      "id": "db_store_runkvcommand",
-      "community": 4,
-      "norm_label": "runkvcommand()"
-    },
-    {
-      "label": "storageKey()",
-      "file_type": "code",
-      "source_file": "db/store.ts",
-      "source_location": "L99",
-      "id": "db_store_storagekey",
-      "community": 4,
-      "norm_label": "storagekey()"
     },
     {
       "label": "PROJECT_STATUS.md",
@@ -3190,127 +3586,64 @@
       "norm_label": "what this repo is for"
     },
     {
-      "label": "Category",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L11",
-      "id": "ticker_pm_copilot_project_status_category",
-      "community": 33,
-      "norm_label": "category"
-    },
-    {
-      "label": "Benefit",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L14",
-      "id": "ticker_pm_copilot_project_status_benefit",
-      "community": 33,
-      "norm_label": "benefit"
-    },
-    {
       "label": "Current Status",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L17",
+      "source_location": "L12",
       "id": "ticker_pm_copilot_project_status_current_status",
       "community": 33,
       "norm_label": "current status"
     },
     {
-      "label": "Current Plan",
+      "label": "Recently Completed",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L20",
-      "id": "ticker_pm_copilot_project_status_current_plan",
+      "source_location": "L16",
+      "id": "ticker_pm_copilot_project_status_recently_completed",
       "community": 33,
-      "norm_label": "current plan"
-    },
-    {
-      "label": "Phase 1: Framework Migration Move the static MVP into a Next.js app with: - App Router - TypeScript - modular components - server-side API handlers - reusable design tokens and layout system Deliverables: - working Next.js app shell - selector-driven home page - mode-aware forms - results surface migrated from the static prototype ### Phase 2: API Contracts Add internal API routes for: - ticker analysis requests - portfolio analysis requests - options-income analysis requests - full PM review requests Deliverables: - typed request/response schemas - mock service layer behind the routes - deterministic validation for malformed inputs ### Phase 3: Deterministic Analysis Engine Replace local UI heuristics with backend analysis services: - factor scoring - policy gates - action label mapping - recommendation ranking Deliverables: - score engine module - action policy module - ranking utilities - structured recommendation payloads Status: - Completed with dedicated `factor-scores`, `policy-engine`, and `ranking` modules - API response shape preserved while business logic was separated internally ### Phase 4: Data Layer Add provider adapters for: - market price/history data - earnings calendar - company/news data - options chain / IV / flow context Deliverables: - provider abstraction layer - normalized ticker snapshot object - caching strategy - graceful fallback when providers fail or data is incomplete Status: - In progress via live-capable Alpha Vantage market/news/earnings/options adapters with mock fallback - Scoring and policy now consume normalized snapshot context instead of raw request text alone ### Phase 5: OpenAI Memo Generation Use OpenAI to convert structured analysis into a PM-style investment brief. Deliverables: - prompt builder - structured analysis-to-memo transformer - response guardrails so the model only uses approved action labels - clear missing-data caveat handling Status: - Implemented as a configurable LLM layer rather than an OpenAI-only hardcode - Current providers: `mock`, `openai`, and `openai-compatible` - Deterministic scoring and policy remain authoritative; the LLM only writes the memo ### Phase 6: Portfolio Persistence Add local persistence for: - user profile defaults - saved portfolios - watchlists - recent analyses Deliverables: - database schema - CRUD APIs - saved workflow state Status: - Implemented as pragmatic file-backed persistence under `db/storage/` - Added profile defaults, saved portfolio CRUD, and automatic analysis history capture",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L21",
-      "id": "ticker_pm_copilot_project_status_phase_1_framework_migration_move_the_static_mvp_into_a_next_js_app_with_app_router_typescript_modular_components_server_side_api_handlers_reusable_design_tokens_and_layout_system_deliverables_working_next_js_app_shell_selector_driven_home_page_mode_aware_forms_results_surface_migrated_from_the_static_prototype_phase_2_api_contracts_add_internal_api_routes_for_ticker_analysis_requests_portfolio_analysis_requests_options_income_analysis_requests_full_pm_review_requests_deliverables_typed_request_response_schemas_mock_service_layer_behind_the_routes_deterministic_validation_for_malformed_inputs_phase_3_deterministic_analysis_engine_replace_local_ui_heuristics_with_backend_analysis_services_factor_scoring_policy_gates_action_label_mapping_recommendation_ranking_deliverables_score_engine_module_action_policy_module_ranking_utilities_structured_recommendation_payloads_status_completed_with_dedicated_factor_scores_policy_engine_and_ranking_modules_api_response_shape_preserved_while_business_logic_was_separated_internally_phase_4_data_layer_add_provider_adapters_for_market_price_history_data_earnings_calendar_company_news_data_options_chain_iv_flow_context_deliverables_provider_abstraction_layer_normalized_ticker_snapshot_object_caching_strategy_graceful_fallback_when_providers_fail_or_data_is_incomplete_status_in_progress_via_live_capable_alpha_vantage_market_news_earnings_options_adapters_with_mock_fallback_scoring_and_policy_now_consume_normalized_snapshot_context_instead_of_raw_request_text_alone_phase_5_openai_memo_generation_use_openai_to_convert_structured_analysis_into_a_pm_style_investment_brief_deliverables_prompt_builder_structured_analysis_to_memo_transformer_response_guardrails_so_the_model_only_uses_approved_action_labels_clear_missing_data_caveat_handling_status_implemented_as_a_configurable_llm_layer_rather_than_an_openai_only_hardcode_current_providers_mock_openai_and_openai_compatible_deterministic_scoring_and_policy_remain_authoritative_the_llm_only_writes_the_memo_phase_6_portfolio_persistence_add_local_persistence_for_user_profile_defaults_saved_portfolios_watchlists_recent_analyses_deliverables_database_schema_crud_apis_saved_workflow_state_status_implemented_as_pragmatic_file_backed_persistence_under_db_storage_added_profile_defaults_saved_portfolio_crud_and_automatic_analysis_history_capture",
-      "community": 33,
-      "norm_label": "phase 1: framework migration move the static mvp into a next.js app with: - app router - typescript - modular components - server-side api handlers - reusable design tokens and layout system deliverables: - working next.js app shell - selector-driven home page - mode-aware forms - results surface migrated from the static prototype ### phase 2: api contracts add internal api routes for: - ticker analysis requests - portfolio analysis requests - options-income analysis requests - full pm review requests deliverables: - typed request/response schemas - mock service layer behind the routes - deterministic validation for malformed inputs ### phase 3: deterministic analysis engine replace local ui heuristics with backend analysis services: - factor scoring - policy gates - action label mapping - recommendation ranking deliverables: - score engine module - action policy module - ranking utilities - structured recommendation payloads status: - completed with dedicated `factor-scores`, `policy-engine`, and `ranking` modules - api response shape preserved while business logic was separated internally ### phase 4: data layer add provider adapters for: - market price/history data - earnings calendar - company/news data - options chain / iv / flow context deliverables: - provider abstraction layer - normalized ticker snapshot object - caching strategy - graceful fallback when providers fail or data is incomplete status: - in progress via live-capable alpha vantage market/news/earnings/options adapters with mock fallback - scoring and policy now consume normalized snapshot context instead of raw request text alone ### phase 5: openai memo generation use openai to convert structured analysis into a pm-style investment brief. deliverables: - prompt builder - structured analysis-to-memo transformer - response guardrails so the model only uses approved action labels - clear missing-data caveat handling status: - implemented as a configurable llm layer rather than an openai-only hardcode - current providers: `mock`, `openai`, and `openai-compatible` - deterministic scoring and policy remain authoritative; the llm only writes the memo ### phase 6: portfolio persistence add local persistence for: - user profile defaults - saved portfolios - watchlists - recent analyses deliverables: - database schema - crud apis - saved workflow state status: - implemented as pragmatic file-backed persistence under `db/storage/` - added profile defaults, saved portfolio crud, and automatic analysis history capture"
-    },
-    {
-      "label": "Done",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L23",
-      "id": "ticker_pm_copilot_project_status_done",
-      "community": 33,
-      "norm_label": "done"
-    },
-    {
-      "label": "Next Step",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L26",
-      "id": "ticker_pm_copilot_project_status_next_step",
-      "community": 33,
-      "norm_label": "next step"
+      "norm_label": "recently completed"
     },
     {
       "label": "Working Status",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L29",
+      "source_location": "L24",
       "id": "ticker_pm_copilot_project_status_working_status",
       "community": 33,
       "norm_label": "working status"
     },
     {
-      "label": "Completion",
+      "label": "Remaining Product Gaps",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L33",
-      "id": "ticker_pm_copilot_project_status_completion",
+      "source_location": "L29",
+      "id": "ticker_pm_copilot_project_status_remaining_product_gaps",
       "community": 33,
-      "norm_label": "completion"
+      "norm_label": "remaining product gaps"
     },
     {
       "label": "Attention Now",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L37",
+      "source_location": "L35",
       "id": "ticker_pm_copilot_project_status_attention_now",
       "community": 33,
       "norm_label": "attention now"
     },
     {
-      "label": "Main Blocker",
+      "label": "Next Step",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L41",
-      "id": "ticker_pm_copilot_project_status_main_blocker",
+      "source_location": "L40",
+      "id": "ticker_pm_copilot_project_status_next_step",
       "community": 33,
-      "norm_label": "main blocker"
-    },
-    {
-      "label": "Ecosystem",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L44",
-      "id": "ticker_pm_copilot_project_status_ecosystem",
-      "community": 33,
-      "norm_label": "ecosystem"
-    },
-    {
-      "label": "Merge Candidate",
-      "file_type": "document",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L47",
-      "id": "ticker_pm_copilot_project_status_merge_candidate",
-      "community": 33,
-      "norm_label": "merge candidate"
+      "norm_label": "next step"
     },
     {
       "label": "Evidence",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L51",
+      "source_location": "L48",
       "id": "ticker_pm_copilot_project_status_evidence",
       "community": 33,
       "norm_label": "evidence"
@@ -3325,13 +3658,13 @@
       "norm_label": "status.md"
     },
     {
-      "label": "Project Status",
+      "label": "Status",
       "file_type": "document",
       "source_file": "STATUS.md",
       "source_location": "L1",
-      "id": "ticker_pm_copilot_status_project_status",
+      "id": "ticker_pm_copilot_status_status",
       "community": 36,
-      "norm_label": "project status"
+      "norm_label": "status"
     },
     {
       "label": "Current Phase",
@@ -3343,49 +3676,58 @@
       "norm_label": "current phase"
     },
     {
-      "label": "Key Metrics",
+      "label": "Shipped",
       "file_type": "document",
       "source_file": "STATUS.md",
       "source_location": "L7",
-      "id": "ticker_pm_copilot_status_key_metrics",
+      "id": "ticker_pm_copilot_status_shipped",
       "community": 36,
-      "norm_label": "key metrics"
+      "norm_label": "shipped"
     },
     {
-      "label": "Recent Changes",
+      "label": "Verified In This Pass",
       "file_type": "document",
       "source_file": "STATUS.md",
-      "source_location": "L13",
-      "id": "ticker_pm_copilot_status_recent_changes",
+      "source_location": "L19",
+      "id": "ticker_pm_copilot_status_verified_in_this_pass",
       "community": 36,
-      "norm_label": "recent changes"
+      "norm_label": "verified in this pass"
     },
     {
-      "label": "Known Issues",
+      "label": "Vercel Blockers Closed",
       "file_type": "document",
       "source_file": "STATUS.md",
-      "source_location": "L17",
-      "id": "ticker_pm_copilot_status_known_issues",
+      "source_location": "L24",
+      "id": "ticker_pm_copilot_status_vercel_blockers_closed",
       "community": 36,
-      "norm_label": "known issues"
+      "norm_label": "vercel blockers closed"
     },
     {
-      "label": "Next Steps",
+      "label": "Remaining Work",
       "file_type": "document",
       "source_file": "STATUS.md",
-      "source_location": "L21",
-      "id": "ticker_pm_copilot_status_next_steps",
+      "source_location": "L29",
+      "id": "ticker_pm_copilot_status_remaining_work",
       "community": 36,
-      "norm_label": "next steps"
+      "norm_label": "remaining work"
     },
     {
-      "label": "Questions or Feedback",
+      "label": "Operational Notes",
       "file_type": "document",
       "source_file": "STATUS.md",
-      "source_location": "L25",
-      "id": "ticker_pm_copilot_status_questions_or_feedback",
+      "source_location": "L35",
+      "id": "ticker_pm_copilot_status_operational_notes",
       "community": 36,
-      "norm_label": "questions or feedback"
+      "norm_label": "operational notes"
+    },
+    {
+      "label": "Last Updated",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L41",
+      "id": "ticker_pm_copilot_status_last_updated",
+      "community": 36,
+      "norm_label": "last updated"
     },
     {
       "label": "README.md",
@@ -3397,31 +3739,85 @@
       "norm_label": "readme.md"
     },
     {
-      "label": "Ticker PM Copilot",
+      "label": "WealthPilot",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "ticker_pm_copilot_readme_ticker_pm_copilot",
+      "id": "ticker_pm_copilot_readme_wealthpilot",
       "community": 11,
-      "norm_label": "ticker pm copilot"
+      "norm_label": "wealthpilot"
     },
     {
-      "label": "Features",
+      "label": "Current State",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
-      "id": "ticker_pm_copilot_readme_features",
+      "id": "ticker_pm_copilot_readme_current_state",
       "community": 11,
-      "norm_label": "features"
+      "norm_label": "current state"
+    },
+    {
+      "label": "Core Workflows",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "id": "ticker_pm_copilot_readme_core_workflows",
+      "community": 11,
+      "norm_label": "core workflows"
     },
     {
       "label": "Tech Stack",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L11",
+      "source_location": "L19",
       "id": "ticker_pm_copilot_readme_tech_stack",
       "community": 11,
       "norm_label": "tech stack"
+    },
+    {
+      "label": "Local Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "id": "ticker_pm_copilot_readme_local_setup",
+      "community": 11,
+      "norm_label": "local setup"
+    },
+    {
+      "label": "Vercel Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "id": "ticker_pm_copilot_readme_vercel_setup",
+      "community": 11,
+      "norm_label": "vercel setup"
+    },
+    {
+      "label": "Important Env Vars",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "ticker_pm_copilot_readme_important_env_vars",
+      "community": 11,
+      "norm_label": "important env vars"
+    },
+    {
+      "label": "Persistence Mode",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "id": "ticker_pm_copilot_readme_persistence_mode",
+      "community": 11,
+      "norm_label": "persistence mode"
+    },
+    {
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "id": "ticker_pm_copilot_readme_status",
+      "community": 11,
+      "norm_label": "status"
     },
     {
       "label": "DEPLOY.md",
@@ -3454,10 +3850,19 @@
       "label": "Vercel",
       "file_type": "document",
       "source_file": "DEPLOY.md",
-      "source_location": "L11",
+      "source_location": "L15",
       "id": "ticker_pm_copilot_deploy_vercel",
       "community": 41,
       "norm_label": "vercel"
+    },
+    {
+      "label": "Quick Verification",
+      "file_type": "document",
+      "source_file": "DEPLOY.md",
+      "source_location": "L24",
+      "id": "ticker_pm_copilot_deploy_quick_verification",
+      "community": 41,
+      "norm_label": "quick verification"
     },
     {
       "label": "CONTRIBUTING.md",
@@ -3478,22 +3883,22 @@
       "norm_label": "contributing"
     },
     {
-      "label": "Reporting Issues",
+      "label": "Feedback",
       "file_type": "document",
       "source_file": "CONTRIBUTING.md",
       "source_location": "L5",
-      "id": "ticker_pm_copilot_contributing_reporting_issues",
+      "id": "ticker_pm_copilot_contributing_feedback",
       "community": 39,
-      "norm_label": "reporting issues"
+      "norm_label": "feedback"
     },
     {
-      "label": "Code Changes",
+      "label": "Pull Requests",
       "file_type": "document",
       "source_file": "CONTRIBUTING.md",
-      "source_location": "L12",
-      "id": "ticker_pm_copilot_contributing_code_changes",
+      "source_location": "L11",
+      "id": "ticker_pm_copilot_contributing_pull_requests",
       "community": 39,
-      "norm_label": "code changes"
+      "norm_label": "pull requests"
     },
     {
       "label": "License",
@@ -3604,10 +4009,19 @@
       "norm_label": "phase 6: portfolio persistence"
     },
     {
+      "label": "Phase 7: Private Deployment Baseline",
+      "file_type": "document",
+      "source_file": "PLAN.md",
+      "source_location": "L155",
+      "id": "ticker_pm_copilot_plan_phase_7_private_deployment_baseline",
+      "community": 5,
+      "norm_label": "phase 7: private deployment baseline"
+    },
+    {
       "label": "Recommended Folder Structure",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L153",
+      "source_location": "L169",
       "id": "ticker_pm_copilot_plan_recommended_folder_structure",
       "community": 5,
       "norm_label": "recommended folder structure"
@@ -3616,7 +4030,7 @@
       "label": "code:text (ticker-pm-copilot/)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L155",
+      "source_location": "L171",
       "id": "ticker_pm_copilot_plan_codeblock_1",
       "community": 5,
       "norm_label": "code:text (ticker-pm-copilot/)"
@@ -3625,7 +4039,7 @@
       "label": "API Routes And JSON Contracts",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L233",
+      "source_location": "L249",
       "id": "ticker_pm_copilot_plan_api_routes_and_json_contracts",
       "community": 5,
       "norm_label": "api routes and json contracts"
@@ -3634,7 +4048,7 @@
       "label": "`POST /api/analyze`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L235",
+      "source_location": "L251",
       "id": "ticker_pm_copilot_plan_post_api_analyze",
       "community": 5,
       "norm_label": "`post /api/analyze`"
@@ -3643,7 +4057,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L241",
+      "source_location": "L257",
       "id": "ticker_pm_copilot_plan_codeblock_2",
       "community": 5,
       "norm_label": "code:json ({)"
@@ -3652,7 +4066,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L258",
+      "source_location": "L274",
       "id": "ticker_pm_copilot_plan_codeblock_3",
       "community": 5,
       "norm_label": "code:json ({)"
@@ -3661,7 +4075,7 @@
       "label": "`POST /api/portfolio`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L284",
+      "source_location": "L300",
       "id": "ticker_pm_copilot_plan_post_api_portfolio",
       "community": 5,
       "norm_label": "`post /api/portfolio`"
@@ -3670,7 +4084,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L290",
+      "source_location": "L306",
       "id": "ticker_pm_copilot_plan_codeblock_4",
       "community": 5,
       "norm_label": "code:json ({)"
@@ -3679,7 +4093,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L308",
+      "source_location": "L324",
       "id": "ticker_pm_copilot_plan_codeblock_5",
       "community": 5,
       "norm_label": "code:json ({)"
@@ -3688,7 +4102,7 @@
       "label": "`POST /api/income`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L320",
+      "source_location": "L336",
       "id": "ticker_pm_copilot_plan_post_api_income",
       "community": 5,
       "norm_label": "`post /api/income`"
@@ -3697,7 +4111,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L326",
+      "source_location": "L342",
       "id": "ticker_pm_copilot_plan_codeblock_6",
       "community": 5,
       "norm_label": "code:json ({)"
@@ -3706,7 +4120,7 @@
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L343",
+      "source_location": "L359",
       "id": "ticker_pm_copilot_plan_codeblock_7",
       "community": 5,
       "norm_label": "code:json ({)"
@@ -3715,7 +4129,7 @@
       "label": "`POST /api/review`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L358",
+      "source_location": "L374",
       "id": "ticker_pm_copilot_plan_post_api_review",
       "community": 5,
       "norm_label": "`post /api/review`"
@@ -3724,7 +4138,7 @@
       "label": "Core Types",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L374",
+      "source_location": "L390",
       "id": "ticker_pm_copilot_plan_core_types",
       "community": 5,
       "norm_label": "core types"
@@ -3733,7 +4147,7 @@
       "label": "`PortfolioPosition`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L376",
+      "source_location": "L392",
       "id": "ticker_pm_copilot_plan_portfolioposition",
       "community": 5,
       "norm_label": "`portfolioposition`"
@@ -3742,7 +4156,7 @@
       "label": "code:ts (type PortfolioPosition = {)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L378",
+      "source_location": "L394",
       "id": "ticker_pm_copilot_plan_codeblock_8",
       "community": 5,
       "norm_label": "code:ts (type portfolioposition = {)"
@@ -3751,7 +4165,7 @@
       "label": "`AnalysisRequest`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L386",
+      "source_location": "L402",
       "id": "ticker_pm_copilot_plan_analysisrequest",
       "community": 5,
       "norm_label": "`analysisrequest`"
@@ -3760,7 +4174,7 @@
       "label": "code:ts (type AnalysisRequest = {)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L388",
+      "source_location": "L404",
       "id": "ticker_pm_copilot_plan_codeblock_9",
       "community": 5,
       "norm_label": "code:ts (type analysisrequest = {)"
@@ -3769,7 +4183,7 @@
       "label": "`Recommendation`",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L409",
+      "source_location": "L425",
       "id": "ticker_pm_copilot_plan_recommendation",
       "community": 5,
       "norm_label": "`recommendation`"
@@ -3778,7 +4192,7 @@
       "label": "code:ts (type Recommendation = {)",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L411",
+      "source_location": "L427",
       "id": "ticker_pm_copilot_plan_codeblock_10",
       "community": 5,
       "norm_label": "code:ts (type recommendation = {)"
@@ -3787,7 +4201,7 @@
       "label": "Scoring Engine",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L437",
+      "source_location": "L453",
       "id": "ticker_pm_copilot_plan_scoring_engine",
       "community": 5,
       "norm_label": "scoring engine"
@@ -3796,7 +4210,7 @@
       "label": "Data Layer",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L466",
+      "source_location": "L482",
       "id": "ticker_pm_copilot_plan_data_layer",
       "community": 5,
       "norm_label": "data layer"
@@ -3805,7 +4219,7 @@
       "label": "OpenAI Integration",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L493",
+      "source_location": "L509",
       "id": "ticker_pm_copilot_plan_openai_integration",
       "community": 5,
       "norm_label": "openai integration"
@@ -3814,7 +4228,7 @@
       "label": "UI Requirements",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L520",
+      "source_location": "L536",
       "id": "ticker_pm_copilot_plan_ui_requirements",
       "community": 5,
       "norm_label": "ui requirements"
@@ -3823,7 +4237,7 @@
       "label": "Immediate Next Steps",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L540",
+      "source_location": "L556",
       "id": "ticker_pm_copilot_plan_immediate_next_steps",
       "community": 5,
       "norm_label": "immediate next steps"
@@ -3832,7 +4246,7 @@
       "label": "Current State",
       "file_type": "document",
       "source_file": "PLAN.md",
-      "source_location": "L549",
+      "source_location": "L565",
       "id": "ticker_pm_copilot_plan_current_state",
       "community": 5,
       "norm_label": "current state"
@@ -4900,13 +5314,265 @@
       "norm_label": "known technical debt"
     },
     {
-      "label": "WealthPilot",
+      "label": "username",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L4",
+      "community": 40,
+      "norm_label": "username",
+      "id": "ticker_pm_copilot_middleware_username"
+    },
+    {
+      "label": "password",
+      "file_type": "code",
+      "source_file": "middleware.ts",
+      "source_location": "L5",
+      "community": 40,
+      "norm_label": "password",
+      "id": "ticker_pm_copilot_middleware_password"
+    },
+    {
+      "label": "storageDir",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L4",
+      "community": 4,
+      "norm_label": "storagedir",
+      "id": "db_store_storagedir"
+    },
+    {
+      "label": "readJsonFile()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L9",
+      "community": 4,
+      "norm_label": "readjsonfile()",
+      "id": "db_store_readjsonfile"
+    },
+    {
+      "label": "writeJsonFile()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L32",
+      "community": 4,
+      "norm_label": "writejsonfile()",
+      "id": "db_store_writejsonfile"
+    },
+    {
+      "label": "ensureStorageDir()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L45",
+      "community": 4,
+      "norm_label": "ensurestoragedir()",
+      "id": "db_store_ensurestoragedir"
+    },
+    {
+      "label": "readKvValue()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L59",
+      "community": 4,
+      "norm_label": "readkvvalue()",
+      "id": "db_store_readkvvalue"
+    },
+    {
+      "label": "writeKvValue()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L64",
+      "community": 4,
+      "norm_label": "writekvvalue()",
+      "id": "db_store_writekvvalue"
+    },
+    {
+      "label": "runKvCommand()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L68",
+      "community": 4,
+      "norm_label": "runkvcommand()",
+      "id": "db_store_runkvcommand"
+    },
+    {
+      "label": "storageKey()",
+      "file_type": "code",
+      "source_file": "db/store.ts",
+      "source_location": "L99",
+      "community": 4,
+      "norm_label": "storagekey()",
+      "id": "db_store_storagekey"
+    },
+    {
+      "label": "Category",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L11",
+      "community": 33,
+      "norm_label": "category",
+      "id": "ticker_pm_copilot_project_status_category"
+    },
+    {
+      "label": "Benefit",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L14",
+      "community": 33,
+      "norm_label": "benefit",
+      "id": "ticker_pm_copilot_project_status_benefit"
+    },
+    {
+      "label": "Current Plan",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L20",
+      "community": 33,
+      "norm_label": "current plan",
+      "id": "ticker_pm_copilot_project_status_current_plan"
+    },
+    {
+      "label": "Phase 1: Framework Migration Move the static MVP into a Next.js app with: - App Router - TypeScript - modular components - server-side API handlers - reusable design tokens and layout system Deliverables: - working Next.js app shell - selector-driven home page - mode-aware forms - results surface migrated from the static prototype ### Phase 2: API Contracts Add internal API routes for: - ticker analysis requests - portfolio analysis requests - options-income analysis requests - full PM review requests Deliverables: - typed request/response schemas - mock service layer behind the routes - deterministic validation for malformed inputs ### Phase 3: Deterministic Analysis Engine Replace local UI heuristics with backend analysis services: - factor scoring - policy gates - action label mapping - recommendation ranking Deliverables: - score engine module - action policy module - ranking utilities - structured recommendation payloads Status: - Completed with dedicated `factor-scores`, `policy-engine`, and `ranking` modules - API response shape preserved while business logic was separated internally ### Phase 4: Data Layer Add provider adapters for: - market price/history data - earnings calendar - company/news data - options chain / IV / flow context Deliverables: - provider abstraction layer - normalized ticker snapshot object - caching strategy - graceful fallback when providers fail or data is incomplete Status: - In progress via live-capable Alpha Vantage market/news/earnings/options adapters with mock fallback - Scoring and policy now consume normalized snapshot context instead of raw request text alone ### Phase 5: OpenAI Memo Generation Use OpenAI to convert structured analysis into a PM-style investment brief. Deliverables: - prompt builder - structured analysis-to-memo transformer - response guardrails so the model only uses approved action labels - clear missing-data caveat handling Status: - Implemented as a configurable LLM layer rather than an OpenAI-only hardcode - Current providers: `mock`, `openai`, and `openai-compatible` - Deterministic scoring and policy remain authoritative; the LLM only writes the memo ### Phase 6: Portfolio Persistence Add local persistence for: - user profile defaults - saved portfolios - watchlists - recent analyses Deliverables: - database schema - CRUD APIs - saved workflow state Status: - Implemented as pragmatic file-backed persistence under `db/storage/` - Added profile defaults, saved portfolio CRUD, and automatic analysis history capture",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L21",
+      "community": 33,
+      "norm_label": "phase 1: framework migration move the static mvp into a next.js app with: - app router - typescript - modular components - server-side api handlers - reusable design tokens and layout system deliverables: - working next.js app shell - selector-driven home page - mode-aware forms - results surface migrated from the static prototype ### phase 2: api contracts add internal api routes for: - ticker analysis requests - portfolio analysis requests - options-income analysis requests - full pm review requests deliverables: - typed request/response schemas - mock service layer behind the routes - deterministic validation for malformed inputs ### phase 3: deterministic analysis engine replace local ui heuristics with backend analysis services: - factor scoring - policy gates - action label mapping - recommendation ranking deliverables: - score engine module - action policy module - ranking utilities - structured recommendation payloads status: - completed with dedicated `factor-scores`, `policy-engine`, and `ranking` modules - api response shape preserved while business logic was separated internally ### phase 4: data layer add provider adapters for: - market price/history data - earnings calendar - company/news data - options chain / iv / flow context deliverables: - provider abstraction layer - normalized ticker snapshot object - caching strategy - graceful fallback when providers fail or data is incomplete status: - in progress via live-capable alpha vantage market/news/earnings/options adapters with mock fallback - scoring and policy now consume normalized snapshot context instead of raw request text alone ### phase 5: openai memo generation use openai to convert structured analysis into a pm-style investment brief. deliverables: - prompt builder - structured analysis-to-memo transformer - response guardrails so the model only uses approved action labels - clear missing-data caveat handling status: - implemented as a configurable llm layer rather than an openai-only hardcode - current providers: `mock`, `openai`, and `openai-compatible` - deterministic scoring and policy remain authoritative; the llm only writes the memo ### phase 6: portfolio persistence add local persistence for: - user profile defaults - saved portfolios - watchlists - recent analyses deliverables: - database schema - crud apis - saved workflow state status: - implemented as pragmatic file-backed persistence under `db/storage/` - added profile defaults, saved portfolio crud, and automatic analysis history capture",
+      "id": "ticker_pm_copilot_project_status_phase_1_framework_migration_move_the_static_mvp_into_a_next_js_app_with_app_router_typescript_modular_components_server_side_api_handlers_reusable_design_tokens_and_layout_system_deliverables_working_next_js_app_shell_selector_driven_home_page_mode_aware_forms_results_surface_migrated_from_the_static_prototype_phase_2_api_contracts_add_internal_api_routes_for_ticker_analysis_requests_portfolio_analysis_requests_options_income_analysis_requests_full_pm_review_requests_deliverables_typed_request_response_schemas_mock_service_layer_behind_the_routes_deterministic_validation_for_malformed_inputs_phase_3_deterministic_analysis_engine_replace_local_ui_heuristics_with_backend_analysis_services_factor_scoring_policy_gates_action_label_mapping_recommendation_ranking_deliverables_score_engine_module_action_policy_module_ranking_utilities_structured_recommendation_payloads_status_completed_with_dedicated_factor_scores_policy_engine_and_ranking_modules_api_response_shape_preserved_while_business_logic_was_separated_internally_phase_4_data_layer_add_provider_adapters_for_market_price_history_data_earnings_calendar_company_news_data_options_chain_iv_flow_context_deliverables_provider_abstraction_layer_normalized_ticker_snapshot_object_caching_strategy_graceful_fallback_when_providers_fail_or_data_is_incomplete_status_in_progress_via_live_capable_alpha_vantage_market_news_earnings_options_adapters_with_mock_fallback_scoring_and_policy_now_consume_normalized_snapshot_context_instead_of_raw_request_text_alone_phase_5_openai_memo_generation_use_openai_to_convert_structured_analysis_into_a_pm_style_investment_brief_deliverables_prompt_builder_structured_analysis_to_memo_transformer_response_guardrails_so_the_model_only_uses_approved_action_labels_clear_missing_data_caveat_handling_status_implemented_as_a_configurable_llm_layer_rather_than_an_openai_only_hardcode_current_providers_mock_openai_and_openai_compatible_deterministic_scoring_and_policy_remain_authoritative_the_llm_only_writes_the_memo_phase_6_portfolio_persistence_add_local_persistence_for_user_profile_defaults_saved_portfolios_watchlists_recent_analyses_deliverables_database_schema_crud_apis_saved_workflow_state_status_implemented_as_pragmatic_file_backed_persistence_under_db_storage_added_profile_defaults_saved_portfolio_crud_and_automatic_analysis_history_capture"
+    },
+    {
+      "label": "Done",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L23",
+      "community": 33,
+      "norm_label": "done",
+      "id": "ticker_pm_copilot_project_status_done"
+    },
+    {
+      "label": "Completion",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L33",
+      "community": 33,
+      "norm_label": "completion",
+      "id": "ticker_pm_copilot_project_status_completion"
+    },
+    {
+      "label": "Main Blocker",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L41",
+      "community": 33,
+      "norm_label": "main blocker",
+      "id": "ticker_pm_copilot_project_status_main_blocker"
+    },
+    {
+      "label": "Ecosystem",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L44",
+      "community": 33,
+      "norm_label": "ecosystem",
+      "id": "ticker_pm_copilot_project_status_ecosystem"
+    },
+    {
+      "label": "Merge Candidate",
+      "file_type": "document",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L47",
+      "community": 33,
+      "norm_label": "merge candidate",
+      "id": "ticker_pm_copilot_project_status_merge_candidate"
+    },
+    {
+      "label": "Project Status",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L1",
+      "community": 36,
+      "norm_label": "project status",
+      "id": "ticker_pm_copilot_status_project_status"
+    },
+    {
+      "label": "Key Metrics",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L7",
+      "community": 36,
+      "norm_label": "key metrics",
+      "id": "ticker_pm_copilot_status_key_metrics"
+    },
+    {
+      "label": "Recent Changes",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L13",
+      "community": 36,
+      "norm_label": "recent changes",
+      "id": "ticker_pm_copilot_status_recent_changes"
+    },
+    {
+      "label": "Known Issues",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L17",
+      "community": 36,
+      "norm_label": "known issues",
+      "id": "ticker_pm_copilot_status_known_issues"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L21",
+      "community": 36,
+      "norm_label": "next steps",
+      "id": "ticker_pm_copilot_status_next_steps"
+    },
+    {
+      "label": "Questions or Feedback",
+      "file_type": "document",
+      "source_file": "STATUS.md",
+      "source_location": "L25",
+      "community": 36,
+      "norm_label": "questions or feedback",
+      "id": "ticker_pm_copilot_status_questions_or_feedback"
+    },
+    {
+      "label": "Ticker PM Copilot",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "community": 11,
-      "norm_label": "wealthpilot",
-      "id": "ticker_pm_copilot_readme_wealthpilot"
+      "norm_label": "ticker pm copilot",
+      "id": "ticker_pm_copilot_readme_ticker_pm_copilot"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "community": 11,
+      "norm_label": "features",
+      "id": "ticker_pm_copilot_readme_features"
+    },
+    {
+      "label": "Reporting Issues",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "community": 39,
+      "norm_label": "reporting issues",
+      "id": "ticker_pm_copilot_contributing_reporting_issues"
+    },
+    {
+      "label": "Code Changes",
+      "file_type": "document",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L12",
+      "community": 39,
+      "norm_label": "code changes",
+      "id": "ticker_pm_copilot_contributing_code_changes"
     },
     {
       "label": "What this build does",
@@ -5001,23 +5667,68 @@
   ],
   "links": [
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "middleware.ts",
-      "source_location": "L4",
+      "source_location": "L3",
       "weight": 1.0,
       "source": "middleware_ts",
-      "target": "ticker_pm_copilot_middleware_username",
+      "target": "lib_auth_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "lib_auth_getprivateaccessconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "lib_auth_getsessioncookiename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "lib_auth_isvalidsessiontoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "middleware_ts",
+      "target": "lib_auth_normalizenextpath",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "middleware.ts",
-      "source_location": "L5",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "middleware_ts",
-      "target": "ticker_pm_copilot_middleware_password",
+      "target": "ticker_pm_copilot_middleware_ispublicpath",
       "confidence_score": 1.0
     },
     {
@@ -5026,9 +5737,9 @@
       "source_file": "middleware.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "ticker_pm_copilot_middleware_middleware",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_middleware_middleware"
     },
     {
       "relation": "contains",
@@ -5036,9 +5747,84 @@
       "source_file": "middleware.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "ticker_pm_copilot_middleware_config",
+      "target": "ticker_pm_copilot_middleware_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "middleware_ts",
+      "target": "ticker_pm_copilot_middleware_username"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "middleware_ts",
+      "target": "ticker_pm_copilot_middleware_password"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_middleware_middleware",
+      "target": "ticker_pm_copilot_middleware_ispublicpath",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "middleware.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_middleware_middleware",
+      "target": "lib_auth_getprivateaccessconfig"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "middleware.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_middleware_middleware",
+      "target": "lib_auth_isvalidsessiontoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "middleware.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_middleware_middleware",
+      "target": "lib_auth_getsessioncookiename"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "middleware.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_middleware_middleware",
+      "target": "lib_auth_normalizenextpath"
     },
     {
       "relation": "contains",
@@ -5154,11 +5940,71 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_scripts",
+      "target": "ticker_pm_copilot_package_scripts_prisma_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_scripts",
+      "target": "ticker_pm_copilot_package_scripts_db_push",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_scripts",
+      "target": "ticker_pm_copilot_package_scripts_postinstall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_dependencies",
+      "target": "ticker_pm_copilot_package_dependencies_prisma_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_dependencies",
       "target": "ticker_pm_copilot_package_dependencies_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_dependencies",
+      "target": "ticker_pm_copilot_package_dependencies_pg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_dependencies",
+      "target": "ticker_pm_copilot_package_dependencies_prisma",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5189,6 +6035,16 @@
       "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_devdependencies",
       "target": "ticker_pm_copilot_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_package_devdependencies",
+      "target": "ticker_pm_copilot_package_devdependencies_types_pg",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5471,6 +6327,289 @@
       "confidence_score": 1.0,
       "source": "app_page_tsx",
       "target": "app_page_homepage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_signout_route_ts",
+      "target": "lib_auth_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_signout_route_ts",
+      "target": "lib_auth_getsessioncookiename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_signout_route_ts",
+      "target": "lib_auth_getsessioncookieoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_signout_route_ts",
+      "target": "lib_auth_normalizenextpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signout/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_signout_route_ts",
+      "target": "signout_route_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/signout/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "signout_route_post",
+      "target": "lib_auth_normalizenextpath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/signout/route.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "signout_route_post",
+      "target": "lib_auth_getsessioncookiename"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/signout/route.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "signout_route_post",
+      "target": "lib_auth_getsessioncookieoptions"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_signin_page_tsx",
+      "target": "components_signin_form_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_signin_page_tsx",
+      "target": "components_signin_form_signinform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_signin_page_tsx",
+      "target": "lib_auth_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_signin_page_tsx",
+      "target": "lib_auth_normalizenextpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_signin_page_tsx",
+      "target": "signin_page_signinpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "signin_page_signinpage",
+      "target": "lib_auth_normalizenextpath"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_createsessiontoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_getsessioncookiename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_getsessioncookieoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_isvalidlogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_normalizenextpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "signin_route_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "signin_route_post",
+      "target": "lib_auth_normalizenextpath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "signin_route_post",
+      "target": "lib_auth_isvalidlogin"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "signin_route_post",
+      "target": "lib_auth_getsessioncookiename"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "signin_route_post",
+      "target": "lib_auth_createsessiontoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "signin_route_post",
+      "target": "lib_auth_getsessioncookieoptions"
     },
     {
       "relation": "imports_from",
@@ -6032,6 +7171,16 @@
       "weight": 1.0,
       "source": "analyze_route_post",
       "target": "server_respond_handleanalysisrequest"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/signin-form.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_signin_form_tsx",
+      "target": "components_signin_form_signinform",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -7190,6 +8339,386 @@
       "confidence_score": 1.0,
       "source": "components_selectors_selector_list_tsx",
       "target": "selectors_selector_list_selectorlist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "lib_prisma_ts",
+      "target": "lib_prisma_globalforprisma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/prisma.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "lib_prisma_ts",
+      "target": "lib_prisma_getprisma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "lib_prisma_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "lib_prisma_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "lib_prisma_getprisma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "lib_prisma_getprisma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "db_queries_getuserprofile",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "db_queries_saveuserprofile",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "db_queries_listsavedportfolios",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "db_queries_upsertsavedportfolio",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "db_queries_deletesavedportfolio",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "db_queries_listanalysishistory",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "db_queries_appendanalysishistory",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "db_legacy_migration_migratelegacyjsonifneeded",
+      "target": "lib_prisma_getprisma"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_private_access_env_names",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_privateaccessenvname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_requiredenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_timingsafeequalstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_sha256hex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_getsessionsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_getsessioncookiename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_getsessionmaxageseconds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_getsessioncookieoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_getprivateaccessconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_normalizenextpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_createsessiontoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_isvalidlogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_isvalidsessiontoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "lib_auth_getsessionsignature",
+      "target": "lib_auth_requiredenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "lib_auth_getprivateaccessconfig",
+      "target": "lib_auth_requiredenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "lib_auth_isvalidlogin",
+      "target": "lib_auth_timingsafeequalstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "lib_auth_isvalidsessiontoken",
+      "target": "lib_auth_timingsafeequalstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "lib_auth_getsessionsignature",
+      "target": "lib_auth_sha256hex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "lib_auth_createsessiontoken",
+      "target": "lib_auth_getsessionsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "lib_auth_isvalidsessiontoken",
+      "target": "lib_auth_getsessionsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "lib_auth_isvalidlogin",
+      "target": "lib_auth_getprivateaccessconfig",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9150,6 +10679,28 @@
       "target": "lib_schemas_persistence_ts"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "lib_schemas_persistence_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "lib_schemas_persistence_ts",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -9159,6 +10710,28 @@
       "confidence_score": 1.0,
       "source": "db_queries_ts",
       "target": "schemas_persistence_userprofile"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "schemas_persistence_userprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "schemas_persistence_userprofile",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -9175,12 +10748,56 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "schemas_persistence_savedportfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "schemas_persistence_savedportfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "db/queries.ts",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "db_queries_ts",
       "target": "schemas_persistence_analysishistoryentry"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "schemas_persistence_analysishistoryentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "schemas_persistence_analysishistoryentry",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -12353,6 +13970,28 @@
       "source_file": "db/queries.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_legacy_migration_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L5",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "db_queries_ts",
       "target": "db_store_ts"
@@ -12362,22 +14001,109 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "db/queries.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_store_readjsonfile"
+      "target": "db_store_getstoragebackend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "db/queries.ts",
-      "source_location": "L5",
+      "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_store_writejsonfile"
+      "target": "db_postgres_appendpostgreshistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_deletepostgresportfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_getpostgresuserprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_listpostgreshistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_listpostgresportfolios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_savepostgresportfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_postgres_savepostgresuserprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_queries_defaultprofile",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12463,11 +14189,76 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "db/queries.ts",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_queries_parsejson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
       "source_location": "L90",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "db_queries_ts",
       "target": "db_queries_slugify"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_store_readjsonfile"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "db/queries.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_queries_ts",
+      "target": "db_store_writejsonfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "db_queries_getuserprofile",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "db_queries_getuserprofile",
+      "target": "db_postgres_getpostgresuserprofile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "db_queries_getuserprofile",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
     },
     {
       "relation": "calls",
@@ -12479,6 +14270,39 @@
       "weight": 1.0,
       "source": "db_queries_getuserprofile",
       "target": "db_store_readjsonfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "db_queries_saveuserprofile",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "db_queries_saveuserprofile",
+      "target": "db_postgres_savepostgresuserprofile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "db_queries_saveuserprofile",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
     },
     {
       "relation": "calls",
@@ -12501,6 +14325,39 @@
       "confidence_score": 1.0,
       "source": "db_queries_getsavedportfolio",
       "target": "db_queries_listsavedportfolios"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "db_queries_listsavedportfolios",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "db_queries_listsavedportfolios",
+      "target": "db_postgres_listpostgresportfolios"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "db_queries_listsavedportfolios",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
     },
     {
       "relation": "calls",
@@ -12552,10 +14409,76 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "db/queries.ts",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "db_queries_upsertsavedportfolio",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "db_queries_upsertsavedportfolio",
+      "target": "db_postgres_savepostgresportfolio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "db_queries_upsertsavedportfolio",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
       "source_location": "L63",
       "weight": 1.0,
       "source": "db_queries_upsertsavedportfolio",
       "target": "db_store_writejsonfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "db_queries_deletesavedportfolio",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "db_queries_deletesavedportfolio",
+      "target": "db_postgres_deletepostgresportfolio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "db_queries_deletesavedportfolio",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
     },
     {
       "relation": "calls",
@@ -12574,10 +14497,443 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "db/queries.ts",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "db_queries_listanalysishistory",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "db_queries_listanalysishistory",
+      "target": "db_postgres_listpostgreshistory"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "db_queries_listanalysishistory",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "db_queries_appendanalysishistory",
+      "target": "db_store_getstoragebackend"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "db_queries_appendanalysishistory",
+      "target": "db_postgres_appendpostgreshistory"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "db_queries_appendanalysishistory",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "db/queries.ts",
       "source_location": "L86",
       "weight": 1.0,
       "source": "db_queries_appendanalysishistory",
       "target": "db_store_writejsonfile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_globalforpg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_getpostgresuserprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_savepostgresuserprofile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_listpostgresportfolios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_savepostgresportfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_deletepostgresportfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_listpostgreshistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "db_postgres_ts",
+      "target": "db_postgres_appendpostgreshistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "db_postgres_getpostgresuserprofile",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "db_postgres_savepostgresuserprofile",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "db_postgres_listpostgresportfolios",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "db_postgres_savepostgresportfolio",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "db_postgres_deletepostgresportfolio",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "db_postgres_listpostgreshistory",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "db_postgres_appendpostgreshistory",
+      "target": "db_postgres_getpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "db_postgres_getpostgresuserprofile",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "db_postgres_savepostgresuserprofile",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "db_postgres_listpostgresportfolios",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "db_postgres_savepostgresportfolio",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "db_postgres_deletepostgresportfolio",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "db_postgres_listpostgreshistory",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/postgres.ts",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "db_postgres_appendpostgreshistory",
+      "target": "db_postgres_ensureschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "db_legacy_migration_globalformigration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "db_legacy_migration_storagedir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "db_legacy_migration_ensurelegacyjsonmigration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "db_legacy_migration_migratelegacyjsonifneeded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "db_legacy_migration_haslegacystoragedir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ts",
+      "target": "db_legacy_migration_readlegacyjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "db_legacy_migration_ensurelegacyjsonmigration",
+      "target": "db_legacy_migration_migratelegacyjsonifneeded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "db_legacy_migration_migratelegacyjsonifneeded",
+      "target": "db_legacy_migration_haslegacystoragedir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/legacy-migration.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "db_legacy_migration_migratelegacyjsonifneeded",
+      "target": "db_legacy_migration_readlegacyjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_storagebackend"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_ts",
+      "target": "db_store_getstoragebackend"
     },
     {
       "relation": "contains",
@@ -12588,16 +14944,6 @@
       "confidence_score": 1.0,
       "source": "db_store_ts",
       "target": "db_store_storagedir"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "db_store_ts",
-      "target": "db_store_storagebackend",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -12633,21 +14979,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "db/store.ts",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "db_store_ts",
-      "target": "db_store_getstoragebackend",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_store_ts",
-      "target": "db_store_readkvvalue",
-      "confidence_score": 1.0
+      "target": "db_store_readkvvalue"
     },
     {
       "relation": "contains",
@@ -12655,9 +14991,9 @@
       "source_file": "db/store.ts",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_store_ts",
-      "target": "db_store_writekvvalue",
-      "confidence_score": 1.0
+      "target": "db_store_writekvvalue"
     },
     {
       "relation": "contains",
@@ -12665,9 +15001,9 @@
       "source_file": "db/store.ts",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_store_ts",
-      "target": "db_store_runkvcommand",
-      "confidence_score": 1.0
+      "target": "db_store_runkvcommand"
     },
     {
       "relation": "contains",
@@ -12675,9 +15011,9 @@
       "source_file": "db/store.ts",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_store_ts",
-      "target": "db_store_storagekey",
-      "confidence_score": 1.0
+      "target": "db_store_storagekey"
     },
     {
       "relation": "calls",
@@ -12686,31 +15022,9 @@
       "source_file": "db/store.ts",
       "source_location": "L10",
       "weight": 1.0,
-      "source": "db_store_readjsonfile",
-      "target": "db_store_getstoragebackend",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "db_store_readjsonfile",
-      "target": "db_store_readkvvalue",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L7",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "db_store_readjsonfile",
-      "target": "db_store_ensurestoragedir"
+      "target": "db_store_getstoragebackend"
     },
     {
       "relation": "calls",
@@ -12719,64 +15033,9 @@
       "source_file": "db/store.ts",
       "source_location": "L34",
       "weight": 1.0,
-      "source": "db_store_writejsonfile",
-      "target": "db_store_getstoragebackend",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "db_store_writejsonfile",
-      "target": "db_store_writekvvalue",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L18",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "db_store_writejsonfile",
-      "target": "db_store_ensurestoragedir"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "db_store_readkvvalue",
-      "target": "db_store_storagekey",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "db_store_writekvvalue",
-      "target": "db_store_runkvcommand",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "db/store.ts",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "db_store_writekvvalue",
-      "target": "db_store_storagekey",
-      "confidence_score": 1.0
+      "target": "db_store_getstoragebackend"
     },
     {
       "relation": "contains",
@@ -12784,9 +15043,9 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "project_status_md",
-      "target": "ticker_pm_copilot_project_status_project_status",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_project_status"
     },
     {
       "relation": "contains",
@@ -12794,29 +15053,9 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_what_this_repo_is_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_category",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_benefit",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_what_this_repo_is_for"
     },
     {
       "relation": "contains",
@@ -12824,38 +15063,18 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_current_status",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_current_status"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L20",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_current_plan",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_done",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_next_step",
+      "target": "ticker_pm_copilot_project_status_recently_completed",
       "confidence_score": 1.0
     },
     {
@@ -12864,18 +15083,18 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_working_status",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_working_status"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L33",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_completion",
+      "target": "ticker_pm_copilot_project_status_remaining_product_gaps",
       "confidence_score": 1.0
     },
     {
@@ -12884,39 +15103,19 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_attention_now",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_attention_now"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L41",
+      "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_main_blocker",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_ecosystem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "PROJECT_STATUS.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_merge_candidate",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_next_step"
     },
     {
       "relation": "contains",
@@ -12924,19 +15123,89 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_evidence",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_evidence"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L21",
+      "source_location": "L11",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_project_status_current_plan",
-      "target": "ticker_pm_copilot_project_status_phase_1_framework_migration_move_the_static_mvp_into_a_next_js_app_with_app_router_typescript_modular_components_server_side_api_handlers_reusable_design_tokens_and_layout_system_deliverables_working_next_js_app_shell_selector_driven_home_page_mode_aware_forms_results_surface_migrated_from_the_static_prototype_phase_2_api_contracts_add_internal_api_routes_for_ticker_analysis_requests_portfolio_analysis_requests_options_income_analysis_requests_full_pm_review_requests_deliverables_typed_request_response_schemas_mock_service_layer_behind_the_routes_deterministic_validation_for_malformed_inputs_phase_3_deterministic_analysis_engine_replace_local_ui_heuristics_with_backend_analysis_services_factor_scoring_policy_gates_action_label_mapping_recommendation_ranking_deliverables_score_engine_module_action_policy_module_ranking_utilities_structured_recommendation_payloads_status_completed_with_dedicated_factor_scores_policy_engine_and_ranking_modules_api_response_shape_preserved_while_business_logic_was_separated_internally_phase_4_data_layer_add_provider_adapters_for_market_price_history_data_earnings_calendar_company_news_data_options_chain_iv_flow_context_deliverables_provider_abstraction_layer_normalized_ticker_snapshot_object_caching_strategy_graceful_fallback_when_providers_fail_or_data_is_incomplete_status_in_progress_via_live_capable_alpha_vantage_market_news_earnings_options_adapters_with_mock_fallback_scoring_and_policy_now_consume_normalized_snapshot_context_instead_of_raw_request_text_alone_phase_5_openai_memo_generation_use_openai_to_convert_structured_analysis_into_a_pm_style_investment_brief_deliverables_prompt_builder_structured_analysis_to_memo_transformer_response_guardrails_so_the_model_only_uses_approved_action_labels_clear_missing_data_caveat_handling_status_implemented_as_a_configurable_llm_layer_rather_than_an_openai_only_hardcode_current_providers_mock_openai_and_openai_compatible_deterministic_scoring_and_policy_remain_authoritative_the_llm_only_writes_the_memo_phase_6_portfolio_persistence_add_local_persistence_for_user_profile_defaults_saved_portfolios_watchlists_recent_analyses_deliverables_database_schema_crud_apis_saved_workflow_state_status_implemented_as_pragmatic_file_backed_persistence_under_db_storage_added_profile_defaults_saved_portfolio_crud_and_automatic_analysis_history_capture",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_category"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_benefit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_current_plan"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_done"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_completion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_main_blocker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_ecosystem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_project_status",
+      "target": "ticker_pm_copilot_project_status_merge_candidate"
     },
     {
       "relation": "contains",
@@ -12945,8 +15214,18 @@
       "source_location": "L1",
       "weight": 1.0,
       "source": "status_md",
-      "target": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_status",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "status_md",
+      "target": "ticker_pm_copilot_status_project_status"
     },
     {
       "relation": "contains",
@@ -12954,7 +15233,7 @@
       "source_file": "STATUS.md",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_status_project_status",
+      "source": "ticker_pm_copilot_status_status",
       "target": "ticker_pm_copilot_status_current_phase",
       "confidence_score": 1.0
     },
@@ -12964,59 +15243,69 @@
       "source_file": "STATUS.md",
       "source_location": "L7",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_status_project_status",
-      "target": "ticker_pm_copilot_status_key_metrics",
+      "source": "ticker_pm_copilot_status_status",
+      "target": "ticker_pm_copilot_status_shipped",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "STATUS.md",
-      "source_location": "L13",
+      "source_location": "L19",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_status_project_status",
-      "target": "ticker_pm_copilot_status_recent_changes",
+      "source": "ticker_pm_copilot_status_status",
+      "target": "ticker_pm_copilot_status_verified_in_this_pass",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "STATUS.md",
-      "source_location": "L17",
+      "source_location": "L24",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_status_project_status",
-      "target": "ticker_pm_copilot_status_known_issues",
+      "source": "ticker_pm_copilot_status_status",
+      "target": "ticker_pm_copilot_status_vercel_blockers_closed",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "STATUS.md",
-      "source_location": "L21",
+      "source_location": "L29",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_status_project_status",
-      "target": "ticker_pm_copilot_status_next_steps",
+      "source": "ticker_pm_copilot_status_status",
+      "target": "ticker_pm_copilot_status_remaining_work",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "STATUS.md",
-      "source_location": "L25",
+      "source_location": "L35",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_status_project_status",
-      "target": "ticker_pm_copilot_status_questions_or_feedback",
+      "source": "ticker_pm_copilot_status_status",
+      "target": "ticker_pm_copilot_status_operational_notes",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
+      "source_file": "STATUS.md",
+      "source_location": "L41",
       "weight": 1.0,
-      "source": "readme_md",
-      "target": "ticker_pm_copilot_readme_ticker_pm_copilot",
+      "source": "ticker_pm_copilot_status_status",
+      "target": "ticker_pm_copilot_status_last_updated",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_current_phase"
     },
     {
       "relation": "contains",
@@ -13032,11 +15321,191 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "ticker_pm_copilot_readme_ticker_pm_copilot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "ticker_pm_copilot_readme_ticker_pm_copilot",
-      "target": "ticker_pm_copilot_readme_features",
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_current_state",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_core_workflows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_local_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_vercel_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_important_env_vars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_persistence_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_what_this_build_does"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_screenshots"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_key_folders"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_run"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_environment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_persistence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_next_build_step"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_quick_repo_summary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_llm_start_here"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_readme_wealthpilot",
+      "target": "ticker_pm_copilot_readme_license"
     },
     {
       "relation": "contains",
@@ -13044,9 +15513,9 @@
       "source_file": "README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_ticker_pm_copilot",
-      "target": "ticker_pm_copilot_readme_tech_stack",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_tech_stack"
     },
     {
       "relation": "contains",
@@ -13054,9 +15523,9 @@
       "source_file": "DEPLOY.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "deploy_md",
-      "target": "ticker_pm_copilot_deploy_private_vercel_deploy",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_deploy_private_vercel_deploy"
     },
     {
       "relation": "contains",
@@ -13064,9 +15533,9 @@
       "source_file": "DEPLOY.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_deploy_private_vercel_deploy",
-      "target": "ticker_pm_copilot_deploy_local",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_deploy_local"
     },
     {
       "relation": "contains",
@@ -13074,8 +15543,18 @@
       "source_file": "DEPLOY.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_deploy_private_vercel_deploy",
-      "target": "ticker_pm_copilot_deploy_vercel",
+      "target": "ticker_pm_copilot_deploy_vercel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOY.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_deploy_private_vercel_deploy",
+      "target": "ticker_pm_copilot_deploy_quick_verification",
       "confidence_score": 1.0
     },
     {
@@ -13084,9 +15563,9 @@
       "source_file": "CONTRIBUTING.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "contributing_md",
-      "target": "ticker_pm_copilot_contributing_contributing",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_contributing_contributing"
     },
     {
       "relation": "contains",
@@ -13095,17 +15574,17 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "ticker_pm_copilot_contributing_contributing",
-      "target": "ticker_pm_copilot_contributing_reporting_issues",
+      "target": "ticker_pm_copilot_contributing_feedback",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CONTRIBUTING.md",
-      "source_location": "L12",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "ticker_pm_copilot_contributing_contributing",
-      "target": "ticker_pm_copilot_contributing_code_changes",
+      "target": "ticker_pm_copilot_contributing_pull_requests",
       "confidence_score": 1.0
     },
     {
@@ -13114,9 +15593,29 @@
       "source_file": "CONTRIBUTING.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_contributing_contributing",
-      "target": "ticker_pm_copilot_contributing_license",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_contributing_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_contributing_contributing",
+      "target": "ticker_pm_copilot_contributing_reporting_issues"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CONTRIBUTING.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_contributing_contributing",
+      "target": "ticker_pm_copilot_contributing_code_changes"
     },
     {
       "relation": "contains",
@@ -13307,6 +15806,16 @@
       "confidence_score": 1.0,
       "source": "ticker_pm_copilot_plan_build_order",
       "target": "ticker_pm_copilot_plan_phase_6_portfolio_persistence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PLAN.md",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_plan_build_order",
+      "target": "ticker_pm_copilot_plan_phase_7_private_deployment_baseline",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -14479,106 +16988,153 @@
       "target": "services_provider_layer_known_technical_debt"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_readjsonfile",
+      "target": "db_store_readkvvalue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_readjsonfile",
+      "target": "db_store_ensurestoragedir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_writejsonfile",
+      "target": "db_store_writekvvalue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_writejsonfile",
+      "target": "db_store_ensurestoragedir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_readkvvalue",
+      "target": "db_store_storagekey"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_writekvvalue",
+      "target": "db_store_runkvcommand"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "db/store.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "db_store_writekvvalue",
+      "target": "db_store_storagekey"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT_STATUS.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_project_status_current_plan",
+      "target": "ticker_pm_copilot_project_status_phase_1_framework_migration_move_the_static_mvp_into_a_next_js_app_with_app_router_typescript_modular_components_server_side_api_handlers_reusable_design_tokens_and_layout_system_deliverables_working_next_js_app_shell_selector_driven_home_page_mode_aware_forms_results_surface_migrated_from_the_static_prototype_phase_2_api_contracts_add_internal_api_routes_for_ticker_analysis_requests_portfolio_analysis_requests_options_income_analysis_requests_full_pm_review_requests_deliverables_typed_request_response_schemas_mock_service_layer_behind_the_routes_deterministic_validation_for_malformed_inputs_phase_3_deterministic_analysis_engine_replace_local_ui_heuristics_with_backend_analysis_services_factor_scoring_policy_gates_action_label_mapping_recommendation_ranking_deliverables_score_engine_module_action_policy_module_ranking_utilities_structured_recommendation_payloads_status_completed_with_dedicated_factor_scores_policy_engine_and_ranking_modules_api_response_shape_preserved_while_business_logic_was_separated_internally_phase_4_data_layer_add_provider_adapters_for_market_price_history_data_earnings_calendar_company_news_data_options_chain_iv_flow_context_deliverables_provider_abstraction_layer_normalized_ticker_snapshot_object_caching_strategy_graceful_fallback_when_providers_fail_or_data_is_incomplete_status_in_progress_via_live_capable_alpha_vantage_market_news_earnings_options_adapters_with_mock_fallback_scoring_and_policy_now_consume_normalized_snapshot_context_instead_of_raw_request_text_alone_phase_5_openai_memo_generation_use_openai_to_convert_structured_analysis_into_a_pm_style_investment_brief_deliverables_prompt_builder_structured_analysis_to_memo_transformer_response_guardrails_so_the_model_only_uses_approved_action_labels_clear_missing_data_caveat_handling_status_implemented_as_a_configurable_llm_layer_rather_than_an_openai_only_hardcode_current_providers_mock_openai_and_openai_compatible_deterministic_scoring_and_policy_remain_authoritative_the_llm_only_writes_the_memo_phase_6_portfolio_persistence_add_local_persistence_for_user_profile_defaults_saved_portfolios_watchlists_recent_analyses_deliverables_database_schema_crud_apis_saved_workflow_state_status_implemented_as_pragmatic_file_backed_persistence_under_db_storage_added_profile_defaults_saved_portfolio_crud_and_automatic_analysis_history_capture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_key_metrics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_recent_changes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_known_issues"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_next_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "STATUS.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ticker_pm_copilot_status_project_status",
+      "target": "ticker_pm_copilot_status_questions_or_feedback"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_what_this_build_does"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_screenshots"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_key_folders"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_run"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_environment"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_persistence"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_next_build_step"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_quick_repo_summary"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L79",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_llm_start_here"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L86",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_license"
+      "source": "ticker_pm_copilot_readme_ticker_pm_copilot",
+      "target": "ticker_pm_copilot_readme_features"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1997381987f2af3abfc09cd0b226c54a4f5a4943"
+  "built_at_commit": "3bfc65d6cd1001e35d08ab2145710d511ae3ee35"
 }

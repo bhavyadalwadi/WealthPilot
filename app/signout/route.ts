@@ -1,16 +1,10 @@
 import { NextResponse } from "next/server";
-import { getSessionCookieName } from "@/lib/auth";
+import { getSessionCookieName, getSessionCookieOptions, normalizeNextPath } from "@/lib/auth";
 
-export async function GET(request: Request) {
-  const response = NextResponse.redirect(new URL("/signin", request.url));
-  response.cookies.set({
-    name: getSessionCookieName(),
-    value: "",
-    httpOnly: true,
-    sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
-    path: "/",
-    maxAge: 0,
-  });
+export async function POST(request: Request) {
+  const formData = await request.formData();
+  const next = normalizeNextPath(String(formData.get("next") ?? "/signin"));
+  const response = NextResponse.redirect(new URL(next, request.url), { status: 303 });
+  response.cookies.set(getSessionCookieName(), "", getSessionCookieOptions(0));
   return response;
 }

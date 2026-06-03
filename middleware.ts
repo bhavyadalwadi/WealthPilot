@@ -1,16 +1,20 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { getSessionCookieName, isValidSessionToken } from "@/lib/auth";
+import {
+  getPrivateAccessConfig,
+  getSessionCookieName,
+  isValidSessionToken,
+  normalizeNextPath,
+} from "@/lib/auth";
 
 function isPublicPath(pathname: string) {
   return pathname === "/signin" || pathname.startsWith("/api/auth/signin");
 }
 
 export async function middleware(request: NextRequest) {
-  const username = process.env.PRIVATE_ACCESS_USERNAME;
-  const password = process.env.PRIVATE_ACCESS_PASSWORD;
-
-  if (!username || !password) {
+  try {
+    getPrivateAccessConfig();
+  } catch {
     return new NextResponse("Missing PRIVATE_ACCESS_USERNAME or PRIVATE_ACCESS_PASSWORD", {
       status: 500,
       headers: {
@@ -26,8 +30,7 @@ export async function middleware(request: NextRequest) {
 
   if (isPublicPath(pathname)) {
     if (pathname === "/signin" && isAuthed) {
-      const nextParam = request.nextUrl.searchParams.get("next");
-      const destination = nextParam?.startsWith("/") ? nextParam : "/";
+      const destination = normalizeNextPath(request.nextUrl.searchParams.get("next"));
       return NextResponse.redirect(new URL(destination, request.url));
     }
 
@@ -36,7 +39,7 @@ export async function middleware(request: NextRequest) {
 
   if (!isAuthed) {
     const signInUrl = new URL("/signin", request.url);
-    signInUrl.searchParams.set("next", `${pathname}${search}`);
+    signInUrl.searchParams.set("next", normalizeNextPath(`${pathname}${search}`));
     return NextResponse.redirect(signInUrl);
   }
 
