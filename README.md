@@ -34,6 +34,7 @@ Selector-first Next.js app for stock, portfolio, and options analysis.
 6. Run `npm run dev`
 
 By default, local persistence writes to `prisma/dev.db`.
+If old `db/storage/*.json` files exist, the app imports them into SQLite on first local use.
 
 ## Vercel Setup
 
@@ -57,6 +58,7 @@ See [DEPLOY.md](./DEPLOY.md).
 - Local default: Prisma + SQLite at `prisma/dev.db`
 - Vercel prod default: Postgres via `DATABASE_URL`
 - Override manually with `STORAGE_DRIVER=sqlite` or `STORAGE_DRIVER=postgres`
+- Legacy local JSON data under `db/storage/` is imported into SQLite on first local read/write while the SQLite tables are still empty.
 
 ## Status
 

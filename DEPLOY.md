@@ -10,6 +10,7 @@
 6. Run `npm run dev`.
 
 Local dev uses Prisma + SQLite at `prisma/dev.db` unless you force `STORAGE_DRIVER=postgres`.
+If `db/storage/profile.json`, `portfolios.json`, or `history.json` exist from the old local store, they are imported into SQLite on first local use.
 
 ## Vercel
 

@@ -2,6 +2,7 @@ import { randomUUID } from "node:crypto";
 import { DEFAULT_LLM_MODEL, DEFAULT_LLM_PROVIDER, DEFAULT_LLM_REASONING } from "@/lib/config/llm";
 import type { Objective, PortfolioPosition, RiskStyle } from "@/lib/schemas/analysis";
 import type { AnalysisHistoryEntry, SavedPortfolio, UserProfile } from "@/lib/schemas/persistence";
+import { ensureLegacyJsonMigration } from "@/db/legacy-migration";
 import { getStorageBackend } from "@/db/store";
 import {
   appendPostgresHistory,
@@ -30,6 +31,7 @@ export async function getUserProfile(): Promise<UserProfile> {
     return (await getPostgresUserProfile()) ?? defaultProfile;
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   const profile = await prisma.userProfile.findUnique({
     where: { id: "default" },
@@ -61,6 +63,7 @@ export async function saveUserProfile(profile: Omit<UserProfile, "id" | "updated
     return nextProfile;
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   await prisma.userProfile.upsert({
     where: { id: "default" },
@@ -91,6 +94,7 @@ export async function listSavedPortfolios(): Promise<SavedPortfolio[]> {
     return listPostgresPortfolios();
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   const portfolios = await prisma.savedPortfolio.findMany({
     orderBy: { updatedAt: "desc" },
@@ -136,6 +140,7 @@ export async function upsertSavedPortfolio(input: {
     return nextPortfolio;
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   await prisma.savedPortfolio.upsert({
     where: { id },
@@ -168,6 +173,7 @@ export async function deleteSavedPortfolio(id: string) {
     return deletePostgresPortfolio(id);
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   const deleted = await prisma.savedPortfolio.deleteMany({
     where: { id },
@@ -181,6 +187,7 @@ export async function listAnalysisHistory(limit = 12): Promise<AnalysisHistoryEn
     return listPostgresHistory(limit);
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   const history = await prisma.analysisHistoryEntry.findMany({
     orderBy: { createdAt: "desc" },
@@ -213,6 +220,7 @@ export async function appendAnalysisHistory(entry: Omit<AnalysisHistoryEntry, "i
     return nextEntry;
   }
 
+  await ensureLegacyJsonMigration();
   const prisma = getPrisma();
   await prisma.analysisHistoryEntry.create({
     data: {
