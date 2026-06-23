@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   createSessionToken,
+  hasConfiguredAuth,
   getSessionCookieName,
   getSessionCookieOptions,
   isValidLogin,
@@ -13,6 +14,13 @@ export async function POST(request: Request) {
     const username = String(formData.get("username") ?? "").trim();
     const password = String(formData.get("password") ?? "");
     const next = normalizeNextPath(String(formData.get("next") ?? ""));
+
+    if (!hasConfiguredAuth()) {
+      const signInUrl = new URL("/signin", request.url);
+      signInUrl.searchParams.set("next", next);
+      signInUrl.searchParams.set("error", "config");
+      return NextResponse.redirect(signInUrl, { status: 303 });
+    }
 
     if (!(await isValidLogin(username, password))) {
       const signInUrl = new URL("/signin", request.url);

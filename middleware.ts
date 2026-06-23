@@ -1,7 +1,7 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import {
-  getPrivateAccessConfig,
+  hasConfiguredAuth,
   getSessionCookieName,
   isValidSessionToken,
   normalizeNextPath,
@@ -12,29 +12,28 @@ function isPublicPath(pathname: string) {
 }
 
 export async function middleware(request: NextRequest) {
-  try {
-    getPrivateAccessConfig();
-  } catch {
-    return new NextResponse("Missing PRIVATE_ACCESS_USERNAME or PRIVATE_ACCESS_PASSWORD", {
-      status: 500,
-      headers: {
-        "Cache-Control": "private, no-store",
-      },
-    });
-  }
-
   const { pathname, search } = request.nextUrl;
-  const isAuthed = await isValidSessionToken(
-    request.cookies.get(getSessionCookieName())?.value,
-  );
+  const hasAuth = hasConfiguredAuth();
+  const isAuthed = hasAuth
+    ? await isValidSessionToken(
+        request.cookies.get(getSessionCookieName())?.value,
+      )
+    : false;
 
   if (isPublicPath(pathname)) {
-    if (pathname === "/signin" && isAuthed) {
+    if (pathname === "/signin" && hasAuth && isAuthed) {
       const destination = normalizeNextPath(request.nextUrl.searchParams.get("next"));
       return NextResponse.redirect(new URL(destination, request.url));
     }
 
     return NextResponse.next();
+  }
+
+  if (!hasAuth) {
+    const signInUrl = new URL("/signin", request.url);
+    signInUrl.searchParams.set("next", normalizeNextPath(`${pathname}${search}`));
+    signInUrl.searchParams.set("error", "config");
+    return NextResponse.redirect(signInUrl, { status: 303 });
   }
 
   if (!isAuthed) {

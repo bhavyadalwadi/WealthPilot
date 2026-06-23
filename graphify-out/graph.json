@@ -34,7 +34,7 @@
       "label": "config",
       "file_type": "code",
       "source_file": "middleware.ts",
-      "source_location": "L49",
+      "source_location": "L48",
       "id": "ticker_pm_copilot_middleware_config",
       "community": 40,
       "norm_label": "config"
@@ -574,7 +574,7 @@
       "label": "POST()",
       "file_type": "code",
       "source_file": "app/api/auth/signin/route.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "signin_route_post",
       "community": 40,
       "norm_label": "post()"
@@ -585,7 +585,7 @@
       "source_file": "app/api/portfolios/route.ts",
       "source_location": "L1",
       "id": "app_api_portfolios_route_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "route.ts"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "app/api/portfolios/route.ts",
       "source_location": "L5",
       "id": "portfolios_route_get",
-      "community": 4,
+      "community": 2,
       "norm_label": "get()"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "app/api/portfolios/route.ts",
       "source_location": "L9",
       "id": "portfolios_route_post",
-      "community": 4,
+      "community": 2,
       "norm_label": "post()"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "app/api/profile/route.ts",
       "source_location": "L1",
       "id": "app_api_profile_route_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "route.ts"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "app/api/profile/route.ts",
       "source_location": "L6",
       "id": "profile_route_get",
-      "community": 4,
+      "community": 2,
       "norm_label": "get()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "components/results/summary-bar.tsx",
       "source_location": "L1",
       "id": "components_results_summary_bar_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "summary-bar.tsx"
     },
     {
@@ -1008,7 +1008,7 @@
       "source_file": "components/results/summary-bar.tsx",
       "source_location": "L3",
       "id": "results_summary_bar_summarybar",
-      "community": 6,
+      "community": 2,
       "norm_label": "summarybar()"
     },
     {
@@ -1017,7 +1017,7 @@
       "source_file": "components/results/decision-card.tsx",
       "source_location": "L1",
       "id": "components_results_decision_card_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "decision-card.tsx"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_file": "components/results/decision-card.tsx",
       "source_location": "L3",
       "id": "results_decision_card_decisioncard",
-      "community": 6,
+      "community": 2,
       "norm_label": "decisioncard()"
     },
     {
@@ -1035,7 +1035,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L1",
       "id": "components_results_results_board_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "results-board.tsx"
     },
     {
@@ -1044,7 +1044,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L8",
       "id": "results_results_board_resultsboardprops",
-      "community": 6,
+      "community": 2,
       "norm_label": "resultsboardprops"
     },
     {
@@ -1053,7 +1053,7 @@
       "source_file": "components/results/results-board.tsx",
       "source_location": "L15",
       "id": "results_results_board_resultsboard",
-      "community": 6,
+      "community": 2,
       "norm_label": "resultsboard()"
     },
     {
@@ -1062,7 +1062,7 @@
       "source_file": "components/results/prompt-card.tsx",
       "source_location": "L1",
       "id": "components_results_prompt_card_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "prompt-card.tsx"
     },
     {
@@ -1071,7 +1071,7 @@
       "source_file": "components/results/prompt-card.tsx",
       "source_location": "L3",
       "id": "results_prompt_card_promptcard",
-      "community": 6,
+      "community": 2,
       "norm_label": "promptcard()"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_file": "components/results/signal-card.tsx",
       "source_location": "L1",
       "id": "components_results_signal_card_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "signal-card.tsx"
     },
     {
@@ -1089,7 +1089,7 @@
       "source_file": "components/results/signal-card.tsx",
       "source_location": "L3",
       "id": "results_signal_card_signalcard",
-      "community": 6,
+      "community": 2,
       "norm_label": "signalcard()"
     },
     {
@@ -1098,7 +1098,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L1",
       "id": "components_results_action_queue_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "action-queue.tsx"
     },
     {
@@ -1107,7 +1107,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L3",
       "id": "results_action_queue_actionqueueprops",
-      "community": 6,
+      "community": 2,
       "norm_label": "actionqueueprops"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "components/results/action-queue.tsx",
       "source_location": "L8",
       "id": "results_action_queue_actionqueue",
-      "community": 6,
+      "community": 2,
       "norm_label": "actionqueue()"
     },
     {
@@ -1282,10 +1282,19 @@
       "norm_label": "getprivateaccessconfig()"
     },
     {
-      "label": "normalizeNextPath()",
+      "label": "hasConfiguredAuth()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
       "source_location": "L70",
+      "id": "lib_auth_hasconfiguredauth",
+      "community": 40,
+      "norm_label": "hasconfiguredauth()"
+    },
+    {
+      "label": "normalizeNextPath()",
+      "file_type": "code",
+      "source_file": "lib/auth.ts",
+      "source_location": "L76",
       "id": "lib_auth_normalizenextpath",
       "community": 40,
       "norm_label": "normalizenextpath()"
@@ -1294,7 +1303,7 @@
       "label": "createSessionToken()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L77",
+      "source_location": "L83",
       "id": "lib_auth_createsessiontoken",
       "community": 40,
       "norm_label": "createsessiontoken()"
@@ -1303,7 +1312,7 @@
       "label": "isValidLogin()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L83",
+      "source_location": "L89",
       "id": "lib_auth_isvalidlogin",
       "community": 40,
       "norm_label": "isvalidlogin()"
@@ -1312,7 +1321,7 @@
       "label": "isValidSessionToken()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L91",
+      "source_location": "L97",
       "id": "lib_auth_isvalidsessiontoken",
       "community": 40,
       "norm_label": "isvalidsessiontoken()"
@@ -1323,7 +1332,7 @@
       "source_file": "lib/config/action-labels.ts",
       "source_location": "L1",
       "id": "lib_config_action_labels_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "action-labels.ts"
     },
     {
@@ -1332,7 +1341,7 @@
       "source_file": "lib/config/action-labels.ts",
       "source_location": "L1",
       "id": "config_action_labels_action_labels",
-      "community": 0,
+      "community": 2,
       "norm_label": "action_labels"
     },
     {
@@ -1341,7 +1350,7 @@
       "source_file": "lib/config/action-labels.ts",
       "source_location": "L18",
       "id": "config_action_labels_actionlabel",
-      "community": 0,
+      "community": 2,
       "norm_label": "actionlabel"
     },
     {
@@ -1440,7 +1449,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L1",
       "id": "lib_server_validation_ts",
-      "community": 0,
+      "community": 2,
       "norm_label": "validation.ts"
     },
     {
@@ -1449,7 +1458,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L21",
       "id": "server_validation_riskstyles",
-      "community": 0,
+      "community": 2,
       "norm_label": "riskstyles"
     },
     {
@@ -1458,7 +1467,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L22",
       "id": "server_validation_timehorizons",
-      "community": 0,
+      "community": 2,
       "norm_label": "timehorizons"
     },
     {
@@ -1467,7 +1476,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L23",
       "id": "server_validation_objectives",
-      "community": 0,
+      "community": 2,
       "norm_label": "objectives"
     },
     {
@@ -1476,7 +1485,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L24",
       "id": "server_validation_ownershipstates",
-      "community": 0,
+      "community": 2,
       "norm_label": "ownershipstates"
     },
     {
@@ -1485,7 +1494,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L26",
       "id": "server_validation_validationresult",
-      "community": 0,
+      "community": 2,
       "norm_label": "validationresult"
     },
     {
@@ -1593,7 +1602,7 @@
       "source_file": "lib/server/validation.ts",
       "source_location": "L300",
       "id": "server_validation_isactionlabel",
-      "community": 0,
+      "community": 2,
       "norm_label": "isactionlabel()"
     },
     {
@@ -1629,7 +1638,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L1",
       "id": "lib_schemas_analysis_ts",
-      "community": 6,
+      "community": 2,
       "norm_label": "analysis.ts"
     },
     {
@@ -1656,7 +1665,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L14",
       "id": "schemas_analysis_riskstyle",
-      "community": 4,
+      "community": 2,
       "norm_label": "riskstyle"
     },
     {
@@ -1665,7 +1674,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L15",
       "id": "schemas_analysis_timehorizon",
-      "community": 4,
+      "community": 2,
       "norm_label": "timehorizon"
     },
     {
@@ -1674,7 +1683,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L16",
       "id": "schemas_analysis_objective",
-      "community": 4,
+      "community": 2,
       "norm_label": "objective"
     },
     {
@@ -1683,7 +1692,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L17",
       "id": "schemas_analysis_ownershipstate",
-      "community": 0,
+      "community": 2,
       "norm_label": "ownershipstate"
     },
     {
@@ -1692,7 +1701,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L18",
       "id": "schemas_analysis_confidence",
-      "community": 9,
+      "community": 2,
       "norm_label": "confidence"
     },
     {
@@ -1701,7 +1710,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L19",
       "id": "schemas_analysis_urgency",
-      "community": 6,
+      "community": 2,
       "norm_label": "urgency"
     },
     {
@@ -1710,7 +1719,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L20",
       "id": "schemas_analysis_llmprovider",
-      "community": 9,
+      "community": 2,
       "norm_label": "llmprovider"
     },
     {
@@ -1719,7 +1728,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L21",
       "id": "schemas_analysis_reasoningeffort",
-      "community": 4,
+      "community": 2,
       "norm_label": "reasoningeffort"
     },
     {
@@ -1737,7 +1746,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L31",
       "id": "schemas_analysis_portfolioposition",
-      "community": 4,
+      "community": 2,
       "norm_label": "portfolioposition"
     },
     {
@@ -1755,7 +1764,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L59",
       "id": "schemas_analysis_baseanalysisrequest",
-      "community": 6,
+      "community": 2,
       "norm_label": "baseanalysisrequest"
     },
     {
@@ -1764,7 +1773,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L70",
       "id": "schemas_analysis_tickerrequest",
-      "community": 0,
+      "community": 2,
       "norm_label": "tickerrequest"
     },
     {
@@ -1773,7 +1782,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L79",
       "id": "schemas_analysis_portfoliorequest",
-      "community": 0,
+      "community": 2,
       "norm_label": "portfoliorequest"
     },
     {
@@ -1782,7 +1791,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L87",
       "id": "schemas_analysis_incomerequest",
-      "community": 0,
+      "community": 2,
       "norm_label": "incomerequest"
     },
     {
@@ -1791,7 +1800,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L96",
       "id": "schemas_analysis_fullreviewrequest",
-      "community": 0,
+      "community": 2,
       "norm_label": "fullreviewrequest"
     },
     {
@@ -1800,7 +1809,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L104",
       "id": "schemas_analysis_analysisrequest",
-      "community": 6,
+      "community": 1,
       "norm_label": "analysisrequest"
     },
     {
@@ -1827,7 +1836,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L119",
       "id": "schemas_analysis_queueitem",
-      "community": 6,
+      "community": 9,
       "norm_label": "queueitem"
     },
     {
@@ -1881,7 +1890,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L167",
       "id": "schemas_analysis_baseanalysisresponse",
-      "community": 6,
+      "community": 2,
       "norm_label": "baseanalysisresponse"
     },
     {
@@ -1926,7 +1935,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L226",
       "id": "schemas_analysis_analysisresponse",
-      "community": 6,
+      "community": 2,
       "norm_label": "analysisresponse"
     },
     {
@@ -1935,7 +1944,7 @@
       "source_file": "lib/schemas/analysis.ts",
       "source_location": "L232",
       "id": "schemas_analysis_validationerrorresponse",
-      "community": 0,
+      "community": 2,
       "norm_label": "validationerrorresponse"
     },
     {
@@ -1944,7 +1953,7 @@
       "source_file": "lib/schemas/persistence.ts",
       "source_location": "L1",
       "id": "lib_schemas_persistence_ts",
-      "community": 4,
+      "community": 2,
       "norm_label": "persistence.ts"
     },
     {
@@ -1962,7 +1971,7 @@
       "source_file": "lib/schemas/persistence.ts",
       "source_location": "L23",
       "id": "schemas_persistence_savedportfolio",
-      "community": 4,
+      "community": 2,
       "norm_label": "savedportfolio"
     },
     {
@@ -2430,7 +2439,7 @@
       "source_file": "lib/data/cache.ts",
       "source_location": "L1",
       "id": "lib_data_cache_ts",
-      "community": 3,
+      "community": 1,
       "norm_label": "cache.ts"
     },
     {
@@ -2439,7 +2448,7 @@
       "source_file": "lib/data/cache.ts",
       "source_location": "L1",
       "id": "data_cache_cacheentry",
-      "community": 3,
+      "community": 1,
       "norm_label": "cacheentry"
     },
     {
@@ -2448,7 +2457,7 @@
       "source_file": "lib/data/cache.ts",
       "source_location": "L6",
       "id": "data_cache_memorycache",
-      "community": 3,
+      "community": 1,
       "norm_label": "memorycache"
     },
     {
@@ -2457,7 +2466,7 @@
       "source_file": "lib/data/cache.ts",
       "source_location": "L9",
       "id": "data_cache_memorycache_get",
-      "community": 3,
+      "community": 1,
       "norm_label": ".get()"
     },
     {
@@ -2466,7 +2475,7 @@
       "source_file": "lib/data/cache.ts",
       "source_location": "L19",
       "id": "data_cache_memorycache_set",
-      "community": 3,
+      "community": 1,
       "norm_label": ".set()"
     },
     {
@@ -3024,7 +3033,7 @@
       "source_file": "lib/data/providers/news.ts",
       "source_location": "L1",
       "id": "lib_data_providers_news_ts",
-      "community": 1,
+      "community": 37,
       "norm_label": "news.ts"
     },
     {
@@ -3033,7 +3042,7 @@
       "source_file": "lib/data/providers/news.ts",
       "source_location": "L3",
       "id": "providers_news_newsprovider",
-      "community": 1,
+      "community": 37,
       "norm_label": "newsprovider"
     },
     {
@@ -3114,7 +3123,7 @@
       "source_file": "lib/data/providers/earnings.ts",
       "source_location": "L1",
       "id": "lib_data_providers_earnings_ts",
-      "community": 1,
+      "community": 37,
       "norm_label": "earnings.ts"
     },
     {
@@ -3123,7 +3132,7 @@
       "source_file": "lib/data/providers/earnings.ts",
       "source_location": "L3",
       "id": "providers_earnings_earningsprovider",
-      "community": 1,
+      "community": 37,
       "norm_label": "earningsprovider"
     },
     {
@@ -3132,7 +3141,7 @@
       "source_file": "lib/data/providers/earnings.ts",
       "source_location": "L9",
       "id": "providers_earnings_mockearningsprovider",
-      "community": 1,
+      "community": 37,
       "norm_label": "mockearningsprovider"
     },
     {
@@ -3141,7 +3150,7 @@
       "source_file": "lib/data/providers/earnings.ts",
       "source_location": "L10",
       "id": "providers_earnings_mockearningsprovider_getearningsdata",
-      "community": 1,
+      "community": 37,
       "norm_label": ".getearningsdata()"
     },
     {
@@ -3150,7 +3159,7 @@
       "source_file": "lib/data/providers/options.ts",
       "source_location": "L1",
       "id": "lib_data_providers_options_ts",
-      "community": 1,
+      "community": 3,
       "norm_label": "options.ts"
     },
     {
@@ -3159,7 +3168,7 @@
       "source_file": "lib/data/providers/options.ts",
       "source_location": "L3",
       "id": "providers_options_optionsprovider",
-      "community": 1,
+      "community": 3,
       "norm_label": "optionsprovider"
     },
     {
@@ -3168,7 +3177,7 @@
       "source_file": "lib/data/providers/options.ts",
       "source_location": "L19",
       "id": "providers_options_mockoptionsprovider",
-      "community": 1,
+      "community": 3,
       "norm_label": "mockoptionsprovider"
     },
     {
@@ -3177,7 +3186,7 @@
       "source_file": "lib/data/providers/options.ts",
       "source_location": "L20",
       "id": "providers_options_mockoptionsprovider_getoptionsdata",
-      "community": 1,
+      "community": 3,
       "norm_label": ".getoptionsdata()"
     },
     {
@@ -3222,7 +3231,7 @@
       "source_file": "lib/data/normalize/ticker-snapshot.ts",
       "source_location": "L1",
       "id": "lib_data_normalize_ticker_snapshot_ts",
-      "community": 1,
+      "community": 37,
       "norm_label": "ticker-snapshot.ts"
     },
     {
@@ -3240,7 +3249,7 @@
       "source_file": "lib/data/normalize/ticker-snapshot.ts",
       "source_location": "L2",
       "id": "normalize_ticker_snapshot_sentimentstate",
-      "community": 1,
+      "community": 37,
       "norm_label": "sentimentstate"
     },
     {
@@ -3249,7 +3258,7 @@
       "source_file": "lib/data/normalize/ticker-snapshot.ts",
       "source_location": "L3",
       "id": "normalize_ticker_snapshot_ivregime",
-      "community": 1,
+      "community": 3,
       "norm_label": "ivregime"
     },
     {
@@ -3258,7 +3267,7 @@
       "source_file": "lib/data/normalize/ticker-snapshot.ts",
       "source_location": "L5",
       "id": "normalize_ticker_snapshot_tickersnapshot",
-      "community": 1,
+      "community": 37,
       "norm_label": "tickersnapshot"
     },
     {
@@ -5673,9 +5682,9 @@
       "source_file": "middleware.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "lib_auth_ts",
-      "confidence_score": 1.0
+      "target": "lib_auth_ts"
     },
     {
       "relation": "imports",
@@ -5685,7 +5694,7 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "middleware_ts",
-      "target": "lib_auth_getprivateaccessconfig",
+      "target": "lib_auth_hasconfiguredauth",
       "confidence_score": 1.0
     },
     {
@@ -5695,9 +5704,9 @@
       "source_file": "middleware.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "lib_auth_getsessioncookiename",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookiename"
     },
     {
       "relation": "imports",
@@ -5706,9 +5715,9 @@
       "source_file": "middleware.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "lib_auth_isvalidsessiontoken",
-      "confidence_score": 1.0
+      "target": "lib_auth_isvalidsessiontoken"
     },
     {
       "relation": "imports",
@@ -5717,9 +5726,9 @@
       "source_file": "middleware.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "lib_auth_normalizenextpath",
-      "confidence_score": 1.0
+      "target": "lib_auth_normalizenextpath"
     },
     {
       "relation": "contains",
@@ -5727,9 +5736,9 @@
       "source_file": "middleware.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "ticker_pm_copilot_middleware_ispublicpath",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_middleware_ispublicpath"
     },
     {
       "relation": "contains",
@@ -5750,6 +5759,17 @@
       "confidence_score": 1.0,
       "source": "middleware_ts",
       "target": "ticker_pm_copilot_middleware_config"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "middleware_ts",
+      "target": "lib_auth_getprivateaccessconfig"
     },
     {
       "relation": "contains",
@@ -5778,9 +5798,9 @@
       "source_file": "middleware.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_middleware_middleware",
-      "target": "ticker_pm_copilot_middleware_ispublicpath",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_middleware_ispublicpath"
     },
     {
       "relation": "calls",
@@ -5791,7 +5811,7 @@
       "source_location": "L16",
       "weight": 1.0,
       "source": "ticker_pm_copilot_middleware_middleware",
-      "target": "lib_auth_getprivateaccessconfig"
+      "target": "lib_auth_hasconfiguredauth"
     },
     {
       "relation": "calls",
@@ -5825,6 +5845,17 @@
       "weight": 1.0,
       "source": "ticker_pm_copilot_middleware_middleware",
       "target": "lib_auth_normalizenextpath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "middleware.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ticker_pm_copilot_middleware_middleware",
+      "target": "lib_auth_getprivateaccessconfig"
     },
     {
       "relation": "contains",
@@ -5942,9 +5973,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_scripts",
-      "target": "ticker_pm_copilot_package_scripts_prisma_generate",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_scripts_prisma_generate"
     },
     {
       "relation": "contains",
@@ -5952,9 +5983,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_scripts",
-      "target": "ticker_pm_copilot_package_scripts_db_push",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_scripts_db_push"
     },
     {
       "relation": "contains",
@@ -5962,9 +5993,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_scripts",
-      "target": "ticker_pm_copilot_package_scripts_postinstall",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_scripts_postinstall"
     },
     {
       "relation": "contains",
@@ -5972,9 +6003,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_dependencies",
-      "target": "ticker_pm_copilot_package_dependencies_prisma_client",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_dependencies_prisma_client"
     },
     {
       "relation": "contains",
@@ -5992,9 +6023,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_dependencies",
-      "target": "ticker_pm_copilot_package_dependencies_pg",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_dependencies_pg"
     },
     {
       "relation": "contains",
@@ -6002,9 +6033,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_dependencies",
-      "target": "ticker_pm_copilot_package_dependencies_prisma",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_dependencies_prisma"
     },
     {
       "relation": "contains",
@@ -6042,9 +6073,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_package_devdependencies",
-      "target": "ticker_pm_copilot_package_devdependencies_types_pg",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_package_devdependencies_types_pg"
     },
     {
       "relation": "contains",
@@ -6335,9 +6366,9 @@
       "source_file": "app/signout/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signout_route_ts",
-      "target": "lib_auth_ts",
-      "confidence_score": 1.0
+      "target": "lib_auth_ts"
     },
     {
       "relation": "imports",
@@ -6346,9 +6377,9 @@
       "source_file": "app/signout/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signout_route_ts",
-      "target": "lib_auth_getsessioncookiename",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookiename"
     },
     {
       "relation": "imports",
@@ -6357,9 +6388,9 @@
       "source_file": "app/signout/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signout_route_ts",
-      "target": "lib_auth_getsessioncookieoptions",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookieoptions"
     },
     {
       "relation": "imports",
@@ -6368,9 +6399,9 @@
       "source_file": "app/signout/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signout_route_ts",
-      "target": "lib_auth_normalizenextpath",
-      "confidence_score": 1.0
+      "target": "lib_auth_normalizenextpath"
     },
     {
       "relation": "contains",
@@ -6378,9 +6409,9 @@
       "source_file": "app/signout/route.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signout_route_ts",
-      "target": "signout_route_post",
-      "confidence_score": 1.0
+      "target": "signout_route_post"
     },
     {
       "relation": "calls",
@@ -6422,9 +6453,9 @@
       "source_file": "app/signin/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signin_page_tsx",
-      "target": "components_signin_form_tsx",
-      "confidence_score": 1.0
+      "target": "components_signin_form_tsx"
     },
     {
       "relation": "imports",
@@ -6433,9 +6464,9 @@
       "source_file": "app/signin/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signin_page_tsx",
-      "target": "components_signin_form_signinform",
-      "confidence_score": 1.0
+      "target": "components_signin_form_signinform"
     },
     {
       "relation": "imports_from",
@@ -6444,9 +6475,9 @@
       "source_file": "app/signin/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signin_page_tsx",
-      "target": "lib_auth_ts",
-      "confidence_score": 1.0
+      "target": "lib_auth_ts"
     },
     {
       "relation": "imports",
@@ -6456,8 +6487,19 @@
       "source_location": "L2",
       "weight": 1.0,
       "source": "app_signin_page_tsx",
-      "target": "lib_auth_normalizenextpath",
+      "target": "lib_auth_hasconfiguredauth",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_signin_page_tsx",
+      "target": "lib_auth_normalizenextpath"
     },
     {
       "relation": "contains",
@@ -6465,9 +6507,9 @@
       "source_file": "app/signin/page.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signin_page_tsx",
-      "target": "signin_page_signinpage",
-      "confidence_score": 1.0
+      "target": "signin_page_signinpage"
     },
     {
       "relation": "calls",
@@ -6481,15 +6523,37 @@
       "target": "lib_auth_normalizenextpath"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/signin/page.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "signin_page_signinpage",
+      "target": "lib_auth_hasconfiguredauth"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_ts",
-      "confidence_score": 1.0
+      "target": "lib_auth_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_signin_route_ts",
+      "target": "lib_auth_createsessiontoken"
     },
     {
       "relation": "imports",
@@ -6499,7 +6563,7 @@
       "source_location": "L2",
       "weight": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_createsessiontoken",
+      "target": "lib_auth_hasconfiguredauth",
       "confidence_score": 1.0
     },
     {
@@ -6509,9 +6573,9 @@
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_getsessioncookiename",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookiename"
     },
     {
       "relation": "imports",
@@ -6520,9 +6584,9 @@
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_getsessioncookieoptions",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookieoptions"
     },
     {
       "relation": "imports",
@@ -6531,9 +6595,9 @@
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_isvalidlogin",
-      "confidence_score": 1.0
+      "target": "lib_auth_isvalidlogin"
     },
     {
       "relation": "imports",
@@ -6542,9 +6606,9 @@
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_normalizenextpath",
-      "confidence_score": 1.0
+      "target": "lib_auth_normalizenextpath"
     },
     {
       "relation": "contains",
@@ -6552,9 +6616,9 @@
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "signin_route_post",
-      "confidence_score": 1.0
+      "target": "signin_route_post"
     },
     {
       "relation": "calls",
@@ -6566,6 +6630,17 @@
       "weight": 1.0,
       "source": "signin_route_post",
       "target": "lib_auth_normalizenextpath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/signin/route.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "signin_route_post",
+      "target": "lib_auth_hasconfiguredauth"
     },
     {
       "relation": "calls",
@@ -7178,9 +7253,9 @@
       "source_file": "components/signin-form.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_signin_form_tsx",
-      "target": "components_signin_form_signinform",
-      "confidence_score": 1.0
+      "target": "components_signin_form_signinform"
     },
     {
       "relation": "imports_from",
@@ -8346,9 +8421,9 @@
       "source_file": "lib/prisma.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_prisma_ts",
-      "target": "lib_prisma_globalforprisma",
-      "confidence_score": 1.0
+      "target": "lib_prisma_globalforprisma"
     },
     {
       "relation": "contains",
@@ -8356,9 +8431,9 @@
       "source_file": "lib/prisma.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_prisma_ts",
-      "target": "lib_prisma_getprisma",
-      "confidence_score": 1.0
+      "target": "lib_prisma_getprisma"
     },
     {
       "relation": "imports_from",
@@ -8367,9 +8442,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "lib_prisma_ts",
-      "confidence_score": 1.0
+      "target": "lib_prisma_ts"
     },
     {
       "relation": "imports_from",
@@ -8378,9 +8453,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "lib_prisma_ts",
-      "confidence_score": 1.0
+      "target": "lib_prisma_ts"
     },
     {
       "relation": "imports",
@@ -8389,9 +8464,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "lib_prisma_getprisma",
-      "confidence_score": 1.0
+      "target": "lib_prisma_getprisma"
     },
     {
       "relation": "imports",
@@ -8400,9 +8475,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "lib_prisma_getprisma",
-      "confidence_score": 1.0
+      "target": "lib_prisma_getprisma"
     },
     {
       "relation": "calls",
@@ -8498,9 +8573,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_private_access_env_names",
-      "confidence_score": 1.0
+      "target": "lib_auth_private_access_env_names"
     },
     {
       "relation": "contains",
@@ -8508,9 +8583,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_privateaccessenvname",
-      "confidence_score": 1.0
+      "target": "lib_auth_privateaccessenvname"
     },
     {
       "relation": "contains",
@@ -8518,9 +8593,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_requiredenv",
-      "confidence_score": 1.0
+      "target": "lib_auth_requiredenv"
     },
     {
       "relation": "contains",
@@ -8528,9 +8603,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_timingsafeequalstring",
-      "confidence_score": 1.0
+      "target": "lib_auth_timingsafeequalstring"
     },
     {
       "relation": "contains",
@@ -8538,9 +8613,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_sha256hex",
-      "confidence_score": 1.0
+      "target": "lib_auth_sha256hex"
     },
     {
       "relation": "contains",
@@ -8548,9 +8623,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_getsessionsignature",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessionsignature"
     },
     {
       "relation": "contains",
@@ -8558,9 +8633,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_getsessioncookiename",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookiename"
     },
     {
       "relation": "contains",
@@ -8568,9 +8643,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_getsessionmaxageseconds",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessionmaxageseconds"
     },
     {
       "relation": "contains",
@@ -8578,9 +8653,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_getsessioncookieoptions",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessioncookieoptions"
     },
     {
       "relation": "contains",
@@ -8588,9 +8663,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_getprivateaccessconfig",
-      "confidence_score": 1.0
+      "target": "lib_auth_getprivateaccessconfig"
     },
     {
       "relation": "contains",
@@ -8599,8 +8674,18 @@
       "source_location": "L70",
       "weight": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_normalizenextpath",
+      "target": "lib_auth_hasconfiguredauth",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_ts",
+      "target": "lib_auth_normalizenextpath"
     },
     {
       "relation": "contains",
@@ -8608,9 +8693,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_createsessiontoken",
-      "confidence_score": 1.0
+      "target": "lib_auth_createsessiontoken"
     },
     {
       "relation": "contains",
@@ -8618,9 +8703,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_isvalidlogin",
-      "confidence_score": 1.0
+      "target": "lib_auth_isvalidlogin"
     },
     {
       "relation": "contains",
@@ -8628,9 +8713,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_isvalidsessiontoken",
-      "confidence_score": 1.0
+      "target": "lib_auth_isvalidsessiontoken"
     },
     {
       "relation": "calls",
@@ -8639,9 +8724,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_getsessionsignature",
-      "target": "lib_auth_requiredenv",
-      "confidence_score": 1.0
+      "target": "lib_auth_requiredenv"
     },
     {
       "relation": "calls",
@@ -8650,9 +8735,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_getprivateaccessconfig",
-      "target": "lib_auth_requiredenv",
-      "confidence_score": 1.0
+      "target": "lib_auth_requiredenv"
     },
     {
       "relation": "calls",
@@ -8661,9 +8746,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_isvalidlogin",
-      "target": "lib_auth_timingsafeequalstring",
-      "confidence_score": 1.0
+      "target": "lib_auth_timingsafeequalstring"
     },
     {
       "relation": "calls",
@@ -8672,9 +8757,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_isvalidsessiontoken",
-      "target": "lib_auth_timingsafeequalstring",
-      "confidence_score": 1.0
+      "target": "lib_auth_timingsafeequalstring"
     },
     {
       "relation": "calls",
@@ -8683,9 +8768,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_getsessionsignature",
-      "target": "lib_auth_sha256hex",
-      "confidence_score": 1.0
+      "target": "lib_auth_sha256hex"
     },
     {
       "relation": "calls",
@@ -8694,9 +8779,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_createsessiontoken",
-      "target": "lib_auth_getsessionsignature",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessionsignature"
     },
     {
       "relation": "calls",
@@ -8705,9 +8790,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_isvalidsessiontoken",
-      "target": "lib_auth_getsessionsignature",
-      "confidence_score": 1.0
+      "target": "lib_auth_getsessionsignature"
     },
     {
       "relation": "calls",
@@ -8716,9 +8801,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_isvalidlogin",
-      "target": "lib_auth_getprivateaccessconfig",
-      "confidence_score": 1.0
+      "target": "lib_auth_getprivateaccessconfig"
     },
     {
       "relation": "contains",
@@ -10685,9 +10770,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "lib_schemas_persistence_ts",
-      "confidence_score": 1.0
+      "target": "lib_schemas_persistence_ts"
     },
     {
       "relation": "imports_from",
@@ -10696,9 +10781,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "lib_schemas_persistence_ts",
-      "confidence_score": 1.0
+      "target": "lib_schemas_persistence_ts"
     },
     {
       "relation": "imports",
@@ -10718,9 +10803,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "schemas_persistence_userprofile",
-      "confidence_score": 1.0
+      "target": "schemas_persistence_userprofile"
     },
     {
       "relation": "imports",
@@ -10729,9 +10814,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "schemas_persistence_userprofile",
-      "confidence_score": 1.0
+      "target": "schemas_persistence_userprofile"
     },
     {
       "relation": "imports",
@@ -10751,9 +10836,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "schemas_persistence_savedportfolio",
-      "confidence_score": 1.0
+      "target": "schemas_persistence_savedportfolio"
     },
     {
       "relation": "imports",
@@ -10762,9 +10847,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "schemas_persistence_savedportfolio",
-      "confidence_score": 1.0
+      "target": "schemas_persistence_savedportfolio"
     },
     {
       "relation": "imports",
@@ -10784,9 +10869,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "schemas_persistence_analysishistoryentry",
-      "confidence_score": 1.0
+      "target": "schemas_persistence_analysishistoryentry"
     },
     {
       "relation": "imports",
@@ -10795,9 +10880,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "schemas_persistence_analysishistoryentry",
-      "confidence_score": 1.0
+      "target": "schemas_persistence_analysishistoryentry"
     },
     {
       "relation": "imports_from",
@@ -13970,9 +14055,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_legacy_migration_ts",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_ts"
     },
     {
       "relation": "imports",
@@ -13981,9 +14066,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_legacy_migration_ensurelegacyjsonmigration",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
     },
     {
       "relation": "imports_from",
@@ -14003,9 +14088,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_store_getstoragebackend",
-      "confidence_score": 1.0
+      "target": "db_store_getstoragebackend"
     },
     {
       "relation": "imports_from",
@@ -14014,9 +14099,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_ts",
-      "confidence_score": 1.0
+      "target": "db_postgres_ts"
     },
     {
       "relation": "imports",
@@ -14025,9 +14110,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_appendpostgreshistory",
-      "confidence_score": 1.0
+      "target": "db_postgres_appendpostgreshistory"
     },
     {
       "relation": "imports",
@@ -14036,9 +14121,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_deletepostgresportfolio",
-      "confidence_score": 1.0
+      "target": "db_postgres_deletepostgresportfolio"
     },
     {
       "relation": "imports",
@@ -14047,9 +14132,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_getpostgresuserprofile",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpostgresuserprofile"
     },
     {
       "relation": "imports",
@@ -14058,9 +14143,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_listpostgreshistory",
-      "confidence_score": 1.0
+      "target": "db_postgres_listpostgreshistory"
     },
     {
       "relation": "imports",
@@ -14069,9 +14154,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_listpostgresportfolios",
-      "confidence_score": 1.0
+      "target": "db_postgres_listpostgresportfolios"
     },
     {
       "relation": "imports",
@@ -14080,9 +14165,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_savepostgresportfolio",
-      "confidence_score": 1.0
+      "target": "db_postgres_savepostgresportfolio"
     },
     {
       "relation": "imports",
@@ -14091,9 +14176,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_postgres_savepostgresuserprofile",
-      "confidence_score": 1.0
+      "target": "db_postgres_savepostgresuserprofile"
     },
     {
       "relation": "contains",
@@ -14101,9 +14186,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_queries_defaultprofile",
-      "confidence_score": 1.0
+      "target": "db_queries_defaultprofile"
     },
     {
       "relation": "contains",
@@ -14191,9 +14276,9 @@
       "source_file": "db/queries.ts",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_queries_ts",
-      "target": "db_queries_parsejson",
-      "confidence_score": 1.0
+      "target": "db_queries_parsejson"
     },
     {
       "relation": "contains",
@@ -14574,9 +14659,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_globalforpg",
-      "confidence_score": 1.0
+      "target": "db_postgres_globalforpg"
     },
     {
       "relation": "contains",
@@ -14584,9 +14669,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "contains",
@@ -14594,9 +14679,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "contains",
@@ -14604,9 +14689,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_getpostgresuserprofile",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpostgresuserprofile"
     },
     {
       "relation": "contains",
@@ -14614,9 +14699,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_savepostgresuserprofile",
-      "confidence_score": 1.0
+      "target": "db_postgres_savepostgresuserprofile"
     },
     {
       "relation": "contains",
@@ -14624,9 +14709,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_listpostgresportfolios",
-      "confidence_score": 1.0
+      "target": "db_postgres_listpostgresportfolios"
     },
     {
       "relation": "contains",
@@ -14634,9 +14719,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_savepostgresportfolio",
-      "confidence_score": 1.0
+      "target": "db_postgres_savepostgresportfolio"
     },
     {
       "relation": "contains",
@@ -14644,9 +14729,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_deletepostgresportfolio",
-      "confidence_score": 1.0
+      "target": "db_postgres_deletepostgresportfolio"
     },
     {
       "relation": "contains",
@@ -14654,9 +14739,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_listpostgreshistory",
-      "confidence_score": 1.0
+      "target": "db_postgres_listpostgreshistory"
     },
     {
       "relation": "contains",
@@ -14664,9 +14749,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L207",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_ts",
-      "target": "db_postgres_appendpostgreshistory",
-      "confidence_score": 1.0
+      "target": "db_postgres_appendpostgreshistory"
     },
     {
       "relation": "calls",
@@ -14675,9 +14760,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_getpostgresuserprofile",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14686,9 +14771,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_savepostgresuserprofile",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14697,9 +14782,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_listpostgresportfolios",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14708,9 +14793,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_savepostgresportfolio",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14719,9 +14804,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L183",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_deletepostgresportfolio",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14730,9 +14815,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_listpostgreshistory",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14741,9 +14826,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L209",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_appendpostgreshistory",
-      "target": "db_postgres_getpool",
-      "confidence_score": 1.0
+      "target": "db_postgres_getpool"
     },
     {
       "relation": "calls",
@@ -14752,9 +14837,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_getpostgresuserprofile",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "calls",
@@ -14763,9 +14848,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_savepostgresuserprofile",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "calls",
@@ -14774,9 +14859,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_listpostgresportfolios",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "calls",
@@ -14785,9 +14870,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_savepostgresportfolio",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "calls",
@@ -14796,9 +14881,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_deletepostgresportfolio",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "calls",
@@ -14807,9 +14892,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L188",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_listpostgreshistory",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "calls",
@@ -14818,9 +14903,9 @@
       "source_file": "db/postgres.ts",
       "source_location": "L208",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_postgres_appendpostgreshistory",
-      "target": "db_postgres_ensureschema",
-      "confidence_score": 1.0
+      "target": "db_postgres_ensureschema"
     },
     {
       "relation": "contains",
@@ -14828,9 +14913,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "db_legacy_migration_globalformigration",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_globalformigration"
     },
     {
       "relation": "contains",
@@ -14838,9 +14923,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "db_legacy_migration_storagedir",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_storagedir"
     },
     {
       "relation": "contains",
@@ -14848,9 +14933,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "db_legacy_migration_ensurelegacyjsonmigration",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_ensurelegacyjsonmigration"
     },
     {
       "relation": "contains",
@@ -14858,9 +14943,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "db_legacy_migration_migratelegacyjsonifneeded",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_migratelegacyjsonifneeded"
     },
     {
       "relation": "contains",
@@ -14868,9 +14953,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "db_legacy_migration_haslegacystoragedir",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_haslegacystoragedir"
     },
     {
       "relation": "contains",
@@ -14878,9 +14963,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ts",
-      "target": "db_legacy_migration_readlegacyjson",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_readlegacyjson"
     },
     {
       "relation": "calls",
@@ -14889,9 +14974,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_ensurelegacyjsonmigration",
-      "target": "db_legacy_migration_migratelegacyjsonifneeded",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_migratelegacyjsonifneeded"
     },
     {
       "relation": "calls",
@@ -14900,9 +14985,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_migratelegacyjsonifneeded",
-      "target": "db_legacy_migration_haslegacystoragedir",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_haslegacystoragedir"
     },
     {
       "relation": "calls",
@@ -14911,9 +14996,9 @@
       "source_file": "db/legacy-migration.ts",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "db_legacy_migration_migratelegacyjsonifneeded",
-      "target": "db_legacy_migration_readlegacyjson",
-      "confidence_score": 1.0
+      "target": "db_legacy_migration_readlegacyjson"
     },
     {
       "relation": "contains",
@@ -15073,9 +15158,9 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_recently_completed",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_recently_completed"
     },
     {
       "relation": "contains",
@@ -15093,9 +15178,9 @@
       "source_file": "PROJECT_STATUS.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_project_status_project_status",
-      "target": "ticker_pm_copilot_project_status_remaining_product_gaps",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_project_status_remaining_product_gaps"
     },
     {
       "relation": "contains",
@@ -15213,9 +15298,9 @@
       "source_file": "STATUS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "status_md",
-      "target": "ticker_pm_copilot_status_status",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_status"
     },
     {
       "relation": "contains",
@@ -15233,9 +15318,9 @@
       "source_file": "STATUS.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_current_phase",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_current_phase"
     },
     {
       "relation": "contains",
@@ -15243,9 +15328,9 @@
       "source_file": "STATUS.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_shipped",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_shipped"
     },
     {
       "relation": "contains",
@@ -15253,9 +15338,9 @@
       "source_file": "STATUS.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_verified_in_this_pass",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_verified_in_this_pass"
     },
     {
       "relation": "contains",
@@ -15263,9 +15348,9 @@
       "source_file": "STATUS.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_vercel_blockers_closed",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_vercel_blockers_closed"
     },
     {
       "relation": "contains",
@@ -15273,9 +15358,9 @@
       "source_file": "STATUS.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_remaining_work",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_remaining_work"
     },
     {
       "relation": "contains",
@@ -15283,9 +15368,9 @@
       "source_file": "STATUS.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_operational_notes",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_operational_notes"
     },
     {
       "relation": "contains",
@@ -15293,9 +15378,9 @@
       "source_file": "STATUS.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_status_status",
-      "target": "ticker_pm_copilot_status_last_updated",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_status_last_updated"
     },
     {
       "relation": "contains",
@@ -15333,9 +15418,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_current_state",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_current_state"
     },
     {
       "relation": "contains",
@@ -15343,9 +15428,9 @@
       "source_file": "README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_core_workflows",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_core_workflows"
     },
     {
       "relation": "contains",
@@ -15353,9 +15438,9 @@
       "source_file": "README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_tech_stack",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_tech_stack"
     },
     {
       "relation": "contains",
@@ -15363,9 +15448,9 @@
       "source_file": "README.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_local_setup",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_local_setup"
     },
     {
       "relation": "contains",
@@ -15373,9 +15458,9 @@
       "source_file": "README.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_vercel_setup",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_vercel_setup"
     },
     {
       "relation": "contains",
@@ -15383,9 +15468,9 @@
       "source_file": "README.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_important_env_vars",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_important_env_vars"
     },
     {
       "relation": "contains",
@@ -15393,9 +15478,9 @@
       "source_file": "README.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_persistence_mode",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_persistence_mode"
     },
     {
       "relation": "contains",
@@ -15403,9 +15488,9 @@
       "source_file": "README.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_readme_wealthpilot",
-      "target": "ticker_pm_copilot_readme_status",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_readme_status"
     },
     {
       "relation": "contains",
@@ -15553,9 +15638,9 @@
       "source_file": "DEPLOY.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_deploy_private_vercel_deploy",
-      "target": "ticker_pm_copilot_deploy_quick_verification",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_deploy_quick_verification"
     },
     {
       "relation": "contains",
@@ -15573,9 +15658,9 @@
       "source_file": "CONTRIBUTING.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_contributing_contributing",
-      "target": "ticker_pm_copilot_contributing_feedback",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_contributing_feedback"
     },
     {
       "relation": "contains",
@@ -15583,9 +15668,9 @@
       "source_file": "CONTRIBUTING.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_contributing_contributing",
-      "target": "ticker_pm_copilot_contributing_pull_requests",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_contributing_pull_requests"
     },
     {
       "relation": "contains",
@@ -15813,9 +15898,9 @@
       "source_file": "PLAN.md",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ticker_pm_copilot_plan_build_order",
-      "target": "ticker_pm_copilot_plan_phase_7_private_deployment_baseline",
-      "confidence_score": 1.0
+      "target": "ticker_pm_copilot_plan_phase_7_private_deployment_baseline"
     },
     {
       "relation": "contains",
@@ -17136,5 +17221,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3bfc65d6cd1001e35d08ab2145710d511ae3ee35"
+  "built_at_commit": "5eb7b5e1cc3d99414bacf7480c586f3ce2795b25"
 }

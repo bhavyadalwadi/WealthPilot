@@ -1,16 +1,16 @@
-# Graph Report - ticker-pm-copilot  (2026-06-03)
+# Graph Report - ticker-pm-copilot  (2026-06-04)
 
 ## Corpus Check
-- 87 files · ~83,660 words
+- 87 files · ~83,726 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 629 nodes · 1092 edges · 42 communities (29 shown, 13 thin omitted)
+- 630 nodes · 1099 edges · 42 communities (30 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3bfc65d6`
+- Built from commit: `5eb7b5e1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -70,42 +70,46 @@
 10. `handleAnalysisRequest()` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `SignInPage()` --calls--> `normalizeNextPath()`  [EXTRACTED]
-  app/signin/page.tsx → lib/auth.ts
 - `GET()` --calls--> `listSavedPortfolios()`  [EXTRACTED]
   app/api/portfolios/route.ts → db/queries.ts
 - `POST()` --calls--> `upsertSavedPortfolio()`  [EXTRACTED]
   app/api/portfolios/route.ts → db/queries.ts
+- `GET()` --calls--> `getUserProfile()`  [EXTRACTED]
+  app/api/profile/route.ts → db/queries.ts
 - `DELETE()` --calls--> `deleteSavedPortfolio()`  [EXTRACTED]
   app/api/portfolios/[id]/route.ts → db/queries.ts
 - `POST()` --calls--> `handleAnalysisRequest()`  [EXTRACTED]
   app/api/income/route.ts → lib/server/respond.ts
 
-## Communities (42 total, 13 thin omitted)
+## Communities (42 total, 12 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.09
-Nodes (30): POST(), ACTION_LABELS, ActionLabel, POST(), POST(), POST(), FullReviewRequest, IncomeRequest (+22 more)
+Cohesion: 0.15
+Nodes (17): POST(), POST(), POST(), POST(), handleAnalysisRequest(), defaultModelForProvider(), enumValue(), invalid() (+9 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.12
-Nodes (21): buildAnalysisDataContext(), buildPortfolioSnapshot(), getDefaultProviders(), mockProviders, ProviderBundle, round(), tickerCache, uniqueTickers() (+13 more)
+Nodes (16): CacheEntry, MemoryCache, buildAnalysisDataContext(), buildPortfolioSnapshot(), getDefaultProviders(), mockProviders, ProviderBundle, round() (+8 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.07
-Nodes (29): LLM_FIELD_CONFIG, LLM_PROVIDER_OPTIONS, LLM_REASONING_OPTIONS, FIELD_CONFIG, INTENT_OPTIONS, MODE_CONFIG, ModeDefinition, defaults (+21 more)
+Cohesion: 0.05
+Nodes (65): ACTION_LABELS, ActionLabel, LLM_FIELD_CONFIG, LLM_PROVIDER_OPTIONS, LLM_REASONING_OPTIONS, FIELD_CONFIG, INTENT_OPTIONS, MODE_CONFIG (+57 more)
+
+### Community 3 - "Community 3"
+Cohesion: 0.4
+Nodes (3): IvRegime, MockOptionsProvider, OptionsProvider
 
 ### Community 4 - "Community 4"
-Cohesion: 0.09
-Nodes (53): ensureLegacyJsonMigration(), globalForMigration, hasLegacyStorageDir(), migrateLegacyJsonIfNeeded(), readLegacyJson(), storageDir, appendPostgresHistory(), deletePostgresPortfolio() (+45 more)
+Cohesion: 0.11
+Nodes (44): ensureLegacyJsonMigration(), globalForMigration, hasLegacyStorageDir(), migrateLegacyJsonIfNeeded(), readLegacyJson(), storageDir, appendPostgresHistory(), deletePostgresPortfolio() (+36 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
 Nodes (37): `AnalysisRequest`, API Routes And JSON Contracts, Build Order, code:text (ticker-pm-copilot/), code:ts (type Recommendation = {), code:json ({), code:json ({), code:json ({) (+29 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.07
-Nodes (54): ActionQueue(), ActionQueueProps, DecisionCard(), PromptCard(), ResultsBoard(), ResultsBoardProps, SignalCard(), SummaryBar() (+46 more)
+Cohesion: 0.09
+Nodes (40): FactorScores, FullReviewResponse, HoldingReview, IncomeAnalysisResponse, OptionsIdea, PortfolioAnalysisResponse, RecommendationCore, SignalSet (+32 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.1
@@ -116,8 +120,8 @@ Cohesion: 0.08
 Nodes (25): dependencies, next, pg, prisma, @prisma/client, react, react-dom, devDependencies (+17 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.22
-Nodes (11): generateMemo(), buildMemoSystemPrompt(), buildMemoUserPrompt(), MemoInput, MemoProvider, MemoResult, MockMemoProvider, CompatibleConfig (+3 more)
+Cohesion: 0.23
+Nodes (10): generateMemo(), buildMemoSystemPrompt(), buildMemoUserPrompt(), MemoInput, MemoProvider, MemoResult, MockMemoProvider, CompatibleConfig (+2 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.12
@@ -180,8 +184,8 @@ Cohesion: 0.14
 Nodes (14): Current Phase, Key Metrics, Known Issues, Last Updated, Next Steps, Operational Notes, Project Status, Questions or Feedback (+6 more)
 
 ### Community 37 - "Community 37"
-Cohesion: 0.38
-Nodes (5): PriceTrend, MarketProvider, MockMarketProvider, round(), seededNumber()
+Cohesion: 0.18
+Nodes (10): PriceTrend, SentimentState, TickerSnapshot, EarningsProvider, MockEarningsProvider, MarketProvider, MockMarketProvider, round() (+2 more)
 
 ### Community 39 - "Community 39"
 Cohesion: 0.29
@@ -189,7 +193,7 @@ Nodes (6): Code Changes, Contributing, Feedback, License, Pull Requests, Reporti
 
 ### Community 40 - "Community 40"
 Cohesion: 0.16
-Nodes (22): SignInForm(), createSessionToken(), getPrivateAccessConfig(), getSessionCookieName(), getSessionCookieOptions(), getSessionSignature(), isValidLogin(), isValidSessionToken() (+14 more)
+Nodes (23): SignInForm(), createSessionToken(), getPrivateAccessConfig(), getSessionCookieName(), getSessionCookieOptions(), getSessionSignature(), hasConfiguredAuth(), isValidLogin() (+15 more)
 
 ### Community 41 - "Community 41"
 Cohesion: 0.4
@@ -198,22 +202,22 @@ Nodes (4): Local, Private Vercel Deploy, Quick Verification, Vercel
 ## Knowledge Gaps
 - **256 isolated node(s):** `config`, `name`, `version`, `private`, `dev` (+251 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `AlphaVantageClient` connect `Community 38` to `Community 32`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `AnalysisRequest` connect `Community 6` to `Community 0`, `Community 9`, `Community 1`?**
+- **Why does `AnalysisRequest` connect `Community 1` to `Community 9`, `Community 2`, `Community 6`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Why does `handleAnalysisRequest()` connect `Community 0` to `Community 4`, `Community 6`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `config`, `name`, `version` to the rest of the system?**
   _256 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.09 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.12 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+- **Should `Community 4` be split into smaller, more focused modules?**
+  _Cohesion score 0.11 - nodes in this community are weakly interconnected._

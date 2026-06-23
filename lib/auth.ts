@@ -67,6 +67,12 @@ export function getPrivateAccessConfig() {
   };
 }
 
+export function hasConfiguredAuth() {
+  return Boolean(
+    process.env.PRIVATE_ACCESS_USERNAME && process.env.PRIVATE_ACCESS_PASSWORD,
+  );
+}
+
 export function normalizeNextPath(next: string | null | undefined) {
   if (!next || !next.startsWith("/") || next.startsWith("//")) {
     return "/";

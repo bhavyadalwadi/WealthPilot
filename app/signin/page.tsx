@@ -1,5 +1,5 @@
 import { SignInForm } from "@/components/signin-form";
-import { normalizeNextPath } from "@/lib/auth";
+import { hasConfiguredAuth, normalizeNextPath } from "@/lib/auth";
 
 export default async function SignInPage({
   searchParams,
@@ -9,7 +9,9 @@ export default async function SignInPage({
   const params = await searchParams;
   const next = normalizeNextPath(params.next);
   const error =
-    params.error === "invalid"
+    !hasConfiguredAuth() || params.error === "config"
+      ? "Shared sign-in is not configured yet. Set `PRIVATE_ACCESS_USERNAME` and `PRIVATE_ACCESS_PASSWORD` in the active env file, then restart the app."
+      : params.error === "invalid"
       ? "Incorrect username or password."
       : params.error === "server"
         ? "Sign-in failed."
