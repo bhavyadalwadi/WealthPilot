@@ -28,7 +28,7 @@ Selector-first Next.js app for stock, portfolio, and options analysis.
 
 1. Run `npm install`
 2. Copy `.env.example` to `.env`
-3. Set `PRIVATE_ACCESS_USERNAME` and `PRIVATE_ACCESS_PASSWORD`
+3. Set `PRIVATE_ACCESS_USERNAME`, `PRIVATE_ACCESS_PASSWORD`, and `SESSION_SECRET`
 4. Run `npm run prisma:generate`
 5. Run `npm run db:push`
 6. Run `npm run dev`
@@ -44,6 +44,7 @@ See [DEPLOY.md](./DEPLOY.md).
 
 - `PRIVATE_ACCESS_USERNAME`
 - `PRIVATE_ACCESS_PASSWORD`
+- `SESSION_SECRET`
 - `DATA_PROVIDER`
 - `OPENAI_API_KEY`
 - `LLM_API_KEY`
@@ -52,6 +53,14 @@ See [DEPLOY.md](./DEPLOY.md).
 - `ALPHA_VANTAGE_BASE_URL`
 - `STORAGE_DRIVER`
 - `DATABASE_URL`
+
+## Auth Model
+
+- users sign in with `PRIVATE_ACCESS_USERNAME` and `PRIVATE_ACCESS_PASSWORD`
+- the server validates those credentials and issues an `HttpOnly` session cookie
+- `SESSION_SECRET` is server-only and signs the cookie; it is not entered in the browser
+- if `SESSION_SECRET` changes, existing sessions become invalid and users must sign in again
+- if any of the three auth env vars are missing, the app falls back to the existing config-error path
 
 ## Persistence Mode
 

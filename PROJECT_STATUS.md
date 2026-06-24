@@ -43,6 +43,7 @@ Deploy to Vercel with:
 
 - `PRIVATE_ACCESS_USERNAME`
 - `PRIVATE_ACCESS_PASSWORD`
+- `SESSION_SECRET`
 - `DATABASE_URL`
 
 ## Evidence

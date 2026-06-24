@@ -4,6 +4,7 @@ const SESSION_VERSION = "v1";
 const PRIVATE_ACCESS_ENV_NAMES = [
   "PRIVATE_ACCESS_USERNAME",
   "PRIVATE_ACCESS_PASSWORD",
+  "SESSION_SECRET",
 ] as const;
 
 type PrivateAccessEnvName = (typeof PRIVATE_ACCESS_ENV_NAMES)[number];
@@ -37,9 +38,8 @@ async function sha256Hex(input: string) {
 }
 
 async function getSessionSignature(expiresAt: number) {
-  const username = requiredEnv("PRIVATE_ACCESS_USERNAME");
-  const password = requiredEnv("PRIVATE_ACCESS_PASSWORD");
-  return sha256Hex(`wealthpilot:${SESSION_VERSION}:${expiresAt}:${username}:${password}`);
+  const sessionSecret = requiredEnv("SESSION_SECRET");
+  return sha256Hex(`wealthpilot:${SESSION_VERSION}:${expiresAt}:${sessionSecret}`);
 }
 
 export function getSessionCookieName() {
@@ -69,7 +69,9 @@ export function getPrivateAccessConfig() {
 
 export function hasConfiguredAuth() {
   return Boolean(
-    process.env.PRIVATE_ACCESS_USERNAME && process.env.PRIVATE_ACCESS_PASSWORD,
+    process.env.PRIVATE_ACCESS_USERNAME &&
+      process.env.PRIVATE_ACCESS_PASSWORD &&
+      process.env.SESSION_SECRET,
   );
 }
 

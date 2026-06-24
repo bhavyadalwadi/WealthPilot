@@ -10,7 +10,7 @@ export default async function SignInPage({
   const next = normalizeNextPath(params.next);
   const error =
     !hasConfiguredAuth() || params.error === "config"
-      ? "Shared sign-in is not configured yet. Set `PRIVATE_ACCESS_USERNAME` and `PRIVATE_ACCESS_PASSWORD` in the active env file, then restart the app."
+      ? "Shared sign-in is not configured yet. Set `PRIVATE_ACCESS_USERNAME`, `PRIVATE_ACCESS_PASSWORD`, and `SESSION_SECRET` in the active env file, then restart the app."
       : params.error === "invalid"
       ? "Incorrect username or password."
       : params.error === "server"

@@ -1204,7 +1204,7 @@
       "label": "PrivateAccessEnvName",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "id": "lib_auth_privateaccessenvname",
       "community": 40,
       "norm_label": "privateaccessenvname"
@@ -1213,7 +1213,7 @@
       "label": "requiredEnv()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "id": "lib_auth_requiredenv",
       "community": 40,
       "norm_label": "requiredenv()"
@@ -1222,7 +1222,7 @@
       "label": "timingSafeEqualString()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L19",
+      "source_location": "L20",
       "id": "lib_auth_timingsafeequalstring",
       "community": 40,
       "norm_label": "timingsafeequalstring()"
@@ -1231,7 +1231,7 @@
       "label": "sha256Hex()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L31",
+      "source_location": "L32",
       "id": "lib_auth_sha256hex",
       "community": 40,
       "norm_label": "sha256hex()"
@@ -1240,7 +1240,7 @@
       "label": "getSessionSignature()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L39",
+      "source_location": "L40",
       "id": "lib_auth_getsessionsignature",
       "community": 40,
       "norm_label": "getsessionsignature()"
@@ -1294,7 +1294,7 @@
       "label": "normalizeNextPath()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L76",
+      "source_location": "L78",
       "id": "lib_auth_normalizenextpath",
       "community": 40,
       "norm_label": "normalizenextpath()"
@@ -1303,7 +1303,7 @@
       "label": "createSessionToken()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L83",
+      "source_location": "L85",
       "id": "lib_auth_createsessiontoken",
       "community": 40,
       "norm_label": "createsessiontoken()"
@@ -1312,7 +1312,7 @@
       "label": "isValidLogin()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L89",
+      "source_location": "L91",
       "id": "lib_auth_isvalidlogin",
       "community": 40,
       "norm_label": "isvalidlogin()"
@@ -1321,7 +1321,7 @@
       "label": "isValidSessionToken()",
       "file_type": "code",
       "source_file": "lib/auth.ts",
-      "source_location": "L97",
+      "source_location": "L99",
       "id": "lib_auth_isvalidsessiontoken",
       "community": 40,
       "norm_label": "isvalidsessiontoken()"
@@ -3652,7 +3652,7 @@
       "label": "Evidence",
       "file_type": "document",
       "source_file": "PROJECT_STATUS.md",
-      "source_location": "L48",
+      "source_location": "L49",
       "id": "ticker_pm_copilot_project_status_evidence",
       "community": 33,
       "norm_label": "evidence"
@@ -3814,7 +3814,7 @@
       "label": "Persistence Mode",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L56",
+      "source_location": "L57",
       "id": "ticker_pm_copilot_readme_persistence_mode",
       "community": 11,
       "norm_label": "persistence mode"
@@ -3823,7 +3823,7 @@
       "label": "Status",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L63",
+      "source_location": "L64",
       "id": "ticker_pm_copilot_readme_status",
       "community": 11,
       "norm_label": "status"
@@ -5693,9 +5693,9 @@
       "source_file": "middleware.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware_ts",
-      "target": "lib_auth_hasconfiguredauth",
-      "confidence_score": 1.0
+      "target": "lib_auth_hasconfiguredauth"
     },
     {
       "relation": "imports",
@@ -6486,9 +6486,9 @@
       "source_file": "app/signin/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_signin_page_tsx",
-      "target": "lib_auth_hasconfiguredauth",
-      "confidence_score": 1.0
+      "target": "lib_auth_hasconfiguredauth"
     },
     {
       "relation": "imports",
@@ -6562,9 +6562,9 @@
       "source_file": "app/api/auth/signin/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_api_auth_signin_route_ts",
-      "target": "lib_auth_hasconfiguredauth",
-      "confidence_score": 1.0
+      "target": "lib_auth_hasconfiguredauth"
     },
     {
       "relation": "imports",
@@ -8673,9 +8673,9 @@
       "source_file": "lib/auth.ts",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_auth_ts",
-      "target": "lib_auth_hasconfiguredauth",
-      "confidence_score": 1.0
+      "target": "lib_auth_hasconfiguredauth"
     },
     {
       "relation": "contains",
@@ -17221,5 +17221,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5eb7b5e1cc3d99414bacf7480c586f3ce2795b25"
+  "built_at_commit": "9d5c2b83c07aec20b729c4b5fa7053541ffe51cd"
 }
